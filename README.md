@@ -2,7 +2,7 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
-**Current milestone: foundation free play, awaiting Studio acceptance. This is not yet the complete Week 1 game.** The repository contains a connected three-room house, two server-assigned teams, explicit R15 character creation, scaled avatars, respawning, bug-only tunnel collision rules, and a small diagnostic HUD. No external models or runtime packages are used.
+**Current milestone: foundation free play, awaiting Studio acceptance. This is not yet the complete Week 1 game.** The repository contains a connected house with four furnished rooms and a bug clubhouse, two server-assigned teams, explicit R15 character creation, scaled avatars, respawning, bug-only tunnel collision rules, and a small diagnostic HUD. No external models or runtime packages are used.
 
 Repository: https://github.com/tcrowden22/Stink-attack
 
@@ -47,11 +47,12 @@ Create the build directory before using the raw build command. For Lua syntax ch
 | Path | Responsibility |
 | --- | --- |
 | `default.project.json` | Rojo DataModel mappings and lighting |
-| `map/*.model.json` | Three-room house: 243 anchored parts across LivingRoom, Kitchen and Bedroom |
+| `map/*.model.json` | 337 anchored parts across LivingRoom, Kitchen, Bedroom, Playroom and BugClubhouse |
 | `src/shared/Config.luau` | Scales, speeds, team ratio, future round timing |
 | `src/shared/TeamPolicy.luau` | Pure allocation policy, independently tested |
 | `src/server/MapService.luau` | Collision groups and spawn positions |
 | `src/server/TeamService.luau` | Server-only team selection |
+| `src/server/RefugeService.luau` | Server refuge membership, vacuum exclusion and clubhouse signs |
 | `src/server/CharacterService.luau` | Explicit R15 creation, scaling, respawn, departure cleanup |
 | `src/server/Main.server.luau` | Server bootstrap |
 | `src/client/` | Camera setup and diagnostic HUD |
@@ -60,7 +61,7 @@ Create the build directory before using the raw build command. For Lua syntax ch
 
 ## Behavior and boundaries
 
-The first player becomes a StinkBug; the second becomes a Vacuum. `VacuumFraction = 1/3` targets roughly one vacuum per three players in larger lobbies, with at least one player on each team at a population of two or more. Assignments remain stable when someone disconnects; the next join fills a missing team first. Foundation solo exploration is intentional, while actual rounds will require two players.
+The first player becomes a StinkBug; the second becomes a Vacuum. `VacuumFraction = 1/5` targets roughly one vacuum per five players in larger lobbies, with at least one player on each team at a population of two or more. Assignments remain stable when someone disconnects; the next join fills a missing team first. Foundation solo exploration is intentional, while actual rounds will require two players.
 
 Bugs use scale 0.35 and vacuums use scale 1. Characters have fixed, team-colored bodies and no personal accessories. The server controls assignment and spawn lifecycle. In-progress avatar requests discard their result if the player leaves. Failed avatar requests retry after five seconds; dead characters respawn after three seconds.
 
@@ -80,7 +81,7 @@ Publishing is pending completion of the Week 1 acceptance gates; no experience h
 
 1. Build the place, open it in Studio, and run the full multiplayer checklist.
 2. Use Studio's **Publish to Roblox As** action to create/select the intended experience named **Stink Bugs vs. Vacuums**. Verify the owning account/group and destination before publishing.
-3. Keep the initial experience private and configure tester access in Creator Dashboard. Keep maximum players at least two; start with eight for the prototype.
+3. Keep the initial experience private and configure tester access in Creator Dashboard. Keep maximum players at least two; start with eight for local checks, then test a private 20-player server before raising public capacity. Player capacity is an experience setting, not changed by the team-ratio config.
 4. Check avatar settings use R15 consistently with this project's explicit R15 spawn path. Leave API-service access and HTTP requests disabled; this prototype needs neither.
 5. Join the private experience with two authorized accounts/devices and repeat round, disconnect, respawn, and mobile checks once those features exist.
 6. Record the tested Git commit and results before changing audience availability. Do not publish a stale built place after editing source; rebuild or verify the current sync first.
@@ -88,3 +89,11 @@ Publishing is pending completion of the Week 1 acceptance gates; no experience h
 ## Remaining milestones
 
 See [the gated Week 1 plan and Week 2 recommendations](docs/ROADMAP.md). Monetization, cosmetic stores, and persistent progression are out of scope.
+
+## Larger house and bug clubhouse
+
+The playroom connects the kitchen and bedroom into a loop. A covered BugClubhouse west of the house has separate low entrances from the living room and bedroom, team seating and the new bug spawn pad. Server collision gates exclude vacuums; a server bounds check also returns an intruding vacuum to its spawn. The HUD identifies bugs inside the refuge.
+
+At 10 players the initial split is 8 bugs / 2 vacuums; at 20 it is 16 / 4; at 30 it is 24 / 6. Two-player testing remains 1 / 1. These are player slots, not generated AI bugs. Configuring Roblox's actual server capacity and load-testing it are still required.
+
+Future suction/capture code must call `RefugeService.isProtected(player)` at capture time. The replicated HUD attribute is informational. Capture and rounds remain unimplemented, so protection against capture cannot yet be playtested.

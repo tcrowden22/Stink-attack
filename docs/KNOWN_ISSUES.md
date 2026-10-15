@@ -9,3 +9,7 @@
 7. **Rojo plugin registration workaround.** The CLI installer could not discover this Studio installation. The verified plugin was copied to the standard local Plugins folder; actual plugin visibility and synchronization remain unverified.
 8. **No public publish or real-device test.** The generated place is local. Private publishing instructions are documented for later acceptance.
 9. **Aikido coverage limitations.** Scans returned no findings for proposed first-party files. This does not establish Roblox-specific runtime security or full Luau semantic analysis.
+
+10. **Expanded house/refuge pending runtime verification.** Playroom, clubhouse entrances, refuge membership, vacuum relocation and crowded spawn behavior have compile/build and geometry checks only. The roof may require camera tuning.
+11. **Larger-lobby capacity is not configured.** Team policy supports larger groups, but the Roblox experience's maximum player count must be set separately and tested on real clients.
+12. **Refuge capture integration is pending.** The server provides isProtected and excludes vacuums, but suction/capture code does not exist yet. A future capture must recheck position through that server function.

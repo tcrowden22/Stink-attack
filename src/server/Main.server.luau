@@ -7,6 +7,7 @@ local TeamService = require(script.Parent.TeamService)
 local CharacterService = require(script.Parent.CharacterService)
 MapService.init()
 TeamService.init()
+require(script.Parent.RefugeService).start()
 workspace:SetAttribute("PrototypePhase", "Foundation free play")
 local initialized: { [Player]: boolean } = {}
 local function onPlayerAdded(player: Player)

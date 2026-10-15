@@ -32,13 +32,17 @@ function Hud.start()
         local teamName = if player.Team then player.Team.Name else "Assigning team"
         local count = #Players:GetPlayers()
         local status = player:GetAttribute("SpawnStatus") or "Loading"
+        if player:GetAttribute("InBugRefuge") then
+            status = "BUG CLUBHOUSE • Team refuge"
+        end
         panel.Text = string.format(
-            "STINK BUGS vs. VACUUMS\nFoundation free play • %s • %d player(s)\n%s\nExplore the house. Green passages are bug-only.",
+            "STINK BUGS vs. VACUUMS\nFoundation free play • %s • %d player(s)\n%s\nGreen passages lead to bug shortcuts and the clubhouse.",
             teamName, count, status
         )
     end
     player:GetPropertyChangedSignal("Team"):Connect(refresh)
     player:GetAttributeChangedSignal("SpawnStatus"):Connect(refresh)
+    player:GetAttributeChangedSignal("InBugRefuge"):Connect(refresh)
     Players.PlayerAdded:Connect(refresh)
     Players.PlayerRemoving:Connect(function()
         task.defer(refresh)

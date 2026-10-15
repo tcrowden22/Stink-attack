@@ -28,7 +28,11 @@ end
 
 function MapService.spawnCFrame(teamName: string, userId: number): CFrame
     local marker = workspace.House:FindFirstChild(teamName .. "Spawn", true) :: BasePart
-    -- Spread simultaneous arrivals across a pad; floor surface is y = 0.
+    -- A 6-by-4 grid spreads larger bug teams across their clear clubhouse pad.
+    if teamName == "StinkBugs" then
+        local slot = math.abs(userId) % 24
+        return marker.CFrame + Vector3.new((slot % 6 - 2.5) * 3.5, 4, (math.floor(slot / 6) - 1.5) * 3.5)
+    end
     return marker.CFrame + Vector3.new((math.abs(userId) % 3 - 1) * 3, 4, 0)
 end
 

@@ -8,8 +8,8 @@ Record Studio version, Git commit, date, tester, device(s), observed results and
 
 Before starting, read README's Studio actions. Connect Rojo, stop any existing simulation, and open Output so errors are visible.
 
-- [ ] Solo Play spawns a green R15 bug and shows Foundation free play.
-- [ ] House contains furnished living room, kitchen and bedroom; nothing falls or drifts.
+- [ ] Solo Play spawns a green R15 bug inside the clubhouse and shows Foundation free play.
+- [ ] House contains furnished living room, kitchen, bedroom, playroom and Bug Clubhouse; nothing falls or drifts.
 - [ ] Both teams can walk through the wide kitchen and bedroom doorways in both directions.
 - [ ] Bug can cross both green-marked inter-room vents; vacuum is blocked at both.
 - [ ] Kitchen counters, island and dining furniture leave navigable routes.
@@ -26,10 +26,23 @@ Before starting, read README's Studio actions. Connect Rojo, stop any existing s
 - [ ] Disconnect a client during normal play; the remaining client has no errors.
 - [ ] Add a replacement client. A missing team fills first.
 - [ ] Disconnect/rejoin during avatar loading; no orphan avatar or repeated errors remain.
-- [ ] Repeat with six clients: initial allocation is four bugs and two vacuums.
+- [ ] Repeat with six clients: initial allocation is five bugs and one vacuum.
 - [ ] Use Studio's Device Emulator with a phone profile; touch movement/jump work and HUD text fits.
 - [ ] Stop all sessions, restart the test, and verify clean initialization.
 - [ ] Output has no unexpected errors on server or clients.
+
+### House expansion and team refuge
+
+- [ ] Bugs spawn inside the clubhouse; vacuums still spawn in the living room.
+- [ ] Both teams can complete the four-room loop through the main doorways.
+- [ ] Bugs can enter and leave both clubhouse entrances; vacuums cannot enter normally.
+- [ ] Clubhouse signs are readable and the roof does not trap the bug camera.
+- [ ] Refuge HUD indicator appears inside and clears after leaving, death or reset.
+- [ ] In the server test context, relocate a vacuum inside the clubhouse; it returns to its spawn within approximately 0.2 seconds without retaining launch velocity.
+- [ ] Test joining, resetting and leaving repeatedly with bugs inside the refuge.
+- [ ] With eight local clients expect six bugs and two vacuums.
+- [ ] Private larger-server test: 20 players initially split 16 bugs / 4 vacuums. Record performance and crowding before choosing a public player limit.
+- [ ] Future capture implementation checks RefugeService.isProtected at capture time; no capture test is possible yet.
 
 **Gate result:** PENDING. Record evidence here before moving to Gate 2. Static part sizes do not establish actual avatar clearance.
 

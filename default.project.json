@@ -40,6 +40,12 @@
         },
         "Bedroom": {
           "$path": "map/Bedroom.model.json"
+        },
+        "Playroom": {
+          "$path": "map/Playroom.model.json"
+        },
+        "BugClubhouse": {
+          "$path": "map/BugClubhouse.model.json"
         }
       }
     },
