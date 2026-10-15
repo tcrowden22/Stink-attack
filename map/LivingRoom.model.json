@@ -1,0 +1,1946 @@
+{
+  "ClassName": "Model",
+  "Children": [
+    {
+      "Name": "Floor",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          100,
+          1,
+          76
+        ],
+        "Position": [
+          0,
+          -0.5,
+          0
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BackWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          100,
+          22,
+          1
+        ],
+        "Position": [
+          0,
+          11,
+          -38
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FrontWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          100,
+          22,
+          1
+        ],
+        "Position": [
+          0,
+          11,
+          38
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LeftWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          76
+        ],
+        "Position": [
+          -50,
+          11,
+          0
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RightWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          76
+        ],
+        "Position": [
+          50,
+          11,
+          0
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SkirtingZ-37.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          99,
+          1.2,
+          0.4
+        ],
+        "Position": [
+          0,
+          0.6,
+          -37.3
+        ],
+        "Color": [
+          0.88,
+          0.82,
+          0.69
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SkirtingZ37.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          99,
+          1.2,
+          0.4
+        ],
+        "Position": [
+          0,
+          0.6,
+          37.3
+        ],
+        "Color": [
+          0.88,
+          0.82,
+          0.69
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SkirtingX-49.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          1.2,
+          75
+        ],
+        "Position": [
+          -49.3,
+          0.6,
+          0
+        ],
+        "Color": [
+          0.88,
+          0.82,
+          0.69
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SkirtingX49.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          1.2,
+          75
+        ],
+        "Position": [
+          49.3,
+          0.6,
+          0
+        ],
+        "Color": [
+          0.88,
+          0.82,
+          0.69
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Rug",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          38,
+          0.12,
+          28
+        ],
+        "Position": [
+          0,
+          0.06,
+          0
+        ],
+        "Color": [
+          0.76,
+          0.42,
+          0.28
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RugInset",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          34,
+          0.06,
+          24
+        ],
+        "Position": [
+          0,
+          0.15,
+          0
+        ],
+        "Color": [
+          0.88,
+          0.82,
+          0.69
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaSeat",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          30,
+          3,
+          10
+        ],
+        "Position": [
+          -16,
+          4.8,
+          -24
+        ],
+        "Color": [
+          0.18,
+          0.43,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaBack",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          30,
+          9,
+          2
+        ],
+        "Position": [
+          -16,
+          7,
+          -29
+        ],
+        "Color": [
+          0.18,
+          0.43,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaArm-30",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2.5,
+          6,
+          11
+        ],
+        "Position": [
+          -30,
+          5.5,
+          -24
+        ],
+        "Color": [
+          0.18,
+          0.43,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaArm-2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2.5,
+          6,
+          11
+        ],
+        "Position": [
+          -2,
+          5.5,
+          -24
+        ],
+        "Color": [
+          0.18,
+          0.43,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaCushion-26",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          8.5,
+          1,
+          8
+        ],
+        "Position": [
+          -26,
+          6.8,
+          -23.5
+        ],
+        "Color": [
+          0.26,
+          0.57,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaCushion-16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          8.5,
+          1,
+          8
+        ],
+        "Position": [
+          -16,
+          6.8,
+          -23.5
+        ],
+        "Color": [
+          0.26,
+          0.57,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaCushion-6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          8.5,
+          1,
+          8
+        ],
+        "Position": [
+          -6,
+          6.8,
+          -23.5
+        ],
+        "Color": [
+          0.26,
+          0.57,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaLeg-27-27",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          3.3,
+          1
+        ],
+        "Position": [
+          -27,
+          1.65,
+          -27
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaLeg-27-21",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          3.3,
+          1
+        ],
+        "Position": [
+          -27,
+          1.65,
+          -21
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaLeg-5-27",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          3.3,
+          1
+        ],
+        "Position": [
+          -5,
+          1.65,
+          -27
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SofaLeg-5-21",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          3.3,
+          1
+        ],
+        "Position": [
+          -5,
+          1.65,
+          -21
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CoffeeTableTop",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          19,
+          1,
+          10
+        ],
+        "Position": [
+          0,
+          6,
+          0
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "TableLeg-8-3.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          5.5,
+          1
+        ],
+        "Position": [
+          -8,
+          2.75,
+          -3.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "TableLeg-83.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          5.5,
+          1
+        ],
+        "Position": [
+          -8,
+          2.75,
+          3.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "TableLeg8-3.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          5.5,
+          1
+        ],
+        "Position": [
+          8,
+          2.75,
+          -3.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "TableLeg83.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          5.5,
+          1
+        ],
+        "Position": [
+          8,
+          2.75,
+          3.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "TableBook",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          0.6,
+          3
+        ],
+        "Position": [
+          -4,
+          6.8,
+          0
+        ],
+        "Color": [
+          0.75,
+          0.21,
+          0.18
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "TableBookPages",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4.6,
+          0.25,
+          2.8
+        ],
+        "Position": [
+          -4,
+          6.85,
+          0
+        ],
+        "Color": [
+          0.88,
+          0.82,
+          0.69
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "TVStand",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          20,
+          4,
+          5
+        ],
+        "Position": [
+          23,
+          2,
+          -32
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "TVFrame",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          16,
+          9,
+          1
+        ],
+        "Position": [
+          23,
+          8.5,
+          -32
+        ],
+        "Color": [
+          0.1,
+          0.13,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "TVScreen",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14.5,
+          7.5,
+          0.15
+        ],
+        "Position": [
+          23,
+          8.5,
+          -31.4
+        ],
+        "Color": [
+          0.21,
+          0.37,
+          0.49
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookcaseBack",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          17,
+          18
+        ],
+        "Position": [
+          46,
+          8.5,
+          17
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookcaseSide8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          17,
+          1
+        ],
+        "Position": [
+          43,
+          8.5,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookcaseSide26",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          17,
+          1
+        ],
+        "Position": [
+          43,
+          8.5,
+          26
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Shelf0.6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1,
+          18
+        ],
+        "Position": [
+          43,
+          0.6,
+          17
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Shelf5.8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1,
+          18
+        ],
+        "Position": [
+          43,
+          5.8,
+          17
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Shelf11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1,
+          18
+        ],
+        "Position": [
+          43,
+          11,
+          17
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Shelf16.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1,
+          18
+        ],
+        "Position": [
+          43,
+          16.4,
+          17
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ShelfBook0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          3.5,
+          1.3
+        ],
+        "Position": [
+          43,
+          8,
+          10
+        ],
+        "Color": [
+          0.26,
+          0.57,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ShelfBook1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          3.5,
+          1.3
+        ],
+        "Position": [
+          43,
+          8,
+          11.9
+        ],
+        "Color": [
+          1,
+          0.52,
+          0.16
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ShelfBook2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          3.5,
+          1.3
+        ],
+        "Position": [
+          43,
+          8,
+          13.8
+        ],
+        "Color": [
+          0.26,
+          0.57,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ShelfBook3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          3.5,
+          1.3
+        ],
+        "Position": [
+          43,
+          8,
+          15.7
+        ],
+        "Color": [
+          1,
+          0.52,
+          0.16
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ShelfBook4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          3.5,
+          1.3
+        ],
+        "Position": [
+          43,
+          8,
+          17.6
+        ],
+        "Color": [
+          0.26,
+          0.57,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ShelfBook5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          3.5,
+          1.3
+        ],
+        "Position": [
+          43,
+          8,
+          19.5
+        ],
+        "Color": [
+          1,
+          0.52,
+          0.16
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ShelfBook6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          3.5,
+          1.3
+        ],
+        "Position": [
+          43,
+          8,
+          21.4
+        ],
+        "Color": [
+          0.26,
+          0.57,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ShelfBook7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          3.5,
+          1.3
+        ],
+        "Position": [
+          43,
+          8,
+          23.299999999999997
+        ],
+        "Color": [
+          1,
+          0.52,
+          0.16
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Ottoman",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          4,
+          9
+        ],
+        "Position": [
+          25,
+          2,
+          10
+        ],
+        "Color": [
+          0.18,
+          0.43,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "OttomanTop",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10.5,
+          1,
+          9.5
+        ],
+        "Position": [
+          25,
+          4.5,
+          10
+        ],
+        "Color": [
+          0.26,
+          0.57,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ScatteredBook0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          0.7,
+          4
+        ],
+        "Position": [
+          -25,
+          0.35,
+          14
+        ],
+        "Color": [
+          0.25,
+          0.35,
+          0.55
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ScatteredBook1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          0.7,
+          4
+        ],
+        "Position": [
+          -23,
+          1.0499999999999998,
+          14
+        ],
+        "Color": [
+          0.33999999999999997,
+          0.35,
+          0.55
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ScatteredBook2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          0.7,
+          4
+        ],
+        "Position": [
+          -21,
+          1.75,
+          14
+        ],
+        "Color": [
+          0.43,
+          0.35,
+          0.55
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ScatteredBook3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          0.7,
+          4
+        ],
+        "Position": [
+          -19,
+          2.4499999999999997,
+          14
+        ],
+        "Color": [
+          0.52,
+          0.35,
+          0.55
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ScatteredBook4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          0.7,
+          4
+        ],
+        "Position": [
+          -17,
+          3.15,
+          14
+        ],
+        "Color": [
+          0.61,
+          0.35,
+          0.55
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LampBase",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          0.6,
+          5
+        ],
+        "Position": [
+          -40,
+          0.3,
+          -28
+        ],
+        "Color": [
+          0.88,
+          0.82,
+          0.69
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LampStem",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          13,
+          0.5
+        ],
+        "Position": [
+          -40,
+          6.8,
+          -28
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LampShade",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          7,
+          4,
+          7
+        ],
+        "Position": [
+          -40,
+          14,
+          -28
+        ],
+        "Color": [
+          1,
+          0.52,
+          0.16
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WindowFrame",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          12,
+          0.5
+        ],
+        "Position": [
+          -10,
+          13,
+          -37.3
+        ],
+        "Color": [
+          0.88,
+          0.82,
+          0.69
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WindowGlass",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          20,
+          10,
+          0.2
+        ],
+        "Position": [
+          -10,
+          13,
+          -36.95
+        ],
+        "Color": [
+          0.5,
+          0.76,
+          0.92
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WindowBarV",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          10,
+          0.3
+        ],
+        "Position": [
+          -10,
+          13,
+          -36.7
+        ],
+        "Color": [
+          0.88,
+          0.82,
+          0.69
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WindowBarH",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          20,
+          0.4,
+          0.3
+        ],
+        "Position": [
+          -10,
+          13,
+          -36.7
+        ],
+        "Color": [
+          0.88,
+          0.82,
+          0.69
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tunnel1Roof",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          0.6,
+          6
+        ],
+        "Position": [
+          -22,
+          2.7,
+          -12
+        ],
+        "Color": [
+          0.26,
+          0.57,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tunnel1Side-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2.4,
+          1
+        ],
+        "Position": [
+          -22,
+          1.2,
+          -14.5
+        ],
+        "Color": [
+          0.18,
+          0.43,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tunnel1Side1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2.4,
+          1
+        ],
+        "Position": [
+          -22,
+          1.2,
+          -9.5
+        ],
+        "Color": [
+          0.18,
+          0.43,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EscapeGate1End-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.3,
+          2.4,
+          4
+        ],
+        "Position": [
+          -33,
+          1.2,
+          -12
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "Tunnel1Marker-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.12,
+          4
+        ],
+        "Position": [
+          -34.1,
+          0.1,
+          -12
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EscapeGate1End1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.3,
+          2.4,
+          4
+        ],
+        "Position": [
+          -11,
+          1.2,
+          -12
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "Tunnel1Marker1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.12,
+          4
+        ],
+        "Position": [
+          -9.9,
+          0.1,
+          -12
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tunnel2Roof",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          0.6,
+          6
+        ],
+        "Position": [
+          5,
+          2.7,
+          23
+        ],
+        "Color": [
+          0.26,
+          0.57,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tunnel2Side-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2.4,
+          1
+        ],
+        "Position": [
+          5,
+          1.2,
+          20.5
+        ],
+        "Color": [
+          0.18,
+          0.43,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tunnel2Side1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2.4,
+          1
+        ],
+        "Position": [
+          5,
+          1.2,
+          25.5
+        ],
+        "Color": [
+          0.18,
+          0.43,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EscapeGate2End-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.3,
+          2.4,
+          4
+        ],
+        "Position": [
+          -6,
+          1.2,
+          23
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "Tunnel2Marker-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.12,
+          4
+        ],
+        "Position": [
+          -7.1,
+          0.1,
+          23
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EscapeGate2End1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.3,
+          2.4,
+          4
+        ],
+        "Position": [
+          16,
+          1.2,
+          23
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "Tunnel2Marker1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.12,
+          4
+        ],
+        "Position": [
+          17.1,
+          0.1,
+          23
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StinkBugsSpawn",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          0.2,
+          8
+        ],
+        "Position": [
+          -37,
+          0.1,
+          26
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "VacuumsSpawn",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          0.2,
+          8
+        ],
+        "Position": [
+          35,
+          0.1,
+          -18
+        ],
+        "Color": [
+          1,
+          0.52,
+          0.16
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false,
+        "CanTouch": false
+      }
+    }
+  ]
+}
