@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Sofa",
+    "triangles": 2812,
+    "dimensionsBlender": [
+      3.640000104904175,
+      1.4200000762939453,
+      1.4850000143051147
+    ]
+  },
+  {
+    "name": "CeramicMug",
+    "triangles": 924,
+    "dimensionsBlender": [
+      0.8550000190734863,
+      0.5799999833106995,
+      0.6000000238418579
+    ]
+  },
+  {
+    "name": "PottedFern",
+    "triangles": 3512,
+    "dimensionsBlender": [
+      0.8399999737739563,
+      0.8654987812042236,
+      1.4092638492584229
+    ]
+  },
+  {
+    "name": "Toaster",
+    "triangles": 1408,
+    "dimensionsBlender": [
+      1.1649999618530273,
+      0.7200000286102295,
+      0.824999988079071
+    ]
+  },
+  {
+    "name": "FruitBowl",
+    "triangles": 1684,
+    "dimensionsBlender": [
+      1.5,
+      1.5,
+      0.6899999976158142
+    ]
+  },
+  {
+    "name": "GameController",
+    "triangles": 1748,
+    "dimensionsBlender": [
+      1.2168192863464355,
+      0.7839211225509644,
+      0.4100000262260437
+    ]
+  },
+  {
+    "name": "GamingMonitor",
+    "triangles": 1528,
+    "dimensionsBlender": [
+      1.649999976158142,
+      0.3799999952316284,
+      1.369999885559082
+    ]
+  },
+  {
+    "name": "DeskLamp",
+    "triangles": 664,
+    "dimensionsBlender": [
+      0.7200000286102295,
+      0.7200000286102295,
+      1.350000023841858
+    ]
+  },
+  {
+    "name": "PictureFrame",
+    "triangles": 626,
+    "dimensionsBlender": [
+      1.5499999523162842,
+      0.17799998819828033,
+      1.2000000476837158
+    ]
+  }
+]

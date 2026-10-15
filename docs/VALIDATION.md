@@ -60,3 +60,14 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Aikido full-content scans of the new model and updated project configuration returned no findings; the model was rescanned after placement/orientation corrections.
 - No character code, gameplay validation, collision gates or existing traversal models changed.
 - Visual placement, lighting, camera behavior and desktop/mobile performance remain pending in Studio.
+
+## Blender art revision — 2026-10-15
+
+- Blender 5.1.2 generated nine original models, a shared palette PNG, individual FBXs, combined FBX, packed .blend source and rendered preview.
+- Inspected the rendered asset catalogue and corrected the lamp shade. Final unique geometry totals 14,906 triangles; every mesh is below 10,000 triangles.
+- Combined FBX re-imported in Blender with exact expected object names, triangle counts, UVs, texture data and positive dimensions.
+- Rojo build and all twelve Luau compile checks passed; existing allocation tests passed.
+- Native art revision has 1,047 parts before optional imported meshes: softer colors/materials, rounded small props, curtains, ceiling trim and warm lights.
+- Aikido initially flagged Python assertions in the FBX validator. Replaced them with explicit errors and rescanned with zero findings. Other proposed code/configuration/model scans returned zero findings.
+- Roblox Studio import, upload permissions, asset placement, collision-proxy alignment, runtime integration and mobile performance remain pending. No Roblox mesh asset IDs were invented or uploaded.
+- Final Aikido file scan covered 12 changed first-party code/configuration/model files: zero findings, no skipped paths.

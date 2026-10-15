@@ -1,0 +1,1221 @@
+{
+  "ClassName": "Model",
+  "Children": [
+    {
+      "Name": "LivingCorniceZ-37.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          98.8,
+          0.5,
+          0.8
+        ],
+        "Position": [
+          0,
+          21.3,
+          -37.4
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LivingCorniceZ37.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          98.8,
+          0.5,
+          0.8
+        ],
+        "Position": [
+          0,
+          21.3,
+          37.4
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LivingCorniceX-49.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.8,
+          0.5,
+          74.8
+        ],
+        "Position": [
+          -49.4,
+          21.3,
+          0
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LivingCorniceX49.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.8,
+          0.5,
+          74.8
+        ],
+        "Position": [
+          49.4,
+          21.3,
+          0
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenCorniceZ-37.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          70.8,
+          0.5,
+          0.8
+        ],
+        "Position": [
+          86,
+          21.3,
+          -37.4
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenCorniceZ37.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          70.8,
+          0.5,
+          0.8
+        ],
+        "Position": [
+          86,
+          21.3,
+          37.4
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenCorniceX50.6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.8,
+          0.5,
+          74.8
+        ],
+        "Position": [
+          50.6,
+          21.3,
+          0
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenCorniceX121.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.8,
+          0.5,
+          74.8
+        ],
+        "Position": [
+          121.4,
+          21.3,
+          0
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomCorniceZ38.6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          98.8,
+          0.5,
+          0.8
+        ],
+        "Position": [
+          0,
+          21.3,
+          38.6
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomCorniceZ109.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          98.8,
+          0.5,
+          0.8
+        ],
+        "Position": [
+          0,
+          21.3,
+          109.4
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomCorniceX-49.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.8,
+          0.5,
+          70.8
+        ],
+        "Position": [
+          -49.4,
+          21.3,
+          74
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomCorniceX49.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.8,
+          0.5,
+          70.8
+        ],
+        "Position": [
+          49.4,
+          21.3,
+          74
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "PlayroomCorniceZ38.6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          70.8,
+          0.5,
+          0.8
+        ],
+        "Position": [
+          86,
+          21.3,
+          38.6
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "PlayroomCorniceZ109.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          70.8,
+          0.5,
+          0.8
+        ],
+        "Position": [
+          86,
+          21.3,
+          109.4
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "PlayroomCorniceX50.6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.8,
+          0.5,
+          70.8
+        ],
+        "Position": [
+          50.6,
+          21.3,
+          74
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "PlayroomCorniceX121.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.8,
+          0.5,
+          70.8
+        ],
+        "Position": [
+          121.4,
+          21.3,
+          74
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsCorniceZ-37.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          170.8,
+          0.5,
+          0.8
+        ],
+        "Position": [
+          36,
+          45.3,
+          -37.4
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsCorniceZ109.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          170.8,
+          0.5,
+          0.8
+        ],
+        "Position": [
+          36,
+          45.3,
+          109.4
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsCorniceX-49.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.8,
+          0.5,
+          146.8
+        ],
+        "Position": [
+          -49.4,
+          45.3,
+          36
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsCorniceX121.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.8,
+          0.5,
+          146.8
+        ],
+        "Position": [
+          121.4,
+          45.3,
+          36
+        ],
+        "Color": [
+          0.91,
+          0.86,
+          0.76
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LivingCurtain-23",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          3,
+          13,
+          0.7
+        ],
+        "Position": [
+          -23,
+          13,
+          -36.6
+        ],
+        "Color": [
+          0.35,
+          0.51,
+          0.54
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CurtainFold-23_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          13,
+          0.25,
+          0.25
+        ],
+        "Position": [
+          -24.1,
+          13,
+          -36.12
+        ],
+        "Color": [
+          0.42,
+          0.59,
+          0.61
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      }
+    },
+    {
+      "Name": "CurtainFold-23_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          13,
+          0.25,
+          0.25
+        ],
+        "Position": [
+          -23.400000000000002,
+          13,
+          -36.12
+        ],
+        "Color": [
+          0.42,
+          0.59,
+          0.61
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      }
+    },
+    {
+      "Name": "CurtainFold-23_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          13,
+          0.25,
+          0.25
+        ],
+        "Position": [
+          -22.700000000000003,
+          13,
+          -36.12
+        ],
+        "Color": [
+          0.42,
+          0.59,
+          0.61
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      }
+    },
+    {
+      "Name": "CurtainFold-23_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          13,
+          0.25,
+          0.25
+        ],
+        "Position": [
+          -22,
+          13,
+          -36.12
+        ],
+        "Color": [
+          0.42,
+          0.59,
+          0.61
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      }
+    },
+    {
+      "Name": "LivingCurtain3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          3,
+          13,
+          0.7
+        ],
+        "Position": [
+          3,
+          13,
+          -36.6
+        ],
+        "Color": [
+          0.35,
+          0.51,
+          0.54
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CurtainFold3_0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          13,
+          0.25,
+          0.25
+        ],
+        "Position": [
+          1.9,
+          13,
+          -36.12
+        ],
+        "Color": [
+          0.42,
+          0.59,
+          0.61
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      }
+    },
+    {
+      "Name": "CurtainFold3_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          13,
+          0.25,
+          0.25
+        ],
+        "Position": [
+          2.5999999999999996,
+          13,
+          -36.12
+        ],
+        "Color": [
+          0.42,
+          0.59,
+          0.61
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      }
+    },
+    {
+      "Name": "CurtainFold3_2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          13,
+          0.25,
+          0.25
+        ],
+        "Position": [
+          3.3,
+          13,
+          -36.12
+        ],
+        "Color": [
+          0.42,
+          0.59,
+          0.61
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      }
+    },
+    {
+      "Name": "CurtainFold3_3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          13,
+          0.25,
+          0.25
+        ],
+        "Position": [
+          3.9999999999999996,
+          13,
+          -36.12
+        ],
+        "Color": [
+          0.42,
+          0.59,
+          0.61
+        ],
+        "Material": "Fabric",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      }
+    },
+    {
+      "Name": "CurtainRod",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          31,
+          0.25,
+          0.25
+        ],
+        "Position": [
+          -10,
+          19.8,
+          -36.4
+        ],
+        "Color": [
+          0.37,
+          0.27,
+          0.19
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LivingCeilingLamp",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.6,
+          5,
+          5
+        ],
+        "Position": [
+          0,
+          21,
+          12
+        ],
+        "Color": [
+          0.94,
+          0.88,
+          0.75
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      },
+      "Children": [
+        {
+          "Name": "WarmFill",
+          "ClassName": "PointLight",
+          "Properties": {
+            "Color": [
+              1,
+              0.87,
+              0.7
+            ],
+            "Brightness": 1.1,
+            "Range": 42,
+            "Shadows": false
+          }
+        }
+      ]
+    },
+    {
+      "Name": "KitchenCeilingLamp",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.6,
+          5,
+          5
+        ],
+        "Position": [
+          86,
+          21,
+          0
+        ],
+        "Color": [
+          0.94,
+          0.88,
+          0.75
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      },
+      "Children": [
+        {
+          "Name": "WarmFill",
+          "ClassName": "PointLight",
+          "Properties": {
+            "Color": [
+              1,
+              0.87,
+              0.7
+            ],
+            "Brightness": 1.1,
+            "Range": 42,
+            "Shadows": false
+          }
+        }
+      ]
+    },
+    {
+      "Name": "BedroomCeilingLamp",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.6,
+          5,
+          5
+        ],
+        "Position": [
+          0,
+          21,
+          64
+        ],
+        "Color": [
+          0.94,
+          0.88,
+          0.75
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      },
+      "Children": [
+        {
+          "Name": "WarmFill",
+          "ClassName": "PointLight",
+          "Properties": {
+            "Color": [
+              1,
+              0.87,
+              0.7
+            ],
+            "Brightness": 1.1,
+            "Range": 42,
+            "Shadows": false
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PlayroomCeilingLamp",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.6,
+          5,
+          5
+        ],
+        "Position": [
+          88,
+          21,
+          73
+        ],
+        "Color": [
+          0.94,
+          0.88,
+          0.75
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      },
+      "Children": [
+        {
+          "Name": "WarmFill",
+          "ClassName": "PointLight",
+          "Properties": {
+            "Color": [
+              1,
+              0.87,
+              0.7
+            ],
+            "Brightness": 1.1,
+            "Range": 42,
+            "Shadows": false
+          }
+        }
+      ]
+    },
+    {
+      "Name": "UpperLoungeCeilingLamp",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.6,
+          5,
+          5
+        ],
+        "Position": [
+          80,
+          45,
+          -5
+        ],
+        "Color": [
+          0.94,
+          0.88,
+          0.75
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      },
+      "Children": [
+        {
+          "Name": "WarmFill",
+          "ClassName": "PointLight",
+          "Properties": {
+            "Color": [
+              1,
+              0.87,
+              0.7
+            ],
+            "Brightness": 1.1,
+            "Range": 42,
+            "Shadows": false
+          }
+        }
+      ]
+    },
+    {
+      "Name": "UpperStudyCeilingLamp",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "Size": [
+          0.6,
+          5,
+          5
+        ],
+        "Position": [
+          80,
+          45,
+          85
+        ],
+        "Color": [
+          0.94,
+          0.88,
+          0.75
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Cylinder",
+        "Orientation": [
+          0,
+          0,
+          90
+        ]
+      },
+      "Children": [
+        {
+          "Name": "WarmFill",
+          "ClassName": "PointLight",
+          "Properties": {
+            "Color": [
+              1,
+              0.87,
+              0.7
+            ],
+            "Brightness": 1.1,
+            "Range": 42,
+            "Shadows": false
+          }
+        }
+      ]
+    }
+  ]
+}

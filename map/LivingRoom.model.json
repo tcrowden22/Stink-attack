@@ -42,9 +42,9 @@
           -38
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -96,7 +96,7 @@
           0.42,
           0.28
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -121,7 +121,7 @@
           0.82,
           0.69
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -142,11 +142,11 @@
           -24
         ],
         "Color": [
-          0.18,
+          0.22,
           0.43,
-          0.43
+          0.41
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -167,11 +167,11 @@
           -29
         ],
         "Color": [
-          0.18,
+          0.22,
           0.43,
-          0.43
+          0.41
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -192,11 +192,11 @@
           -24
         ],
         "Color": [
-          0.18,
+          0.22,
           0.43,
-          0.43
+          0.41
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -217,11 +217,11 @@
           -24
         ],
         "Color": [
-          0.18,
+          0.22,
           0.43,
-          0.43
+          0.41
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -242,11 +242,11 @@
           -23.5
         ],
         "Color": [
-          0.26,
-          0.57,
-          0.53
+          0.4,
+          0.58,
+          0.54
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -267,11 +267,11 @@
           -23.5
         ],
         "Color": [
-          0.26,
-          0.57,
-          0.53
+          0.4,
+          0.58,
+          0.54
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -292,11 +292,11 @@
           -23.5
         ],
         "Color": [
-          0.26,
-          0.57,
-          0.53
+          0.4,
+          0.58,
+          0.54
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -317,9 +317,9 @@
           -27
         ],
         "Color": [
+          0.22,
           0.43,
-          0.25,
-          0.15
+          0.41
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -342,9 +342,9 @@
           -21
         ],
         "Color": [
+          0.22,
           0.43,
-          0.25,
-          0.15
+          0.41
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -367,9 +367,9 @@
           -27
         ],
         "Color": [
+          0.22,
           0.43,
-          0.25,
-          0.15
+          0.41
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -392,9 +392,9 @@
           -21
         ],
         "Color": [
+          0.22,
           0.43,
-          0.25,
-          0.15
+          0.41
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -1274,7 +1274,23 @@
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "Children": [
+        {
+          "Name": "WarmLamp",
+          "ClassName": "PointLight",
+          "Properties": {
+            "Color": [
+              1,
+              0.82,
+              0.61
+            ],
+            "Brightness": 1.2,
+            "Range": 24,
+            "Shadows": false
+          }
+        }
+      ]
     },
     {
       "Name": "WindowFrame",
@@ -1781,9 +1797,9 @@
           -33.5
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -1806,9 +1822,9 @@
           -27
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -1909,9 +1925,9 @@
           -16
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -1934,9 +1950,9 @@
           0
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -2034,9 +2050,9 @@
           22.5
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -2059,9 +2075,9 @@
           38
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -2084,9 +2100,9 @@
           38
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -2187,9 +2203,9 @@
           38
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -2212,9 +2228,9 @@
           38
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -2312,9 +2328,9 @@
           38
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",
@@ -2387,9 +2403,9 @@
           16
         ],
         "Color": [
-          0.56,
-          0.72,
-          0.71
+          0.77,
+          0.8,
+          0.74
         ],
         "Material": "SmoothPlastic",
         "TopSurface": "Smooth",

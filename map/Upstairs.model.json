@@ -746,7 +746,7 @@
           0.46,
           0.64
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -771,7 +771,7 @@
           0.86,
           0.7
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -796,7 +796,7 @@
           0.86,
           0.7
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -871,7 +871,7 @@
           0.48,
           0.72
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -996,7 +996,7 @@
           0.86,
           0.7
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -1396,7 +1396,7 @@
           0.48,
           0.72
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -1421,7 +1421,7 @@
           0.48,
           0.72
         ],
-        "Material": "SmoothPlastic",
+        "Material": "Fabric",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }

@@ -6,3 +6,5 @@ build/
 *.rbxlx.lock
 sourcemap.json
 __pycache__/
+*.blend1
+*.blend2

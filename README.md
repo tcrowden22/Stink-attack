@@ -47,7 +47,7 @@ Create the build directory before using the raw build command. For Lua syntax ch
 | Path | Responsibility |
 | --- | --- |
 | `default.project.json` | Rojo DataModel mappings and lighting |
-| `map/*.model.json` | 1,001 anchored parts across nine structure models plus Accessories |
+| `map/*.model.json` | 1,047 native anchored parts across nine structure models plus Accessories and ArtFinish |
 | `src/shared/Config.luau` | Scales, speeds, team ratio, future round timing |
 | `src/shared/TeamPolicy.luau` | Pure allocation policy, independently tested |
 | `src/server/MapService.luau` | Collision groups and spawn positions |
@@ -113,3 +113,7 @@ The default camera uses Zoom occlusion with a 24-stud maximum distance. Ceilings
 All accessories are anchored and have collision, touch and raycast queries disabled. They are visual props, not functional electronics, hiding barriers, or climbable platforms. Existing structural furniture, book-climbing routes and bug gates retain their original behavior. The pictures and monitor artwork use authored geometry rather than external images or models.
 
 To view: stop Play, sync Rojo, and inspect `Workspace.House.Accessories`. Alternatively reopen the rebuilt place. Walk the rooms and check prop placement, camera readability and frame rate on desktop and mobile before accepting the decorating pass. Character work follows this milestone.
+
+## Blender visual upgrade
+
+See [Blender details and Studio import](docs/BLENDER_DETAILS.md) for the rendered nine-model kit, source files and exact import steps. Native colors/materials, rounded props, curtains, trim and warm lighting are already in the build. The Blender meshes require a Studio import into ServerStorage.DetailAssets before the server can install their 16 placements. The current clean build uses native fallbacks; it does not contain uploaded Roblox mesh assets.
