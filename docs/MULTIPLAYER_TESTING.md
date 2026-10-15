@@ -57,7 +57,17 @@ Before starting, read README's Studio actions. Connect Rojo, stop any existing s
 - [ ] Camera zoom responds to ceilings on every level; no prolonged wall/ceiling obstruction.
 - [ ] Leaving or resetting from upstairs/attic/roof respawns each team at its original team spawn.
 - [ ] Clubhouse protection continues to apply only inside the clubhouse.
-- [ ] Check frame rate on a real mobile device with the expanded 775-part map and multiple players.
+- [ ] Check frame rate on a real mobile device with the expanded 1,001-part map and multiple players.
+
+### Accessories
+
+- [ ] Wall pictures face into rooms and do not disappear into walls.
+- [ ] Kitchen props rest on their counters/table; toy cars rest on shelves.
+- [ ] Upstairs gaming setup and screen artwork are visible and readable.
+- [ ] No accessory visually hides a door, bug entrance, stair or book route.
+- [ ] Small avatars do not snag on any decoration; camera behavior remains usable.
+- [ ] Both clients see the same decor; no unexpected Output errors appear.
+- [ ] Check performance on a real mobile device after adding the 226 decorations.
 
 **Gate result:** PENDING. Record evidence here before moving to Gate 2. Static part sizes do not establish actual avatar clearance.
 

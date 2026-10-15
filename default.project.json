@@ -63,6 +63,9 @@
         },
         "Rooftop": {
           "$path": "map/Rooftop.model.json"
+        },
+        "Accessories": {
+          "$path": "map/Accessories.model.json"
         }
       }
     },

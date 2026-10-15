@@ -17,4 +17,6 @@
 13. **Vertical traversal is not yet observed in Studio.** Static checks confirm sampled stair headroom, book-step clearance and attic tunnel centers; actual Humanoid movement and mobile book jumping must be tested.
 14. **Solid ceilings change camera behavior.** Zoom occlusion is configured, but camera comfort inside the house, stairwell and attic still needs review. No ceiling transparency feature is implemented.
 15. **Rooftop fans are stationary.** They are hiding geometry, not moving hazards. The skylight is decorative and does not open.
-16. **Expanded map performance pending.** The house now contains 775 anchored parts; larger-server and real-device performance remain unmeasured.
+16. **Expanded map performance pending.** The house now contains 1,001 anchored parts; larger-server and real-device performance remain unmeasured.
+
+17. **Accessories are static visual props.** Gaming screens, appliances and electronics are not interactive. Decorative parts do not block movement or raycasts and therefore are not gameplay cover. Placement and lighting have not been visually inspected in Studio.

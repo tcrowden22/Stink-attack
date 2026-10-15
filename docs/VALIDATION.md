@@ -51,3 +51,12 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Sampled 2-stud headroom above each of the 32 book steps: clear. Both attic tunnel centers are clear except their intentional bug-only gates.
 - Aikido full-content scan covered the eight changed code/configuration/model files; rescanned the three adjusted upper-level models after geometry fixes. All scans returned zero findings.
 - Roblox Studio traversal, visual inspection, camera behavior and mobile performance remain unverified.
+
+## House accessories — 2026-10-15
+
+- Added 226 authored decorative parts, grouped into seven rooms in Accessories; built place now contains 1,001 parts.
+- All accessory parts have positive dimensions, are anchored, and have CanCollide, CanTouch and CanQuery disabled. Names are unique within each room group.
+- Rojo build, all ten Luau compile checks and existing allocation tests passed.
+- Aikido full-content scans of the new model and updated project configuration returned no findings; the model was rescanned after placement/orientation corrections.
+- No character code, gameplay validation, collision gates or existing traversal models changed.
+- Visual placement, lighting, camera behavior and desktop/mobile performance remain pending in Studio.

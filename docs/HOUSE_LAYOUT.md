@@ -1,6 +1,6 @@
 # House expansion
 
-The living room is the central room. A kitchen extends east, a bedroom extends south, and a new playroom fills the southeast corner to create a circulation loop. A covered Bug Clubhouse extends west. A side stairwell extends east and connects a furnished upstairs floor, an attic and a playable roof. All geometry is authored from anchored Roblox Parts; no Toolbox assets or runtime dependencies were added.
+The living room is the central room. A kitchen extends east, a bedroom extends south, and a new playroom fills the southeast corner to create a circulation loop. A covered Bug Clubhouse extends west. A side stairwell extends east and connects a furnished upstairs floor, an attic and a playable roof. All geometry, including the decorative Accessories collection, is authored from anchored Roblox Parts; no Toolbox assets or runtime dependencies were added.
 
 | Room | Bounds in studs (X / Z) | Furniture |
 | --- | --- | --- |
@@ -69,3 +69,17 @@ Attic tunnels at approximately (15,48,28) and (80,48,60) have 2.4-stud clearance
 ### Studio acceptance
 
 Stop Play before syncing the model additions. Confirm all nine models appear under Workspace.House. Run two clients, take both teams from the kitchen to the roof and back, jump the book route as a bug, and try the attic gates as both teams. Check camera movement under ceilings and the clubhouse roof, especially on mobile. These runtime checks remain pending.
+
+## Decorating pass
+
+| Area | New accessories |
+| --- | --- |
+| Living room | Wall pictures, fern, mug, remote, console/controller, throw pillows and blanket |
+| Kitchen | Wall art, toaster, utensils, soap/sponge, fruit bowl, breakfast mug, plates/napkins, fridge magnets/note and herb plant |
+| Bedroom | Pictures, alarm clock, plant, sketchbook/pencils and plush toy |
+| Playroom | Craft paper/crayons, toy cars and poster |
+| Upstairs | Gaming PC/monitor, keyboard, mouse, speaker, controller/headset, mug, posters, plant and board game |
+| Attic | Radio and stored board-game boxes |
+| Clubhouse | Wall picture and bench cushions |
+
+The 226 accessories are grouped by room beneath Workspace.House.Accessories. They do not collide, fire touch events, or block raycasts. The map now contains 1,001 parts. Decor does not change team state or traversal geometry. Stop Play and sync before inspecting it. Visual placement, lighting and device performance still require Studio review.

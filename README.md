@@ -47,7 +47,7 @@ Create the build directory before using the raw build command. For Lua syntax ch
 | Path | Responsibility |
 | --- | --- |
 | `default.project.json` | Rojo DataModel mappings and lighting |
-| `map/*.model.json` | 775 anchored parts across nine models, including Stairwell, Upstairs, Attic and Rooftop |
+| `map/*.model.json` | 1,001 anchored parts across nine structure models plus Accessories |
 | `src/shared/Config.luau` | Scales, speeds, team ratio, future round timing |
 | `src/shared/TeamPolicy.luau` | Pure allocation policy, independently tested |
 | `src/server/MapService.luau` | Collision groups and spawn positions |
@@ -105,3 +105,11 @@ The ground floor now has a solid ceiling formed by the upstairs floor. Enter the
 Book-stack routes in the bedroom (near X=-22, Z=44) and upstairs lead to the next floor with 1.5-stud jumps. The attic contains crates, rafters, a trunk and two low bug-only crawl tunnels. The roof has three stationary fan housings, sheltered hiding spots, ducts, a chimney and a raised skylight detail. Roof-edge parapets and guards surround stair openings.
 
 The default camera uses Zoom occlusion with a 24-stud maximum distance. Ceilings stay solid and visible. Actual stair traversal, book jumps, head clearance and camera behavior need Studio acceptance; the geometric checks are not a substitute for Humanoid playtesting.
+
+## House accessories
+
+`map/Accessories.model.json` groups 226 decorative parts by room. It includes framed geometric pictures, plants, sofa cushions, a TV console/controller, kitchen appliances and utensils, mugs/food props, bedroom art and toys, craft supplies, toy cars, and an upstairs gaming PC with monitor, keyboard, mouse, headset and controller. Attic and clubhouse decorations are included too.
+
+All accessories are anchored and have collision, touch and raycast queries disabled. They are visual props, not functional electronics, hiding barriers, or climbable platforms. Existing structural furniture, book-climbing routes and bug gates retain their original behavior. The pictures and monitor artwork use authored geometry rather than external images or models.
+
+To view: stop Play, sync Rojo, and inspect `Workspace.House.Accessories`. Alternatively reopen the rebuilt place. Walk the rooms and check prop placement, camera readability and frame rate on desktop and mobile before accepting the decorating pass. Character work follows this milestone.
