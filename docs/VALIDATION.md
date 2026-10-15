@@ -71,3 +71,11 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Aikido initially flagged Python assertions in the FBX validator. Replaced them with explicit errors and rescanned with zero findings. Other proposed code/configuration/model scans returned zero findings.
 - Roblox Studio import, upload permissions, asset placement, collision-proxy alignment, runtime integration and mobile performance remain pending. No Roblox mesh asset IDs were invented or uploaded.
 - Final Aikido file scan covered 12 changed first-party code/configuration/model files: zero findings, no skipped paths.
+# Character milestone — 2026-10-15
+
+- Blender 5.1.2 generated an original shield-shaped stink bug: 7,665 triangles, six legs, antennae, eyes, textured shell.
+- Inspected the actual Blender render. FBX round-trip passed mesh name, triangle count, UV, dimension and embedded texture checks.
+- All source/test Luau files compiled. Existing team-policy tests passed, including two-player split and larger-lobby ratios.
+- Rojo 7.7.1 built build/StinkBugsVsVacuums-characters-preview.rbxlx. The user's existing StinkBugsVsVacuums.rbxlx was not overwritten.
+- Aikido full-content proposal scans passed; final on-disk scan covered five code/config files with zero issues and no skipped files (retried once after a connection timeout).
+- Studio import, runtime character physics, vacuum grip, camera, two-client play and mobile testing remain pending. See the character acceptance checklist.

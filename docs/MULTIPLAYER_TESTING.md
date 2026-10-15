@@ -115,3 +115,17 @@ Before starting, read README's Studio actions. Connect Rojo, stop any existing s
 | Commit | Studio version | Tester/device | Gate | Result/evidence |
 | --- | --- | --- | --- | --- |
 | Pending | Pending | Pending | 1 | Not run |
+# Character appearance acceptance — pending Studio
+
+- [ ] Save the imported house and sync the new character source through Rojo.
+- [ ] Import StinkBug.fbx into ServerStorage.CharacterAssets, preserving the StinkBug name and texture.
+- [ ] Solo Play spawns a six-legged bug, with no visible humanoid body. Its Appearance attribute reads Blender stink bug.
+- [ ] Two clients produce one bug and one human holding a vacuum; both clients see the same appearances.
+- [ ] Five clients produce four bugs and one human, with independent cosmetic copies.
+- [ ] Reset each character; the correct costume/vacuum returns once, without duplicate parts.
+- [ ] Disconnect during spawn, then rejoin; no orphaned character or permanently loading player remains.
+- [ ] Bug faces its movement direction, feet sit near the floor, and it fits downstairs/upstairs escape routes.
+- [ ] Human vacuum stays attached to the hand and does not snag doorways or change movement.
+- [ ] Keyboard/mouse and mobile emulator movement, jump and camera remain usable.
+- [ ] Temporarily move the imported bug outside CharacterAssets, restart Play, and verify the native bug fallback. Restore the import afterward.
+- [ ] Save, reopen, and retest the imported mesh/texture before any private publishing.

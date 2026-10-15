@@ -21,6 +21,8 @@
 
 17. **Accessories are static visual props.** Gaming screens, appliances and electronics are not interactive. Decorative parts do not block movement or raycasts and therefore are not gameplay cover. Placement and lighting have not been visually inspected in Studio.
 
-18. **Blender kit awaits Roblox import.** The nine FBX models and their texture pass a Blender round-trip test, but are not imported/uploaded to Roblox. Native fallback props remain until Studio receives the kit.
+18. **Blender kit imported in the user's Studio place.** The user reported successful placement of 16/16 mesh details. These Studio-only asset references are not present in clean Rojo builds; preserve the saved place and imports.
 19. **Mesh placement unverified in Studio.** Scale, orientation, texture appearance and sofa collision-proxy alignment require inspection after import. The Blender catalogue render is not an in-game screenshot.
 20. **Portable mesh assets require owner permissions.** Save a source .rbxm with valid mesh/texture asset references under assets/imported for reproducible builds. Local-preview imports can contain temporary content.
+21. **Character art needs Studio acceptance.** The original Blender stink bug passes FBX round-trip checks but needs importing into ServerStorage.CharacterAssets. Until then, bugs use a native-part costume. Check orientation, floor clearance, camera, respawning and two-client visibility in Studio.
+22. **Rigid bug and decorative vacuum.** Six-leg animation is not implemented. Humans carry a non-interactive vacuum prop; suction remains a separate milestone.

@@ -3,6 +3,7 @@ local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Config = require(ReplicatedStorage.Shared.Config)
 local MapService = require(script.Parent.MapService)
+local CharacterAppearance = require(script.Parent.CharacterAppearance)
 
 local CharacterService = {}
 local generations: { [Player]: number } = {}
@@ -29,13 +30,13 @@ function CharacterService.spawn(player: Player)
     generations[player] = generation
     player:SetAttribute("SpawnStatus", "Loading R15 avatar")
     local description = Instance.new("HumanoidDescription")
-    local color = team.TeamColor.Color
+    local color = Color3.fromRGB(221, 174, 132)
     description.HeadColor = color
-    description.TorsoColor = color
+    description.TorsoColor = Color3.fromRGB(230, 132, 45)
     description.LeftArmColor = color
     description.RightArmColor = color
-    description.LeftLegColor = color
-    description.RightLegColor = color
+    description.LeftLegColor = Color3.fromRGB(44, 65, 83)
+    description.RightLegColor = Color3.fromRGB(44, 65, 83)
 
     -- Explicit R15 rig, without importing personal accessories or external models.
     local ok, result = pcall(function()
@@ -78,6 +79,7 @@ function CharacterService.spawn(player: Player)
     if player.Character then
         player.Character:Destroy()
     end
+    CharacterAppearance.apply(character, team.Name, humanoid)
     character:PivotTo(MapService.spawnCFrame(team.Name, player.UserId))
     character.Parent = workspace
     player.Character = character

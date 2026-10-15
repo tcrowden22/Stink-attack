@@ -103,6 +103,10 @@
     "ServerStorage": {
       "$className": "ServerStorage",
       "$ignoreUnknownInstances": true,
+      "CharacterAssets": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      },
       "DetailAssets": {
         "$path": "assets/imported",
         "$ignoreUnknownInstances": true
