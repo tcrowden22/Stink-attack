@@ -9,7 +9,12 @@ Record Studio version, Git commit, date, tester, device(s), observed results and
 Before starting, read README's Studio actions. Connect Rojo, stop any existing simulation, and open Output so errors are visible.
 
 - [ ] Solo Play spawns a green R15 bug and shows Foundation free play.
-- [ ] Room contains sofa, table, TV, shelves, books and two tunnels; nothing falls or drifts.
+- [ ] House contains furnished living room, kitchen and bedroom; nothing falls or drifts.
+- [ ] Both teams can walk through the wide kitchen and bedroom doorways in both directions.
+- [ ] Bug can cross both green-marked inter-room vents; vacuum is blocked at both.
+- [ ] Kitchen counters, island and dining furniture leave navigable routes.
+- [ ] Bedroom bed, wardrobe and desk leave navigable routes; test bug crawl space under the bed.
+- [ ] Inspect cameras near doorways, beneath furniture and at the map perimeter.
 - [ ] Use Server & Clients with **2 clients**, not two unrelated solo Play sessions.
 - [ ] Exactly one client is StinkBugs and one is Vacuums. Confirm Player.Team in the server Explorer.
 - [ ] On the server, both Humanoids have RigType R15; model scales are 0.35 and 1.

@@ -52,31 +52,6 @@
       }
     },
     {
-      "Name": "FrontWall",
-      "ClassName": "Part",
-      "Properties": {
-        "Anchored": true,
-        "Size": [
-          100,
-          22,
-          1
-        ],
-        "Position": [
-          0,
-          11,
-          38
-        ],
-        "Color": [
-          0.56,
-          0.72,
-          0.71
-        ],
-        "Material": "SmoothPlastic",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
       "Name": "LeftWall",
       "ClassName": "Part",
       "Properties": {
@@ -88,31 +63,6 @@
         ],
         "Position": [
           -50,
-          11,
-          0
-        ],
-        "Color": [
-          0.56,
-          0.72,
-          0.71
-        ],
-        "Material": "SmoothPlastic",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "Name": "RightWall",
-      "ClassName": "Part",
-      "Properties": {
-        "Anchored": true,
-        "Size": [
-          1,
-          22,
-          76
-        ],
-        "Position": [
-          50,
           11,
           0
         ],
@@ -152,31 +102,6 @@
       }
     },
     {
-      "Name": "SkirtingZ37.3",
-      "ClassName": "Part",
-      "Properties": {
-        "Anchored": true,
-        "Size": [
-          99,
-          1.2,
-          0.4
-        ],
-        "Position": [
-          0,
-          0.6,
-          37.3
-        ],
-        "Color": [
-          0.88,
-          0.82,
-          0.69
-        ],
-        "Material": "SmoothPlastic",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
       "Name": "SkirtingX-49.3",
       "ClassName": "Part",
       "Properties": {
@@ -188,31 +113,6 @@
         ],
         "Position": [
           -49.3,
-          0.6,
-          0
-        ],
-        "Color": [
-          0.88,
-          0.82,
-          0.69
-        ],
-        "Material": "SmoothPlastic",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "Name": "SkirtingX49.3",
-      "ClassName": "Part",
-      "Properties": {
-        "Anchored": true,
-        "Size": [
-          0.4,
-          1.2,
-          75
-        ],
-        "Position": [
-          49.3,
           0.6,
           0
         ],
@@ -1940,6 +1840,562 @@
         "BottomSurface": "Smooth",
         "CanCollide": false,
         "CanTouch": false
+      }
+    },
+    {
+      "Name": "KitchenPassagePier0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          9
+        ],
+        "Position": [
+          50,
+          11,
+          -33.5
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenPassageHeader0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          19.6,
+          4
+        ],
+        "Position": [
+          50,
+          12.2,
+          -27
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EscapeGateKitchenPassage",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          2.4,
+          4
+        ],
+        "Position": [
+          50,
+          1.2,
+          -27
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "KitchenPassageVentMarker-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          0.12,
+          4
+        ],
+        "Position": [
+          48,
+          0.08,
+          -27
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenPassageVentMarker1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          0.12,
+          4
+        ],
+        "Position": [
+          52,
+          0.08,
+          -27
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenPassagePier1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          18
+        ],
+        "Position": [
+          50,
+          11,
+          -16
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenPassageHeader1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          10,
+          14
+        ],
+        "Position": [
+          50,
+          17,
+          0
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenPassageDoorTrim-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.4,
+          12,
+          0.5
+        ],
+        "Position": [
+          50,
+          6,
+          -7.25
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenPassageDoorTrim1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.4,
+          12,
+          0.5
+        ],
+        "Position": [
+          50,
+          6,
+          7.25
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenPassageDoorLintel",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.4,
+          0.5,
+          15
+        ],
+        "Position": [
+          50,
+          12.25,
+          0
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "KitchenPassagePier2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          31
+        ],
+        "Position": [
+          50,
+          11,
+          22.5
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomPassagePier0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          22,
+          1
+        ],
+        "Position": [
+          -45,
+          11,
+          38
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomPassageHeader0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4,
+          19.6,
+          1
+        ],
+        "Position": [
+          -38,
+          12.2,
+          38
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EscapeGateBedroomPassage",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4,
+          2.4,
+          1
+        ],
+        "Position": [
+          -38,
+          1.2,
+          38
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "BedroomPassageVentMarker-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4,
+          0.12,
+          3
+        ],
+        "Position": [
+          -38,
+          0.08,
+          36
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomPassageVentMarker1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4,
+          0.12,
+          3
+        ],
+        "Position": [
+          -38,
+          0.08,
+          40
+        ],
+        "Color": [
+          0.55,
+          0.9,
+          0.25
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomPassagePier1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          29,
+          22,
+          1
+        ],
+        "Position": [
+          -21.5,
+          11,
+          38
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomPassageHeader1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          10,
+          1
+        ],
+        "Position": [
+          0,
+          17,
+          38
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomPassageDoorTrim-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          12,
+          1.4
+        ],
+        "Position": [
+          -7.25,
+          6,
+          38
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomPassageDoorTrim1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          12,
+          1.4
+        ],
+        "Position": [
+          7.25,
+          6,
+          38
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomPassageDoorLintel",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          15,
+          0.5,
+          1.4
+        ],
+        "Position": [
+          0,
+          12.25,
+          38
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomPassagePier2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          43,
+          22,
+          1
+        ],
+        "Position": [
+          28.5,
+          11,
+          38
+        ],
+        "Color": [
+          0.56,
+          0.72,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
       }
     }
   ]

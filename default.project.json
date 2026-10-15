@@ -30,8 +30,17 @@
         "Gravity": 196.2,
         "FallenPartsDestroyHeight": -40
       },
-      "LivingRoom": {
-        "$path": "map/LivingRoom.model.json"
+      "House": {
+        "$className": "Model",
+        "LivingRoom": {
+          "$path": "map/LivingRoom.model.json"
+        },
+        "Kitchen": {
+          "$path": "map/Kitchen.model.json"
+        },
+        "Bedroom": {
+          "$path": "map/Bedroom.model.json"
+        }
       }
     },
     "Lighting": {

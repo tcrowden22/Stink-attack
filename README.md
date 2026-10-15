@@ -2,7 +2,7 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
-**Current milestone: foundation free play, awaiting Studio acceptance. This is not yet the complete Week 1 game.** The repository contains a stylized living room, two server-assigned teams, explicit R15 character creation, scaled avatars, respawning, bug-only tunnel collision rules, and a small diagnostic HUD. No external models or runtime packages are used.
+**Current milestone: foundation free play, awaiting Studio acceptance. This is not yet the complete Week 1 game.** The repository contains a connected three-room house, two server-assigned teams, explicit R15 character creation, scaled avatars, respawning, bug-only tunnel collision rules, and a small diagnostic HUD. No external models or runtime packages are used.
 
 Repository: https://github.com/tcrowden22/Stink-attack
 
@@ -12,7 +12,7 @@ The place has already been built at `build/StinkBugsVsVacuums.rbxlx`. Rojo 7.7.1
 
 1. **Save your current Studio work.** Reopen Studio if needed so it loads the newly installed local Rojo plugin. The CLI plugin installer failed to find Studio's registry entry on this computer; the official, checksum-verified `Rojo.rbxm` was instead copied to `%LOCALAPPDATA%\Roblox\Plugins`. If it is absent in Studio, open Studio's Plugins Folder and copy `.tools/Rojo.rbxm` into that actual folder, then restart Studio.
 2. **Open the place:** use Studio's Open from File action and select `C:\Projects\Roblox Game\build\StinkBugsVsVacuums.rbxlx`. This loads the authored map and scripts; no Toolbox models are needed.
-3. **Start synchronization:** in PowerShell at the repository root run `.\scripts\Serve.ps1`. In Studio open the Rojo plugin, connect to `localhost:34872`, and review/accept its initial sync. Check that `Workspace.LivingRoom`, `ReplicatedStorage.Shared`, `ServerScriptService.Server`, and `StarterPlayer.StarterPlayerScripts.Client` exist. Rojo owns these project instances; edit their source files rather than making unsaved changes in Studio.
+3. **Start synchronization:** in PowerShell at the repository root run `.\scripts\Serve.ps1`. In Studio open the Rojo plugin, connect to `localhost:34872`, and review/accept its initial sync. Check that `Workspace.House`, `ReplicatedStorage.Shared`, `ServerScriptService.Server`, and `StarterPlayer.StarterPlayerScripts.Client` exist. Rojo owns these project instances; edit their source files rather than making unsaved changes in Studio.
 4. **Check one avatar first:** choose Play (not Run, which creates no player). Expect a small green R15 bug, the foundation HUD, and a furnished room. Movement uses Roblox's standard keyboard/mouse and touch controls. The server explicitly requests R15, so it does not depend on an account's chosen avatar rig.
 5. **Run the acceptance gate:** stop Play, choose **Server & Clients** in Studio's test controls, select **2 clients**, and start. Expect one StinkBug and one Vacuum. Follow [the foundation checklist](docs/MULTIPLAYER_TESTING.md) before implementing the next feature. Roblox may ask for local-server firewall access.
 6. **Stop all test sessions** before editing/syncing again. Save a local copy if desired; source files remain authoritative.
@@ -47,7 +47,7 @@ Create the build directory before using the raw build command. For Lua syntax ch
 | Path | Responsibility |
 | --- | --- |
 | `default.project.json` | Rojo DataModel mappings and lighting |
-| `map/LivingRoom.model.json` | Authored map: 77 anchored parts, furniture, tunnel entrances, spawn markers |
+| `map/*.model.json` | Three-room house: 243 anchored parts across LivingRoom, Kitchen and Bedroom |
 | `src/shared/Config.luau` | Scales, speeds, team ratio, future round timing |
 | `src/shared/TeamPolicy.luau` | Pure allocation policy, independently tested |
 | `src/server/MapService.luau` | Collision groups and spawn positions |
@@ -64,7 +64,7 @@ The first player becomes a StinkBug; the second becomes a Vacuum. `VacuumFractio
 
 Bugs use scale 0.35 and vacuums use scale 1. Characters have fixed, team-colored bodies and no personal accessories. The server controls assignment and spawn lifecycle. In-progress avatar requests discard their result if the player leaves. Failed avatar requests retry after five seconds; dead characters respawn after three seconds.
 
-Two tunnels have 2.4-stud clearance, green entrance markings, and invisible gates that collide with vacuums but not bugs. These are collision rules for ordinary play, not an anti-teleport system. Future capture validation must use server state and validate movement assumptions.
+The living room retains its two tunnels. The kitchen and bedroom each connect through a 14-stud-wide, 12-stud-high doorway plus a separate 4-stud-wide, 2.4-stud-high bug vent. Green markings identify bug routes; invisible gates collide with vacuums but not bugs. The bed also has crawl space underneath. See [house layout](docs/HOUSE_LAYOUT.md). These are collision rules for ordinary play, not an anti-teleport system. Future capture validation must use server state and validate movement assumptions.
 
 The current HUD deliberately says **Foundation free play**. It is not the future round timer/remaining-bug HUD. Suction, captures, spectators, round transitions and mid-round policies are not implemented yet. No game action remotes exist at this milestone.
 

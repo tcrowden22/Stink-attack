@@ -33,7 +33,7 @@ function Hud.start()
         local count = #Players:GetPlayers()
         local status = player:GetAttribute("SpawnStatus") or "Loading"
         panel.Text = string.format(
-            "STINK BUGS vs. VACUUMS\nFoundation free play • %s • %d player(s)\n%s\nExplore the room. Green tunnels are bug-only.",
+            "STINK BUGS vs. VACUUMS\nFoundation free play • %s • %d player(s)\n%s\nExplore the house. Green passages are bug-only.",
             teamName, count, status
         )
     end

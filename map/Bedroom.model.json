@@ -1,0 +1,1205 @@
+{
+  "ClassName": "Model",
+  "Children": [
+    {
+      "Name": "Floor",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          100,
+          1,
+          72
+        ],
+        "Position": [
+          0,
+          -0.5,
+          74
+        ],
+        "Color": [
+          0.6,
+          0.46,
+          0.34
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EastWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          72
+        ],
+        "Position": [
+          50,
+          11,
+          74
+        ],
+        "Color": [
+          0.6,
+          0.56,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WestWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          72
+        ],
+        "Position": [
+          -50,
+          11,
+          74
+        ],
+        "Color": [
+          0.6,
+          0.56,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SouthWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          100,
+          22,
+          1
+        ],
+        "Position": [
+          0,
+          11,
+          110
+        ],
+        "Color": [
+          0.6,
+          0.56,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedRug",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          36,
+          0.1,
+          38
+        ],
+        "Position": [
+          8,
+          0.05,
+          85
+        ],
+        "Color": [
+          0.79,
+          0.71,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedFrame",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          24,
+          1.2,
+          30
+        ],
+        "Position": [
+          8,
+          3.6,
+          88
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedLeg-275",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.2,
+          3,
+          1.2
+        ],
+        "Position": [
+          -2,
+          1.5,
+          75
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedLeg-2101",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.2,
+          3,
+          1.2
+        ],
+        "Position": [
+          -2,
+          1.5,
+          101
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedLeg1875",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.2,
+          3,
+          1.2
+        ],
+        "Position": [
+          18,
+          1.5,
+          75
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedLeg18101",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.2,
+          3,
+          1.2
+        ],
+        "Position": [
+          18,
+          1.5,
+          101
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Mattress",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          23,
+          2.2,
+          29
+        ],
+        "Position": [
+          8,
+          5.3,
+          88
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Duvet",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          23.3,
+          0.8,
+          20
+        ],
+        "Position": [
+          8,
+          6.8,
+          83
+        ],
+        "Color": [
+          0.28,
+          0.43,
+          0.62
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DuvetFold",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          23.5,
+          0.4,
+          3
+        ],
+        "Position": [
+          8,
+          7.35,
+          92
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Headboard",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          25,
+          9,
+          1.2
+        ],
+        "Position": [
+          8,
+          6,
+          103
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Pillow2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          9,
+          1.2,
+          5
+        ],
+        "Position": [
+          2,
+          7,
+          98
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Pillow14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          9,
+          1.2,
+          5
+        ],
+        "Position": [
+          14,
+          7,
+          98
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Nightstand-11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          5,
+          6
+        ],
+        "Position": [
+          -11,
+          2.5,
+          99
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "NightstandDrawer-11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          0.3
+        ],
+        "Position": [
+          -11,
+          3,
+          95.8
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LampStem-11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          3,
+          0.4
+        ],
+        "Position": [
+          -11,
+          6.5,
+          99
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LampShade-11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3.5,
+          2.5,
+          3.5
+        ],
+        "Position": [
+          -11,
+          8.5,
+          99
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Nightstand27",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          5,
+          6
+        ],
+        "Position": [
+          27,
+          2.5,
+          99
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "NightstandDrawer27",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          0.3
+        ],
+        "Position": [
+          27,
+          3,
+          95.8
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LampStem27",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          3,
+          0.4
+        ],
+        "Position": [
+          27,
+          6.5,
+          99
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LampShade27",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3.5,
+          2.5,
+          3.5
+        ],
+        "Position": [
+          27,
+          8.5,
+          99
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Wardrobe",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          9,
+          17,
+          22
+        ],
+        "Position": [
+          -44,
+          8.5,
+          83
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WardrobeDoor77.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.3,
+          15,
+          10
+        ],
+        "Position": [
+          -39.35,
+          8.5,
+          77.5
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WardrobeHandle77.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          2,
+          0.4
+        ],
+        "Position": [
+          -39,
+          8,
+          77.5
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WardrobeDoor88.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.3,
+          15,
+          10
+        ],
+        "Position": [
+          -39.35,
+          8.5,
+          88.5
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WardrobeHandle88.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          2,
+          0.4
+        ],
+        "Position": [
+          -39,
+          8,
+          88.5
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskTop",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          8,
+          0.7,
+          18
+        ],
+        "Position": [
+          43,
+          6,
+          62
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskSupport55",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          5.65,
+          1
+        ],
+        "Position": [
+          43,
+          2.825,
+          55
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskSupport69",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          5.65,
+          1
+        ],
+        "Position": [
+          43,
+          2.825,
+          69
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskChairSeat",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4,
+          0.7,
+          4
+        ],
+        "Position": [
+          34,
+          3.5,
+          62
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskChairLeg32.560.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          3.2,
+          0.5
+        ],
+        "Position": [
+          32.5,
+          1.6,
+          60.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskChairLeg32.563.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          3.2,
+          0.5
+        ],
+        "Position": [
+          32.5,
+          1.6,
+          63.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskChairLeg35.560.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          3.2,
+          0.5
+        ],
+        "Position": [
+          35.5,
+          1.6,
+          60.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskChairLeg35.563.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          3.2,
+          0.5
+        ],
+        "Position": [
+          35.5,
+          1.6,
+          63.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskChairBack",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.6,
+          5,
+          4
+        ],
+        "Position": [
+          32,
+          5.5,
+          62
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskBook",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4,
+          0.6,
+          5
+        ],
+        "Position": [
+          43,
+          6.8,
+          66
+        ],
+        "Color": [
+          0.28,
+          0.43,
+          0.62
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskBook2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3.5,
+          0.5,
+          4
+        ],
+        "Position": [
+          43,
+          7.35,
+          66
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ToyBlock0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          2,
+          2
+        ],
+        "Position": [
+          -21,
+          1,
+          57
+        ],
+        "Color": [
+          0.28,
+          0.43,
+          0.62
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ToyBlock1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          2,
+          2
+        ],
+        "Position": [
+          -18,
+          1,
+          60
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ToyBlock2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          2,
+          2
+        ],
+        "Position": [
+          -15,
+          1,
+          57
+        ],
+        "Color": [
+          0.87,
+          0.51,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WindowFrame",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          11,
+          0.6
+        ],
+        "Position": [
+          -23,
+          14,
+          109.2
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WindowGlass",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          20,
+          9,
+          0.2
+        ],
+        "Position": [
+          -23,
+          14,
+          108.8
+        ],
+        "Color": [
+          0.51,
+          0.71,
+          0.85
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "WindowMullion",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          9,
+          0.3
+        ],
+        "Position": [
+          -23,
+          14,
+          108.6
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Curtain-36",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          13,
+          1
+        ],
+        "Position": [
+          -36,
+          13,
+          108
+        ],
+        "Color": [
+          0.28,
+          0.43,
+          0.62
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Curtain-10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          13,
+          1
+        ],
+        "Position": [
+          -10,
+          13,
+          108
+        ],
+        "Color": [
+          0.28,
+          0.43,
+          0.62
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    }
+  ]
+}

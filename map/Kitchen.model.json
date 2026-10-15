@@ -1,0 +1,2505 @@
+{
+  "ClassName": "Model",
+  "Children": [
+    {
+      "Name": "Floor",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          72,
+          1,
+          76
+        ],
+        "Position": [
+          86,
+          -0.5,
+          0
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "Marble",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EastWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          76
+        ],
+        "Position": [
+          122,
+          11,
+          0
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "NorthWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          72,
+          22,
+          1
+        ],
+        "Position": [
+          86,
+          11,
+          -38
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SouthWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          72,
+          22,
+          1
+        ],
+        "Position": [
+          86,
+          11,
+          38
+        ],
+        "Color": [
+          0.91,
+          0.85,
+          0.71
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile56_-32",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          56,
+          0.015,
+          -32
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile56_-20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          56,
+          0.015,
+          -20
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile56_-8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          56,
+          0.015,
+          -8
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile56_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          56,
+          0.015,
+          4
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile56_16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          56,
+          0.015,
+          16
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile56_28",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          56,
+          0.015,
+          28
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile68_-32",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          68,
+          0.015,
+          -32
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile68_-20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          68,
+          0.015,
+          -20
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile68_-8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          68,
+          0.015,
+          -8
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile68_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          68,
+          0.015,
+          4
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile68_16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          68,
+          0.015,
+          16
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile68_28",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          68,
+          0.015,
+          28
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile80_-32",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          80,
+          0.015,
+          -32
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile80_-20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          80,
+          0.015,
+          -20
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile80_-8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          80,
+          0.015,
+          -8
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile80_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          80,
+          0.015,
+          4
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile80_16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          80,
+          0.015,
+          16
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile80_28",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          80,
+          0.015,
+          28
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile92_-32",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          92,
+          0.015,
+          -32
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile92_-20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          92,
+          0.015,
+          -20
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile92_-8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          92,
+          0.015,
+          -8
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile92_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          92,
+          0.015,
+          4
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile92_16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          92,
+          0.015,
+          16
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile92_28",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          92,
+          0.015,
+          28
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile104_-32",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          104,
+          0.015,
+          -32
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile104_-20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          104,
+          0.015,
+          -20
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile104_-8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          104,
+          0.015,
+          -8
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile104_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          104,
+          0.015,
+          4
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile104_16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          104,
+          0.015,
+          16
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile104_28",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          104,
+          0.015,
+          28
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile116_-32",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          116,
+          0.015,
+          -32
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile116_-20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          116,
+          0.015,
+          -20
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile116_-8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          116,
+          0.015,
+          -8
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile116_4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          116,
+          0.015,
+          4
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile116_16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          116,
+          0.015,
+          16
+        ],
+        "Color": [
+          0.9,
+          0.88,
+          0.79
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Tile116_28",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.7,
+          0.03,
+          11.7
+        ],
+        "Position": [
+          116,
+          0.015,
+          28
+        ],
+        "Color": [
+          0.8,
+          0.84,
+          0.77
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CounterBase68",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.5,
+          6,
+          7
+        ],
+        "Position": [
+          68,
+          3,
+          -32
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CounterTop68",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.7,
+          8
+        ],
+        "Position": [
+          68,
+          6.35,
+          -32
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CabinetInset68",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          4.8,
+          0.2
+        ],
+        "Position": [
+          68,
+          3,
+          -28.4
+        ],
+        "Color": [
+          0.29,
+          0.48,
+          0.4
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CabinetHandle68",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.25,
+          0.3
+        ],
+        "Position": [
+          68,
+          4.7,
+          -28.1
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpperCabinet68",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.5,
+          6,
+          4
+        ],
+        "Position": [
+          68,
+          15,
+          -34.5
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpperHandle68",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.25,
+          1.5,
+          0.3
+        ],
+        "Position": [
+          71,
+          15,
+          -32.3
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CounterBase80",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.5,
+          6,
+          7
+        ],
+        "Position": [
+          80,
+          3,
+          -32
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CounterTop80",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.7,
+          8
+        ],
+        "Position": [
+          80,
+          6.35,
+          -32
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CabinetInset80",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          4.8,
+          0.2
+        ],
+        "Position": [
+          80,
+          3,
+          -28.4
+        ],
+        "Color": [
+          0.29,
+          0.48,
+          0.4
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CabinetHandle80",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.25,
+          0.3
+        ],
+        "Position": [
+          80,
+          4.7,
+          -28.1
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpperCabinet80",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.5,
+          6,
+          4
+        ],
+        "Position": [
+          80,
+          15,
+          -34.5
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpperHandle80",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.25,
+          1.5,
+          0.3
+        ],
+        "Position": [
+          83,
+          15,
+          -32.3
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CounterBase92",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.5,
+          6,
+          7
+        ],
+        "Position": [
+          92,
+          3,
+          -32
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CounterTop92",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.7,
+          8
+        ],
+        "Position": [
+          92,
+          6.35,
+          -32
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CabinetInset92",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          4.8,
+          0.2
+        ],
+        "Position": [
+          92,
+          3,
+          -28.4
+        ],
+        "Color": [
+          0.29,
+          0.48,
+          0.4
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CabinetHandle92",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.25,
+          0.3
+        ],
+        "Position": [
+          92,
+          4.7,
+          -28.1
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpperCabinet92",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11.5,
+          6,
+          4
+        ],
+        "Position": [
+          92,
+          15,
+          -34.5
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpperHandle92",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.25,
+          1.5,
+          0.3
+        ],
+        "Position": [
+          95,
+          15,
+          -32.3
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SinkBasin",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          0.12,
+          4
+        ],
+        "Position": [
+          80,
+          6.76,
+          -32
+        ],
+        "Color": [
+          0.12,
+          0.17,
+          0.19
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SinkRim-3.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          0.2,
+          4.7
+        ],
+        "Position": [
+          76.7,
+          6.8,
+          -32
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SinkRim3.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          0.2,
+          4.7
+        ],
+        "Position": [
+          83.3,
+          6.8,
+          -32
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FaucetStem",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          2.5,
+          0.4
+        ],
+        "Position": [
+          80,
+          8,
+          -34
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FaucetSpout",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          0.4,
+          1.6
+        ],
+        "Position": [
+          80,
+          9.1,
+          -33.4
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoveTop",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          0.15,
+          6
+        ],
+        "Position": [
+          92,
+          6.8,
+          -32
+        ],
+        "Color": [
+          0.12,
+          0.17,
+          0.19
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Burner89.5-33.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2.4,
+          0.1,
+          2.4
+        ],
+        "Position": [
+          89.5,
+          6.94,
+          -33.5
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Burner89.5-30.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2.4,
+          0.1,
+          2.4
+        ],
+        "Position": [
+          89.5,
+          6.94,
+          -30.5
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Burner94.5-33.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2.4,
+          0.1,
+          2.4
+        ],
+        "Position": [
+          94.5,
+          6.94,
+          -33.5
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Burner94.5-30.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2.4,
+          0.1,
+          2.4
+        ],
+        "Position": [
+          94.5,
+          6.94,
+          -30.5
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "OvenWindow",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          7,
+          3,
+          0.3
+        ],
+        "Position": [
+          92,
+          2.9,
+          -28.1
+        ],
+        "Color": [
+          0.12,
+          0.17,
+          0.19
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Fridge",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          9,
+          15,
+          9
+        ],
+        "Position": [
+          111,
+          7.5,
+          -31
+        ],
+        "Color": [
+          0.55,
+          0.62,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FreezerDoor",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          8.4,
+          4.5,
+          0.3
+        ],
+        "Position": [
+          111,
+          12,
+          -26.35
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FridgeDoor",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          8.4,
+          9,
+          0.3
+        ],
+        "Position": [
+          111,
+          5,
+          -26.35
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FridgeHandle5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          2.5,
+          0.5
+        ],
+        "Position": [
+          107.8,
+          5,
+          -26
+        ],
+        "Color": [
+          0.12,
+          0.17,
+          0.19
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FridgeHandle12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          2.5,
+          0.5
+        ],
+        "Position": [
+          107.8,
+          12,
+          -26
+        ],
+        "Color": [
+          0.12,
+          0.17,
+          0.19
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "IslandBase",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          17,
+          6,
+          9
+        ],
+        "Position": [
+          85,
+          3,
+          -1
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "IslandTop",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          20,
+          0.7,
+          12
+        ],
+        "Position": [
+          85,
+          6.35,
+          -1
+        ],
+        "Color": [
+          0.94,
+          0.87,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoolSeat80",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3.5,
+          0.6,
+          3.5
+        ],
+        "Position": [
+          80,
+          4,
+          9
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoolLeg80-1-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.35,
+          3.7,
+          0.35
+        ],
+        "Position": [
+          79,
+          1.85,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoolLeg80-11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.35,
+          3.7,
+          0.35
+        ],
+        "Position": [
+          79,
+          1.85,
+          10
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoolLeg801-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.35,
+          3.7,
+          0.35
+        ],
+        "Position": [
+          81,
+          1.85,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoolLeg8011",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.35,
+          3.7,
+          0.35
+        ],
+        "Position": [
+          81,
+          1.85,
+          10
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoolSeat90",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3.5,
+          0.6,
+          3.5
+        ],
+        "Position": [
+          90,
+          4,
+          9
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoolLeg90-1-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.35,
+          3.7,
+          0.35
+        ],
+        "Position": [
+          89,
+          1.85,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoolLeg90-11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.35,
+          3.7,
+          0.35
+        ],
+        "Position": [
+          89,
+          1.85,
+          10
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoolLeg901-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.35,
+          3.7,
+          0.35
+        ],
+        "Position": [
+          91,
+          1.85,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StoolLeg9011",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.35,
+          3.7,
+          0.35
+        ],
+        "Position": [
+          91,
+          1.85,
+          10
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CuttingBoard",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          0.25,
+          3
+        ],
+        "Position": [
+          84,
+          6.85,
+          -1
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BreadLoaf",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          1,
+          1.8
+        ],
+        "Position": [
+          84,
+          7.45,
+          -1
+        ],
+        "Color": [
+          0.75,
+          0.49,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DiningTop",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          0.7,
+          10
+        ],
+        "Position": [
+          93,
+          6,
+          25
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DiningLeg-5.5-3.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.7,
+          5.65,
+          0.7
+        ],
+        "Position": [
+          87.5,
+          2.825,
+          21.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DiningLeg-5.53.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.7,
+          5.65,
+          0.7
+        ],
+        "Position": [
+          87.5,
+          2.825,
+          28.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DiningLeg5.5-3.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.7,
+          5.65,
+          0.7
+        ],
+        "Position": [
+          98.5,
+          2.825,
+          21.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DiningLeg5.53.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.7,
+          5.65,
+          0.7
+        ],
+        "Position": [
+          98.5,
+          2.825,
+          28.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DiningBench82",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          0.6,
+          10
+        ],
+        "Position": [
+          82,
+          3.5,
+          25
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BenchLeg8221",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          3.2,
+          0.6
+        ],
+        "Position": [
+          82,
+          1.6,
+          21
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BenchLeg8229",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          3.2,
+          0.6
+        ],
+        "Position": [
+          82,
+          1.6,
+          29
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DiningBench104",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          3,
+          0.6,
+          10
+        ],
+        "Position": [
+          104,
+          3.5,
+          25
+        ],
+        "Color": [
+          0.37,
+          0.58,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BenchLeg10421",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          3.2,
+          0.6
+        ],
+        "Position": [
+          104,
+          1.6,
+          21
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BenchLeg10429",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          3.2,
+          0.6
+        ],
+        "Position": [
+          104,
+          1.6,
+          29
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Runner",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          13,
+          0.07,
+          20
+        ],
+        "Position": [
+          62,
+          0.06,
+          13
+        ],
+        "Color": [
+          0.75,
+          0.45,
+          0.29
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    }
+  ]
+}

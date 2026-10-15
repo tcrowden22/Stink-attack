@@ -14,20 +14,20 @@ function MapService.init()
     PhysicsService:CollisionGroupSetCollidable("Vacuums", "Vacuums", false)
     PhysicsService:CollisionGroupSetCollidable("StinkBugs", "Vacuums", false)
 
-    local room = workspace:WaitForChild("LivingRoom")
+    local room = workspace:WaitForChild("House")
     for _, item in room:GetDescendants() do
         if item:IsA("BasePart") and string.sub(item.Name, 1, 10) == "EscapeGate" then
             item.CollisionGroup = "EscapeGate"
         end
     end
     for _, name in { "StinkBugsSpawn", "VacuumsSpawn" } do
-        local marker = room:FindFirstChild(name)
+        local marker = room:FindFirstChild(name, true)
         assert(marker and marker:IsA("BasePart"), "Missing spawn marker: " .. name)
     end
 end
 
 function MapService.spawnCFrame(teamName: string, userId: number): CFrame
-    local marker = workspace.LivingRoom:FindFirstChild(teamName .. "Spawn") :: BasePart
+    local marker = workspace.House:FindFirstChild(teamName .. "Spawn", true) :: BasePart
     -- Spread simultaneous arrivals across a pad; floor surface is y = 0.
     return marker.CFrame + Vector3.new((math.abs(userId) % 3 - 1) * 3, 4, 0)
 end
