@@ -1,0 +1,5587 @@
+{
+  "ClassName": "Model",
+  "Children": [
+    {
+      "Name": "GroundFloor",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          24,
+          1,
+          148
+        ],
+        "Position": [
+          134,
+          -0.5,
+          36
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "GroundEastWall",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          148
+        ],
+        "Position": [
+          146,
+          11,
+          36
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "GroundEnd-38",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          24,
+          22,
+          1
+        ],
+        "Position": [
+          134,
+          11,
+          -38
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "GroundEnd110",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          24,
+          22,
+          1
+        ],
+        "Position": [
+          134,
+          11,
+          110
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Flight0Tread1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          0.25,
+          -21.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          0.75,
+          -20.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          1.25,
+          -18.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          1.75,
+          -17.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          2.25,
+          -16.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          2.75,
+          -15.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          3.25,
+          -13.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          3.75,
+          -12.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread9",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          4.25,
+          -11.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          4.75,
+          -10.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          5.25,
+          -8.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          5.75,
+          -7.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          6.25,
+          -6.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          6.75,
+          -5.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread15",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          7.25,
+          -3.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          7.75,
+          -2.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread17",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          8.25,
+          -1.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread18",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          8.75,
+          -0.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread19",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          9.25,
+          1.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          9.75,
+          2.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread21",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          10.25,
+          3.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread22",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          10.75,
+          4.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread23",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          11.25,
+          6.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread24",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          11.75,
+          7.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread25",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          12.25,
+          8.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread26",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          12.75,
+          9.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread27",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          13.25,
+          11.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread28",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          13.75,
+          12.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread29",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          14.25,
+          13.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread30",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          14.75,
+          14.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread31",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          15.25,
+          16.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread32",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          15.75,
+          17.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread33",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          16.25,
+          18.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread34",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          16.75,
+          19.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread35",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          17.25,
+          21.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread36",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          17.75,
+          22.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread37",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          18.25,
+          23.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread38",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          18.75,
+          24.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread39",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          19.25,
+          26.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread40",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          19.75,
+          27.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread41",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          20.25,
+          28.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread42",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          20.75,
+          29.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread43",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          21.25,
+          31.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread44",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          21.75,
+          32.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread45",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          22.25,
+          33.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread46",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          22.75,
+          34.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread47",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          23.25,
+          36.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0Tread48",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          23.75,
+          37.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight0WalkRamp",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.2,
+          64.62197768561406
+        ],
+        "Position": [
+          134,
+          12,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "Orientation": [
+          -21.80140948635181,
+          0,
+          0
+        ],
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "Flight0Rail127.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.6,
+          64.62197768561406
+        ],
+        "Position": [
+          127.4,
+          13.7,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Orientation": [
+          -21.80140948635181,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "Name": "Flight0Rail140.6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.6,
+          64.62197768561406
+        ],
+        "Position": [
+          140.6,
+          13.7,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Orientation": [
+          -21.80140948635181,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "Name": "Flight0Landing",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          1,
+          2
+        ],
+        "Position": [
+          134,
+          23.5,
+          39
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Flight24Tread1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          24.25,
+          -21.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          24.75,
+          -20.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          25.25,
+          -18.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          25.75,
+          -17.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          26.25,
+          -16.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          26.75,
+          -15.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          27.25,
+          -13.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          27.75,
+          -12.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread9",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          28.25,
+          -11.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          28.75,
+          -10.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          29.25,
+          -8.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          29.75,
+          -7.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          30.25,
+          -6.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          30.75,
+          -5.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread15",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          31.25,
+          -3.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          31.75,
+          -2.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread17",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          32.25,
+          -1.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread18",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          32.75,
+          -0.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread19",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          33.25,
+          1.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          33.75,
+          2.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread21",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          34.25,
+          3.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread22",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          34.75,
+          4.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread23",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          35.25,
+          6.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread24",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          35.75,
+          7.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread25",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          36.25,
+          8.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread26",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          36.75,
+          9.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread27",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          37.25,
+          11.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread28",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          37.75,
+          12.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread29",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          38.25,
+          13.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread30",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          38.75,
+          14.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread31",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          39.25,
+          16.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread32",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          39.75,
+          17.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread33",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          40.25,
+          18.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread34",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          40.75,
+          19.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread35",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          41.25,
+          21.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread36",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          41.75,
+          22.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread37",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          42.25,
+          23.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread38",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          42.75,
+          24.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread39",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          43.25,
+          26.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread40",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          43.75,
+          27.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread41",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          44.25,
+          28.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread42",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          44.75,
+          29.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread43",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          45.25,
+          31.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread44",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          45.75,
+          32.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread45",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          46.25,
+          33.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread46",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          46.75,
+          34.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread47",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          47.25,
+          36.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24Tread48",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          47.75,
+          37.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight24WalkRamp",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.2,
+          64.62197768561406
+        ],
+        "Position": [
+          134,
+          36,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "Orientation": [
+          -21.80140948635181,
+          0,
+          0
+        ],
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "Flight24Rail127.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.6,
+          64.62197768561406
+        ],
+        "Position": [
+          127.4,
+          37.7,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Orientation": [
+          -21.80140948635181,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "Name": "Flight24Rail140.6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.6,
+          64.62197768561406
+        ],
+        "Position": [
+          140.6,
+          37.7,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Orientation": [
+          -21.80140948635181,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "Name": "Flight24Landing",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          1,
+          2
+        ],
+        "Position": [
+          134,
+          47.5,
+          39
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Flight48Tread1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          48.25,
+          -21.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          48.75,
+          -20.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          49.25,
+          -18.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          49.75,
+          -17.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          50.25,
+          -16.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          50.75,
+          -15.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          51.25,
+          -13.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          51.75,
+          -12.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread9",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          52.25,
+          -11.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          52.75,
+          -10.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          53.25,
+          -8.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          53.75,
+          -7.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          54.25,
+          -6.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          54.75,
+          -5.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread15",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          55.25,
+          -3.875
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          55.75,
+          -2.625
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread17",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          56.25,
+          -1.375
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread18",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          56.75,
+          -0.125
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread19",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          57.25,
+          1.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          57.75,
+          2.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread21",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          58.25,
+          3.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread22",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          58.75,
+          4.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread23",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          59.25,
+          6.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread24",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          59.75,
+          7.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread25",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          60.25,
+          8.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread26",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          60.75,
+          9.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread27",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          61.25,
+          11.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread28",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          61.75,
+          12.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread29",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          62.25,
+          13.625
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread30",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          62.75,
+          14.875
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread31",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          63.25,
+          16.125
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48Tread32",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.5,
+          1.25
+        ],
+        "Position": [
+          134,
+          63.75,
+          17.375
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "CanCollide": false
+      }
+    },
+    {
+      "Name": "Flight48WalkRamp",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          0.2,
+          43.08131845707604
+        ],
+        "Position": [
+          134,
+          56,
+          -2
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "Orientation": [
+          -21.80140948635181,
+          0,
+          0
+        ],
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "Flight48Rail127.4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.6,
+          43.08131845707604
+        ],
+        "Position": [
+          127.4,
+          57.7,
+          -2
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Orientation": [
+          -21.80140948635181,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "Name": "Flight48Rail140.6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.6,
+          43.08131845707604
+        ],
+        "Position": [
+          140.6,
+          57.7,
+          -2
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Orientation": [
+          -21.80140948635181,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "Name": "Flight48Landing",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          1,
+          2
+        ],
+        "Position": [
+          134,
+          63.5,
+          19
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          0.75,
+          44
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          0.75,
+          44
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          2.25,
+          45.5
+        ],
+        "Color": [
+          0.88,
+          0.48,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          2.25,
+          45.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          3.75,
+          47
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          3.75,
+          47
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          5.25,
+          48.5
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          5.25,
+          48.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          6.75,
+          50
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          6.75,
+          50
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          8.25,
+          51.5
+        ],
+        "Color": [
+          0.88,
+          0.48,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          8.25,
+          51.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          9.75,
+          53
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          9.75,
+          53
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          11.25,
+          54.5
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          11.25,
+          54.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book9",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          12.75,
+          56
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages9",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          12.75,
+          56
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          14.25,
+          57.5
+        ],
+        "Color": [
+          0.88,
+          0.48,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          14.25,
+          57.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          15.75,
+          59
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          15.75,
+          59
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          17.25,
+          60.5
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          17.25,
+          60.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          18.75,
+          62
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          18.75,
+          62
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          20.25,
+          63.5
+        ],
+        "Color": [
+          0.88,
+          0.48,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          20.25,
+          63.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book15",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          21.75,
+          65
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages15",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          21.75,
+          65
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Book16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          23.25,
+          66.5
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Pages16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          23.25,
+          66.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Back",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.6,
+          24,
+          26
+        ],
+        "Position": [
+          -25.4,
+          12,
+          55.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Landing",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          1,
+          5
+        ],
+        "Position": [
+          -22,
+          23.5,
+          69.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Guard-28.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          3,
+          29
+        ],
+        "Position": [
+          -28.3,
+          25.5,
+          56.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb0Guard-15.7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          3,
+          29
+        ],
+        "Position": [
+          -15.7,
+          25.5,
+          56.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          24.75,
+          44
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          24.75,
+          44
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          26.25,
+          45.5
+        ],
+        "Color": [
+          0.88,
+          0.48,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          26.25,
+          45.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          27.75,
+          47
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          27.75,
+          47
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          29.25,
+          48.5
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          29.25,
+          48.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          30.75,
+          50
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          30.75,
+          50
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          32.25,
+          51.5
+        ],
+        "Color": [
+          0.88,
+          0.48,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          32.25,
+          51.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          33.75,
+          53
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          33.75,
+          53
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          35.25,
+          54.5
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          35.25,
+          54.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book9",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          36.75,
+          56
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages9",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          36.75,
+          56
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          38.25,
+          57.5
+        ],
+        "Color": [
+          0.88,
+          0.48,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          38.25,
+          57.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          39.75,
+          59
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          39.75,
+          59
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          41.25,
+          60.5
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          41.25,
+          60.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          42.75,
+          62
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          42.75,
+          62
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          44.25,
+          63.5
+        ],
+        "Color": [
+          0.88,
+          0.48,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          44.25,
+          63.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book15",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          45.75,
+          65
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages15",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          45.75,
+          65
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Book16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          1.5,
+          1.7
+        ],
+        "Position": [
+          -22,
+          47.25,
+          66.5
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Pages16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5.7,
+          0.85,
+          1.72
+        ],
+        "Position": [
+          -22,
+          47.25,
+          66.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Back",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.6,
+          24,
+          26
+        ],
+        "Position": [
+          -25.4,
+          36,
+          55.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Landing",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          1,
+          5
+        ],
+        "Position": [
+          -22,
+          47.5,
+          69.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Guard-28.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          3,
+          29
+        ],
+        "Position": [
+          -28.3,
+          49.5,
+          56.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BookClimb24Guard-15.7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          3,
+          29
+        ],
+        "Position": [
+          -15.7,
+          49.5,
+          56.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    }
+  ]
+}

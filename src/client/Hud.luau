@@ -36,7 +36,7 @@ function Hud.start()
             status = "BUG CLUBHOUSE • Team refuge"
         end
         panel.Text = string.format(
-            "STINK BUGS vs. VACUUMS\nFoundation free play • %s • %d player(s)\n%s\nGreen passages lead to bug shortcuts and the clubhouse.",
+            "STINK BUGS vs. VACUUMS\nFoundation free play • %s • %d player(s)\n%s\nExplore upstairs, the attic and roof. Green paths are bug routes.",
             teamName, count, status
         )
     end

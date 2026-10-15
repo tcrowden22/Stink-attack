@@ -1,0 +1,1481 @@
+{
+  "ClassName": "Model",
+  "Children": [
+    {
+      "Name": "FloorPanel0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          177,
+          2,
+          14
+        ],
+        "Position": [
+          38.5,
+          63,
+          -31
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "Slate",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          177,
+          2,
+          44
+        ],
+        "Position": [
+          38.5,
+          63,
+          -2
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "Slate",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          177,
+          2,
+          90
+        ],
+        "Position": [
+          38.5,
+          63,
+          65
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "Slate",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          2,
+          14
+        ],
+        "Position": [
+          134,
+          63,
+          -31
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "Slate",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          2,
+          90
+        ],
+        "Position": [
+          134,
+          63,
+          65
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "Slate",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          14
+        ],
+        "Position": [
+          143.5,
+          63,
+          -31
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "Slate",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          44
+        ],
+        "Position": [
+          143.5,
+          63,
+          -2
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "Slate",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          90
+        ],
+        "Position": [
+          143.5,
+          63,
+          65
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "Slate",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SideWall-50",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          4,
+          148
+        ],
+        "Position": [
+          -50,
+          66,
+          36
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SideWall146",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          4,
+          148
+        ],
+        "Position": [
+          146,
+          66,
+          36
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EndWall-38",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          196,
+          4,
+          1
+        ],
+        "Position": [
+          48,
+          66,
+          -38
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EndWall110",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          196,
+          4,
+          1
+        ],
+        "Position": [
+          48,
+          66,
+          110
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanBase0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          16,
+          1,
+          14
+        ],
+        "Position": [
+          -20,
+          64.5,
+          -10
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanHousing0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          8,
+          8
+        ],
+        "Position": [
+          -20,
+          69,
+          -10
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanFace0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11,
+          6,
+          0.2
+        ],
+        "Position": [
+          -20,
+          69,
+          -14.2
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanBladeH0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          9,
+          0.6,
+          0.3
+        ],
+        "Position": [
+          -20,
+          69,
+          -14.4
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanBladeV0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.6,
+          5,
+          0.3
+        ],
+        "Position": [
+          -20,
+          69,
+          -14.4
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille0-4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          -24,
+          69,
+          -14.7
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille0-2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          -22,
+          69,
+          -14.7
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille00",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          -20,
+          69,
+          -14.7
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille02",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          -18,
+          69,
+          -14.7
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille04",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          -16,
+          69,
+          -14.7
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanShelter0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          18,
+          0.6,
+          7
+        ],
+        "Position": [
+          -20,
+          66.7,
+          -2
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanShelterPost0-8.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.4,
+          7
+        ],
+        "Position": [
+          -28.5,
+          65.2,
+          -2
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanShelterPost08.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.4,
+          7
+        ],
+        "Position": [
+          -11.5,
+          65.2,
+          -2
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanBase1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          16,
+          1,
+          14
+        ],
+        "Position": [
+          60,
+          64.5,
+          10
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanHousing1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          8,
+          8
+        ],
+        "Position": [
+          60,
+          69,
+          10
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanFace1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11,
+          6,
+          0.2
+        ],
+        "Position": [
+          60,
+          69,
+          5.8
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanBladeH1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          9,
+          0.6,
+          0.3
+        ],
+        "Position": [
+          60,
+          69,
+          5.6
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanBladeV1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.6,
+          5,
+          0.3
+        ],
+        "Position": [
+          60,
+          69,
+          5.6
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille1-4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          56,
+          69,
+          5.3
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille1-2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          58,
+          69,
+          5.3
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          60,
+          69,
+          5.3
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          62,
+          69,
+          5.3
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          64,
+          69,
+          5.3
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanShelter1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          18,
+          0.6,
+          7
+        ],
+        "Position": [
+          60,
+          66.7,
+          18
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanShelterPost1-8.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.4,
+          7
+        ],
+        "Position": [
+          51.5,
+          65.2,
+          18
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanShelterPost18.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.4,
+          7
+        ],
+        "Position": [
+          68.5,
+          65.2,
+          18
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanBase2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          16,
+          1,
+          14
+        ],
+        "Position": [
+          90,
+          64.5,
+          80
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanHousing2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          8,
+          8
+        ],
+        "Position": [
+          90,
+          69,
+          80
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanFace2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11,
+          6,
+          0.2
+        ],
+        "Position": [
+          90,
+          69,
+          75.8
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanBladeH2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          9,
+          0.6,
+          0.3
+        ],
+        "Position": [
+          90,
+          69,
+          75.6
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanBladeV2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.6,
+          5,
+          0.3
+        ],
+        "Position": [
+          90,
+          69,
+          75.6
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille2-4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          86,
+          69,
+          75.3
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille2-2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          88,
+          69,
+          75.3
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          90,
+          69,
+          75.3
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille22",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          92,
+          69,
+          75.3
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanGrille24",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.2,
+          6,
+          0.3
+        ],
+        "Position": [
+          94,
+          69,
+          75.3
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanShelter2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          18,
+          0.6,
+          7
+        ],
+        "Position": [
+          90,
+          66.7,
+          88
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanShelterPost2-8.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.4,
+          7
+        ],
+        "Position": [
+          81.5,
+          65.2,
+          88
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FanShelterPost28.5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          2.4,
+          7
+        ],
+        "Position": [
+          98.5,
+          65.2,
+          88
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LongDuct",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          42,
+          4,
+          6
+        ],
+        "Position": [
+          20,
+          66,
+          50
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DuctElbow",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          4,
+          22
+        ],
+        "Position": [
+          38,
+          66,
+          60
+        ],
+        "Color": [
+          0.43,
+          0.5,
+          0.53
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Chimney",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          9,
+          12,
+          9
+        ],
+        "Position": [
+          -30,
+          70,
+          88
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Brick",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ChimneyCap",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          11,
+          1,
+          11
+        ],
+        "Position": [
+          -30,
+          76.5,
+          88
+        ],
+        "Color": [
+          0.14,
+          0.19,
+          0.21
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SkylightFrame",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          20,
+          0.5,
+          14
+        ],
+        "Position": [
+          78,
+          64.25,
+          -22
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SkylightGlass",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          18,
+          0.2,
+          12
+        ],
+        "Position": [
+          78,
+          64.6,
+          -22
+        ],
+        "Color": [
+          0.44,
+          0.66,
+          0.76
+        ],
+        "Material": "Glass",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 0.25
+      }
+    },
+    {
+      "Name": "StairOpeningGuard126.7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          4.5,
+          44
+        ],
+        "Position": [
+          126.7,
+          66.25,
+          -2
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StairOpeningGuard141.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          4.5,
+          44
+        ],
+        "Position": [
+          141.3,
+          66.25,
+          -2
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    }
+  ]
+}

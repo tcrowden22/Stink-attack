@@ -13,3 +13,8 @@
 10. **Expanded house/refuge pending runtime verification.** Playroom, clubhouse entrances, refuge membership, vacuum relocation and crowded spawn behavior have compile/build and geometry checks only. The roof may require camera tuning.
 11. **Larger-lobby capacity is not configured.** Team policy supports larger groups, but the Roblox experience's maximum player count must be set separately and tested on real clients.
 12. **Refuge capture integration is pending.** The server provides isProtected and excludes vacuums, but suction/capture code does not exist yet. A future capture must recheck position through that server function.
+
+13. **Vertical traversal is not yet observed in Studio.** Static checks confirm sampled stair headroom, book-step clearance and attic tunnel centers; actual Humanoid movement and mobile book jumping must be tested.
+14. **Solid ceilings change camera behavior.** Zoom occlusion is configured, but camera comfort inside the house, stairwell and attic still needs review. No ceiling transparency feature is implemented.
+15. **Rooftop fans are stationary.** They are hiding geometry, not moving hazards. The skylight is decorative and does not open.
+16. **Expanded map performance pending.** The house now contains 775 anchored parts; larger-server and real-device performance remain unmeasured.

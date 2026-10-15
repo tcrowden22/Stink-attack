@@ -1,0 +1,2342 @@
+{
+  "ClassName": "Model",
+  "Children": [
+    {
+      "Name": "FloorPanel0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2,
+          14
+        ],
+        "Position": [
+          -39,
+          47,
+          -31
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2,
+          64
+        ],
+        "Position": [
+          -39,
+          47,
+          8
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2,
+          2
+        ],
+        "Position": [
+          -39,
+          47,
+          41
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2,
+          29
+        ],
+        "Position": [
+          -39,
+          47,
+          56.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2,
+          39
+        ],
+        "Position": [
+          -39,
+          47,
+          90.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          2,
+          14
+        ],
+        "Position": [
+          -22,
+          47,
+          -31
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          2,
+          64
+        ],
+        "Position": [
+          -22,
+          47,
+          8
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          2,
+          2
+        ],
+        "Position": [
+          -22,
+          47,
+          41
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          2,
+          39
+        ],
+        "Position": [
+          -22,
+          47,
+          90.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel9",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          143,
+          2,
+          14
+        ],
+        "Position": [
+          55.5,
+          47,
+          -31
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          143,
+          2,
+          64
+        ],
+        "Position": [
+          55.5,
+          47,
+          8
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          143,
+          2,
+          2
+        ],
+        "Position": [
+          55.5,
+          47,
+          41
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          143,
+          2,
+          29
+        ],
+        "Position": [
+          55.5,
+          47,
+          56.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          143,
+          2,
+          39
+        ],
+        "Position": [
+          55.5,
+          47,
+          90.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          2,
+          14
+        ],
+        "Position": [
+          134,
+          47,
+          -31
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel15",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          2,
+          2
+        ],
+        "Position": [
+          134,
+          47,
+          41
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          2,
+          29
+        ],
+        "Position": [
+          134,
+          47,
+          56.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel17",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          2,
+          39
+        ],
+        "Position": [
+          134,
+          47,
+          90.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel18",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          14
+        ],
+        "Position": [
+          143.5,
+          47,
+          -31
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel19",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          64
+        ],
+        "Position": [
+          143.5,
+          47,
+          8
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          2
+        ],
+        "Position": [
+          143.5,
+          47,
+          41
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel21",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          29
+        ],
+        "Position": [
+          143.5,
+          47,
+          56.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel22",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          39
+        ],
+        "Position": [
+          143.5,
+          47,
+          90.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SideWall-50",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          14,
+          148
+        ],
+        "Position": [
+          -50,
+          55,
+          36
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SideWall146",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          14,
+          148
+        ],
+        "Position": [
+          146,
+          55,
+          36
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EndWall-38",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          196,
+          14,
+          1
+        ],
+        "Position": [
+          48,
+          55,
+          -38
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EndWall110",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          196,
+          14,
+          1
+        ],
+        "Position": [
+          48,
+          55,
+          110
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Rafter-26",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          170,
+          1.2,
+          1.2
+        ],
+        "Position": [
+          36,
+          60,
+          -26
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Rafter10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          170,
+          1.2,
+          1.2
+        ],
+        "Position": [
+          36,
+          60,
+          10
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Rafter46",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          170,
+          1.2,
+          1.2
+        ],
+        "Position": [
+          36,
+          60,
+          46
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Rafter82",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          170,
+          1.2,
+          1.2
+        ],
+        "Position": [
+          36,
+          60,
+          82
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "Rafter102",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          170,
+          1.2,
+          1.2
+        ],
+        "Position": [
+          36,
+          60,
+          102
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RafterPost-42-26",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.2,
+          12,
+          1.2
+        ],
+        "Position": [
+          -42,
+          54,
+          -26
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RafterPost-4282",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.2,
+          12,
+          1.2
+        ],
+        "Position": [
+          -42,
+          54,
+          82
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RafterPost42-26",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.2,
+          12,
+          1.2
+        ],
+        "Position": [
+          42,
+          54,
+          -26
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RafterPost4282",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.2,
+          12,
+          1.2
+        ],
+        "Position": [
+          42,
+          54,
+          82
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RafterPost117-26",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.2,
+          12,
+          1.2
+        ],
+        "Position": [
+          117,
+          54,
+          -26
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RafterPost11782",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1.2,
+          12,
+          1.2
+        ],
+        "Position": [
+          117,
+          54,
+          82
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StorageCrate0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          7,
+          10
+        ],
+        "Position": [
+          -33,
+          51.5,
+          -15
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateLid0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10.5,
+          0.5,
+          10.5
+        ],
+        "Position": [
+          -33,
+          55.25,
+          -15
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand0-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          -36,
+          51.55,
+          -15
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand03",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          -30,
+          51.55,
+          -15
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StorageCrate1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          7,
+          10
+        ],
+        "Position": [
+          -15,
+          51.5,
+          -20
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateLid1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10.5,
+          0.5,
+          10.5
+        ],
+        "Position": [
+          -15,
+          55.25,
+          -20
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand1-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          -18,
+          51.55,
+          -20
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          -12,
+          51.55,
+          -20
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StorageCrate2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          7,
+          10
+        ],
+        "Position": [
+          15,
+          51.5,
+          -10
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateLid2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10.5,
+          0.5,
+          10.5
+        ],
+        "Position": [
+          15,
+          55.25,
+          -10
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand2-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          12,
+          51.55,
+          -10
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand23",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          18,
+          51.55,
+          -10
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StorageCrate3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          7,
+          10
+        ],
+        "Position": [
+          55,
+          51.5,
+          -12
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateLid3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10.5,
+          0.5,
+          10.5
+        ],
+        "Position": [
+          55,
+          55.25,
+          -12
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand3-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          52,
+          51.55,
+          -12
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand33",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          58,
+          51.55,
+          -12
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StorageCrate4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          7,
+          10
+        ],
+        "Position": [
+          78,
+          51.5,
+          -20
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateLid4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10.5,
+          0.5,
+          10.5
+        ],
+        "Position": [
+          78,
+          55.25,
+          -20
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand4-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          75,
+          51.55,
+          -20
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand43",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          81,
+          51.55,
+          -20
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StorageCrate5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          7,
+          10
+        ],
+        "Position": [
+          102,
+          51.5,
+          2
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateLid5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10.5,
+          0.5,
+          10.5
+        ],
+        "Position": [
+          102,
+          55.25,
+          2
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand5-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          99,
+          51.55,
+          2
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand53",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          105,
+          51.55,
+          2
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StorageCrate6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          7,
+          10
+        ],
+        "Position": [
+          12,
+          51.5,
+          70
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateLid6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10.5,
+          0.5,
+          10.5
+        ],
+        "Position": [
+          12,
+          55.25,
+          70
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand6-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          9,
+          51.55,
+          70
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand63",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          15,
+          51.55,
+          70
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StorageCrate7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          7,
+          10
+        ],
+        "Position": [
+          50,
+          51.5,
+          85
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateLid7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10.5,
+          0.5,
+          10.5
+        ],
+        "Position": [
+          50,
+          55.25,
+          85
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand7-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          47,
+          51.55,
+          85
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand73",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          53,
+          51.55,
+          85
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StorageCrate8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10,
+          7,
+          10
+        ],
+        "Position": [
+          94,
+          51.5,
+          90
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateLid8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          10.5,
+          0.5,
+          10.5
+        ],
+        "Position": [
+          94,
+          55.25,
+          90
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand8-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          91,
+          51.55,
+          90
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrateBand83",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.5,
+          7.1,
+          10.1
+        ],
+        "Position": [
+          97,
+          51.55,
+          90
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrawlShelf0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          0.8,
+          8
+        ],
+        "Position": [
+          15,
+          50.8,
+          28
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EscapeGateAttic0-11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.25,
+          2.4,
+          6
+        ],
+        "Position": [
+          4,
+          49.2,
+          28
+        ],
+        "Color": [
+          0.5,
+          0.86,
+          0.26
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "CrawlMarker0-11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.1,
+          6
+        ],
+        "Position": [
+          2.3500000000000014,
+          48.1,
+          28
+        ],
+        "Color": [
+          0.5,
+          0.86,
+          0.26
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EscapeGateAttic011",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.25,
+          2.4,
+          6
+        ],
+        "Position": [
+          26,
+          49.2,
+          28
+        ],
+        "Color": [
+          0.5,
+          0.86,
+          0.26
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "CrawlMarker011",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.1,
+          6
+        ],
+        "Position": [
+          27.65,
+          48.1,
+          28
+        ],
+        "Color": [
+          0.5,
+          0.86,
+          0.26
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrawlShelf1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          0.8,
+          8
+        ],
+        "Position": [
+          80,
+          50.8,
+          60
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EscapeGateAttic1-11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.25,
+          2.4,
+          6
+        ],
+        "Position": [
+          69,
+          49.2,
+          60
+        ],
+        "Color": [
+          0.5,
+          0.86,
+          0.26
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "CrawlMarker1-11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.1,
+          6
+        ],
+        "Position": [
+          67.35,
+          48.1,
+          60
+        ],
+        "Color": [
+          0.5,
+          0.86,
+          0.26
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EscapeGateAttic111",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.25,
+          2.4,
+          6
+        ],
+        "Position": [
+          91,
+          49.2,
+          60
+        ],
+        "Color": [
+          0.5,
+          0.86,
+          0.26
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Transparency": 1,
+        "CanQuery": false,
+        "CanTouch": false
+      }
+    },
+    {
+      "Name": "CrawlMarker111",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.1,
+          6
+        ],
+        "Position": [
+          92.65,
+          48.1,
+          60
+        ],
+        "Color": [
+          0.5,
+          0.86,
+          0.26
+        ],
+        "Material": "Neon",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "OldTrunk",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          5,
+          7
+        ],
+        "Position": [
+          -38,
+          50.5,
+          93
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "OldTrunkLid",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14.5,
+          0.7,
+          7.5
+        ],
+        "Position": [
+          -38,
+          53.2,
+          93
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FoldedBlanket",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          8,
+          2,
+          6
+        ],
+        "Position": [
+          22,
+          49,
+          96
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrawlSide0_-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2.4,
+          1
+        ],
+        "Position": [
+          15,
+          49.2,
+          24.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrawlSide0_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2.4,
+          1
+        ],
+        "Position": [
+          15,
+          49.2,
+          31.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrawlSide1_-1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2.4,
+          1
+        ],
+        "Position": [
+          80,
+          49.2,
+          56.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "CrawlSide1_1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2.4,
+          1
+        ],
+        "Position": [
+          80,
+          49.2,
+          63.5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StairOpeningGuard126.7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          4.5,
+          64
+        ],
+        "Position": [
+          126.7,
+          50.25,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StairOpeningGuard141.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          4.5,
+          64
+        ],
+        "Position": [
+          141.3,
+          50.25,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    }
+  ]
+}

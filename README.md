@@ -2,7 +2,7 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
-**Current milestone: foundation free play, awaiting Studio acceptance. This is not yet the complete Week 1 game.** The repository contains a connected house with four furnished rooms and a bug clubhouse, two server-assigned teams, explicit R15 character creation, scaled avatars, respawning, bug-only tunnel collision rules, and a small diagnostic HUD. No external models or runtime packages are used.
+**Current milestone: foundation free play, awaiting Studio acceptance. This is not yet the complete Week 1 game.** The repository contains a multi-level house with four ground-floor rooms, upstairs rooms, an attic, a rooftop and a bug clubhouse, two server-assigned teams, explicit R15 character creation, scaled avatars, respawning, bug-only tunnel collision rules, and a small diagnostic HUD. No external models or runtime packages are used.
 
 Repository: https://github.com/tcrowden22/Stink-attack
 
@@ -47,7 +47,7 @@ Create the build directory before using the raw build command. For Lua syntax ch
 | Path | Responsibility |
 | --- | --- |
 | `default.project.json` | Rojo DataModel mappings and lighting |
-| `map/*.model.json` | 337 anchored parts across LivingRoom, Kitchen, Bedroom, Playroom and BugClubhouse |
+| `map/*.model.json` | 775 anchored parts across nine models, including Stairwell, Upstairs, Attic and Rooftop |
 | `src/shared/Config.luau` | Scales, speeds, team ratio, future round timing |
 | `src/shared/TeamPolicy.luau` | Pure allocation policy, independently tested |
 | `src/server/MapService.luau` | Collision groups and spawn positions |
@@ -97,3 +97,11 @@ The playroom connects the kitchen and bedroom into a loop. A covered BugClubhous
 At 10 players the initial split is 8 bugs / 2 vacuums; at 20 it is 16 / 4; at 30 it is 24 / 6. Two-player testing remains 1 / 1. These are player slots, not generated AI bugs. Configuring Roblox's actual server capacity and load-testing it are still required.
 
 Future suction/capture code must call `RefugeService.isProtected(player)` at capture time. The replicated HUD attribute is informational. Capture and rounds remain unimplemented, so protection against capture cannot yet be playtested.
+
+## Upstairs, attic and rooftop
+
+The ground floor now has a solid ceiling formed by the upstairs floor. Enter the side stairwell from the kitchen's northeast doorway (X=122, Z=-28) or the playroom's east doorway (X=122, Z=84). Main stairs connect ground level (Y=0), upstairs (Y=24), attic (Y=48), and rooftop (Y=64). At each landing, walk around the stair opening to the north end to start the next flight. The stairs use invisible continuous collision ramps beneath visible treads so small avatars can walk up without climbing every riser.
+
+Book-stack routes in the bedroom (near X=-22, Z=44) and upstairs lead to the next floor with 1.5-stud jumps. The attic contains crates, rafters, a trunk and two low bug-only crawl tunnels. The roof has three stationary fan housings, sheltered hiding spots, ducts, a chimney and a raised skylight detail. Roof-edge parapets and guards surround stair openings.
+
+The default camera uses Zoom occlusion with a 24-stud maximum distance. Ceilings stay solid and visible. Actual stair traversal, book jumps, head clearance and camera behavior need Studio acceptance; the geometric checks are not a substitute for Humanoid playtesting.

@@ -44,6 +44,21 @@ Before starting, read README's Studio actions. Connect Rojo, stop any existing s
 - [ ] Private larger-server test: 20 players initially split 16 bugs / 4 vacuums. Record performance and crowding before choosing a public player limit.
 - [ ] Future capture implementation checks RefugeService.isProtected at capture time; no capture test is possible yet.
 
+### Upstairs, attic and rooftop
+
+- [ ] Both ground-floor stairwell doorways are reachable without furniture blocking them.
+- [ ] Both teams walk each of the three main flights in both directions without jumping or snagging.
+- [ ] Each upper landing connects to the next flight via the west-side walkway.
+- [ ] Bug jumps all 16 book steps to upstairs, then all 16 to the attic; repeat on mobile.
+- [ ] Stair and book openings have no hidden floor panel blocking the avatar.
+- [ ] Both attic tunnels pass bugs and exclude vacuums; crates and beams leave usable routes.
+- [ ] Rooftop fans, shelters, ducts and chimney create accessible hiding spaces.
+- [ ] Roof parapets and opening guards prevent accidental falls during ordinary walking.
+- [ ] Camera zoom responds to ceilings on every level; no prolonged wall/ceiling obstruction.
+- [ ] Leaving or resetting from upstairs/attic/roof respawns each team at its original team spawn.
+- [ ] Clubhouse protection continues to apply only inside the clubhouse.
+- [ ] Check frame rate on a real mobile device with the expanded 775-part map and multiple players.
+
 **Gate result:** PENDING. Record evidence here before moving to Gate 2. Static part sizes do not establish actual avatar clearance.
 
 ## Gate 2: server-validated suction (not implemented)

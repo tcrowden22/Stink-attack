@@ -1,0 +1,1605 @@
+{
+  "ClassName": "Model",
+  "Children": [
+    {
+      "Name": "FloorPanel0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2,
+          14
+        ],
+        "Position": [
+          -39,
+          23,
+          -31
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2,
+          64
+        ],
+        "Position": [
+          -39,
+          23,
+          8
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2,
+          2
+        ],
+        "Position": [
+          -39,
+          23,
+          41
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2,
+          29
+        ],
+        "Position": [
+          -39,
+          23,
+          56.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel4",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          22,
+          2,
+          39
+        ],
+        "Position": [
+          -39,
+          23,
+          90.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          2,
+          14
+        ],
+        "Position": [
+          -22,
+          23,
+          -31
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel6",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          2,
+          64
+        ],
+        "Position": [
+          -22,
+          23,
+          8
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          2,
+          2
+        ],
+        "Position": [
+          -22,
+          23,
+          41
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel8",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          12,
+          2,
+          39
+        ],
+        "Position": [
+          -22,
+          23,
+          90.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel9",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          143,
+          2,
+          14
+        ],
+        "Position": [
+          55.5,
+          23,
+          -31
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel10",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          143,
+          2,
+          64
+        ],
+        "Position": [
+          55.5,
+          23,
+          8
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel11",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          143,
+          2,
+          2
+        ],
+        "Position": [
+          55.5,
+          23,
+          41
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel12",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          143,
+          2,
+          29
+        ],
+        "Position": [
+          55.5,
+          23,
+          56.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel13",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          143,
+          2,
+          39
+        ],
+        "Position": [
+          55.5,
+          23,
+          90.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel14",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          2,
+          14
+        ],
+        "Position": [
+          134,
+          23,
+          -31
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel15",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          2,
+          2
+        ],
+        "Position": [
+          134,
+          23,
+          41
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel16",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          2,
+          29
+        ],
+        "Position": [
+          134,
+          23,
+          56.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel17",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          14,
+          2,
+          39
+        ],
+        "Position": [
+          134,
+          23,
+          90.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel18",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          14
+        ],
+        "Position": [
+          143.5,
+          23,
+          -31
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel19",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          64
+        ],
+        "Position": [
+          143.5,
+          23,
+          8
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel20",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          2
+        ],
+        "Position": [
+          143.5,
+          23,
+          41
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel21",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          29
+        ],
+        "Position": [
+          143.5,
+          23,
+          56.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "FloorPanel22",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          2,
+          39
+        ],
+        "Position": [
+          143.5,
+          23,
+          90.5
+        ],
+        "Color": [
+          0.65,
+          0.47,
+          0.3
+        ],
+        "Material": "WoodPlanks",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SideWall-50",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          148
+        ],
+        "Position": [
+          -50,
+          35,
+          36
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "SideWall146",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          148
+        ],
+        "Position": [
+          146,
+          35,
+          36
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EndWall-38",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          196,
+          22,
+          1
+        ],
+        "Position": [
+          48,
+          35,
+          -38
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "EndWall110",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          196,
+          22,
+          1
+        ],
+        "Position": [
+          48,
+          35,
+          110
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsBedFrame",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          20,
+          2,
+          26
+        ],
+        "Position": [
+          -20,
+          26,
+          -15
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsBedMattress",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          19,
+          2,
+          25
+        ],
+        "Position": [
+          -20,
+          28,
+          -15
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsBedBlanket",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          19.3,
+          0.6,
+          17
+        ],
+        "Position": [
+          -20,
+          29.3,
+          -18
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsBedPillow-5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          7,
+          1,
+          4
+        ],
+        "Position": [
+          -25,
+          29.5,
+          -6
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsBedPillow5",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          7,
+          1,
+          4
+        ],
+        "Position": [
+          -15,
+          29.5,
+          -6
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsBedHeadboard",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          21,
+          8,
+          1
+        ],
+        "Position": [
+          -20,
+          28,
+          -2
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedsideTable",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          6,
+          5,
+          6
+        ],
+        "Position": [
+          -36,
+          26.5,
+          -7
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "BedroomRug",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          36,
+          0.1,
+          35
+        ],
+        "Position": [
+          -20,
+          24.05,
+          -13
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsSofaSeat",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          25,
+          3,
+          9
+        ],
+        "Position": [
+          82,
+          28,
+          -23
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsSofaBack",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          25,
+          7,
+          2
+        ],
+        "Position": [
+          82,
+          30,
+          -28
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsSofaArm70",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          5,
+          10
+        ],
+        "Position": [
+          70,
+          29,
+          -23
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "UpstairsSofaArm94",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          5,
+          10
+        ],
+        "Position": [
+          94,
+          29,
+          -23
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LoungeRug",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          34,
+          0.1,
+          25
+        ],
+        "Position": [
+          82,
+          24.05,
+          -5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LoungeTable",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          15,
+          1,
+          8
+        ],
+        "Position": [
+          82,
+          29,
+          -5
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LoungeTableLeg76-7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.8,
+          4.5,
+          0.8
+        ],
+        "Position": [
+          76,
+          26.25,
+          -7
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LoungeTableLeg76-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.8,
+          4.5,
+          0.8
+        ],
+        "Position": [
+          76,
+          26.25,
+          -3
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LoungeTableLeg88-7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.8,
+          4.5,
+          0.8
+        ],
+        "Position": [
+          88,
+          26.25,
+          -7
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "LoungeTableLeg88-3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.8,
+          4.5,
+          0.8
+        ],
+        "Position": [
+          88,
+          26.25,
+          -3
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StudyDesk",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          20,
+          1,
+          8
+        ],
+        "Position": [
+          91,
+          30,
+          96
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskLeg83",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          5.5,
+          6
+        ],
+        "Position": [
+          83,
+          26.75,
+          96
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskLeg99",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          5.5,
+          6
+        ],
+        "Position": [
+          99,
+          26.75,
+          96
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StudyChair",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          5,
+          3,
+          5
+        ],
+        "Position": [
+          91,
+          25.5,
+          87
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskBook0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4,
+          0.7,
+          3
+        ],
+        "Position": [
+          86,
+          30.85,
+          96
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskBook1",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4,
+          0.7,
+          3
+        ],
+        "Position": [
+          89,
+          30.85,
+          96
+        ],
+        "Color": [
+          0.88,
+          0.48,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskBook2",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4,
+          0.7,
+          3
+        ],
+        "Position": [
+          92,
+          30.85,
+          96
+        ],
+        "Color": [
+          0.29,
+          0.46,
+          0.64
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DeskBook3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          4,
+          0.7,
+          3
+        ],
+        "Position": [
+          95,
+          30.85,
+          96
+        ],
+        "Color": [
+          0.88,
+          0.48,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ToyChest",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          15,
+          5,
+          8
+        ],
+        "Position": [
+          0,
+          26.5,
+          94
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ToyChestLid",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          15.5,
+          0.6,
+          8.5
+        ],
+        "Position": [
+          0,
+          29.3,
+          94
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ReadingCushion52",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          9,
+          1.3,
+          7
+        ],
+        "Position": [
+          43,
+          24.65,
+          52
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "ReadingCushion64",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          9,
+          1.3,
+          7
+        ],
+        "Position": [
+          43,
+          24.65,
+          64
+        ],
+        "Color": [
+          0.62,
+          0.48,
+          0.72
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RoomDivider-50",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          41,
+          12,
+          1
+        ],
+        "Position": [
+          -29.5,
+          30,
+          35
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RoomDivider9",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          68,
+          12,
+          1
+        ],
+        "Position": [
+          43,
+          30,
+          35
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "RoomDivider95",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          26,
+          12,
+          1
+        ],
+        "Position": [
+          108,
+          30,
+          35
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DividerLintel0",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          18,
+          3,
+          1
+        ],
+        "Position": [
+          0,
+          37.5,
+          35
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "DividerLintel86",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          18,
+          3,
+          1
+        ],
+        "Position": [
+          86,
+          37.5,
+          35
+        ],
+        "Color": [
+          0.38,
+          0.59,
+          0.48
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StairOpeningGuard126.7",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          4.5,
+          64
+        ],
+        "Position": [
+          126.7,
+          26.25,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StairOpeningGuard141.3",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          0.4,
+          4.5,
+          64
+        ],
+        "Position": [
+          141.3,
+          26.25,
+          8
+        ],
+        "Color": [
+          0.43,
+          0.25,
+          0.15
+        ],
+        "Material": "Wood",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    }
+  ]
+}

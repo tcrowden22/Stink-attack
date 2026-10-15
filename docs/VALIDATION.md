@@ -41,3 +41,13 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Static clearance checks passed for the two playroom doors, two clubhouse entrances and the central clubhouse spawn volume.
 - Full-content Aikido scan of all 12 proposed code/configuration/model/test files returned zero findings.
 - Refuge enforcement, HUD state, signs, roof/camera behavior, actual avatar clearance and larger-lobby performance remain unverified in Studio.
+
+## Upstairs, attic and rooftop — 2026-10-15
+
+- Added Stairwell, Upstairs, Attic and Rooftop models; rebuilt place contains 775 Parts across nine room/structure models.
+- All ten Luau files compile; existing allocation tests pass.
+- Static checks confirmed positive sizes, anchored parts and unique names within each model.
+- Sampled 6.5-stud vertical headroom in three lanes along all three main collision ramps, using inverse rotation for oriented parts: clear.
+- Sampled 2-stud headroom above each of the 32 book steps: clear. Both attic tunnel centers are clear except their intentional bug-only gates.
+- Aikido full-content scan covered the eight changed code/configuration/model files; rescanned the three adjusted upper-level models after geometry fixes. All scans returned zero findings.
+- Roblox Studio traversal, visual inspection, camera behavior and mobile performance remain unverified.

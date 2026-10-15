@@ -27,31 +27,6 @@
       }
     },
     {
-      "Name": "EastWall",
-      "ClassName": "Part",
-      "Properties": {
-        "Anchored": true,
-        "Size": [
-          1,
-          22,
-          72
-        ],
-        "Position": [
-          122,
-          11,
-          74
-        ],
-        "Color": [
-          0.82,
-          0.75,
-          0.56
-        ],
-        "Material": "SmoothPlastic",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
       "Name": "SouthWall",
       "ClassName": "Part",
       "Properties": {
@@ -1419,6 +1394,106 @@
         "Color": [
           0.93,
           0.52,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StairEntryNorth",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          39
+        ],
+        "Position": [
+          122,
+          11,
+          57.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StairEntrySouth",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          22,
+          19
+        ],
+        "Position": [
+          122,
+          11,
+          100.5
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StairEntryHeader",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          1,
+          10,
+          14
+        ],
+        "Position": [
+          122,
+          17,
+          84
+        ],
+        "Color": [
+          0.93,
+          0.86,
+          0.7
+        ],
+        "Material": "SmoothPlastic",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "Name": "StairEntryThreshold",
+      "ClassName": "Part",
+      "Properties": {
+        "Anchored": true,
+        "Size": [
+          2,
+          0.08,
+          14
+        ],
+        "Position": [
+          122,
+          0.06,
+          84
+        ],
+        "Color": [
+          0.88,
+          0.48,
           0.24
         ],
         "Material": "SmoothPlastic",
