@@ -2,6 +2,8 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
+**Snack-powered flight:** gold snacks now earn short flight bursts (up to three saved). Press **F** or tap **Fly** from the ground; steer normally. Carrying and delivering snacks still work as before. Stop Play, save the current imported house, sync Rojo, then Play again; no mesh reimport is needed. See the [flight playtest checklist](docs/SOLO_SNACK_RUN.md#snack-powered-flight).
+
 **New: [solo snack run](docs/SOLO_SNACK_RUN.md).** Collect glowing snacks, return them to the bug clubhouse, and evade a server-controlled Clean Team robot. Capture loses carried snacks and respawns you at home; delivered totals last only for the session. The robot is enabled for one StinkBug player. Player vacuum abilities and full multiplayer rounds remain unfinished.
 
 **Current milestone: foundation free play, awaiting Studio acceptance. This is not yet the complete Week 1 game.** The repository contains a multi-level house with four ground-floor rooms, upstairs rooms, an attic, a rooftop and a bug clubhouse, two server-assigned teams, explicit R15 character creation, scaled avatars, respawning, bug-only tunnel collision rules, and a small diagnostic HUD. No external models or runtime packages are used.

@@ -14,7 +14,26 @@ One Clean Team robot activates when exactly one player is present and assigned t
 
 The robot moves at nine studs/second, slower than the bug's thirteen. Captures have a four-second cooldown. Snacks respawn after twenty seconds. There are eight ground-floor snacks and four upstairs/attic snacks. The robot patrols downstairs; its chase path can use reachable routes elsewhere. Path failures stop movement and retry; the robot does not directly teleport through obstacles to catch a target.
 
-## Boundaries
+## Snack-powered flight
+
+Every successful gold snack pickup grants one flight charge, up to three. Press **F** (gamepad **Y**) or tap **Fly** on mobile while standing on the ground. Steer with ordinary movement. Each burst lasts 1.8 seconds and approaches a six-stud rise before gravity resumes. Temporary translucent wings show during the burst.
+
+Flight spends a charge, not a carried snack. Delivering snacks preserves remaining charges. Land before taking off again; launches have a three-second cooldown. Capture, reset, character replacement, team change and disconnect clear fuel and stop lift. Low ceilings block launch or end a burst. Flight does not grant immunity to the robot. Vacuum range and strength are unchanged.
+
+The server awards fuel only after a validated pickup and checks team, life, floor contact, cooldown and fuel before creating lift. Requests contain no movement values. Normal Roblox character physics ownership is retained for steering; this is not a complete movement anti-cheat.
+
+### Flight acceptance in Studio (pending)
+
+- [ ] No snack: F/Fly does not lift the bug. One pickup adds exactly one charge; four pickups cap fuel at three while carrying four snacks.
+- [ ] F/Fly spends exactly one charge, shows wings, lifts smoothly, permits steering and ends after the short burst.
+- [ ] Repeated presses during flight, cooldown or airborne falling do not spend another charge or extend flight.
+- [ ] Walls, low furniture, ceilings and attic slopes block movement normally. No clipping or leftover upward drift after the burst.
+- [ ] Delivery banks the original snack count and retains unused flight charges.
+- [ ] Capture/reset while flying removes wings/lift and returns home with zero fuel. Robot can still capture a flying bug in range.
+- [ ] Mobile Fly button does not overlap jump/collection controls in portrait or landscape; menu hides flight input.
+- [ ] With two players, only the bug receives flight; the other client sees lift and wings. Team changes, disconnects and respawns leave no constraints behind.
+
+## Other boundaries
 
 - The robot is solo-only. It despawns with two or more players and resumes when a sole StinkBug remains. A sole Vacuum left after a multiplayer session keeps that team; rejoin solo to become a bug.
 - Collection/delivery works for bug players in multiplayer, but player-operated vacuum suction, full rounds and spectator mode remain separate work.

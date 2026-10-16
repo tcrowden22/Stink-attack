@@ -105,3 +105,14 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Twelve snack locations passed the static source-part overlap check. Built StinkBugsVsVacuums-solo-preview.rbxlx separately from the user's saved house.
 - Aikido final scan: ten changed code files, zero issues, zero skipped.
 - Actual Roblox pathfinding, capture feel, respawn visuals, mobile prompts and join/leave transitions remain pending Studio acceptance in SOLO_SNACK_RUN.md.
+
+# Snack-powered flight — 2026-10-16
+
+- Gold pickups award one server-owned flight charge, capped at three. Flight preserves carried/banked snack counts.
+- Added server-validated grounded launches, 1.8-second lift, six-stud target rise, three-second launch cooldown and cleanup on death/character removal/team change/disconnect.
+- Desktop F, gamepad Y and mobile Fly request the same server action. HUD shows fuel and recharge time; temporary native wings require no imports.
+- All Luau compiled; team policy, bug gait, solo rules and new flight rule tests passed.
+- Separate Rojo build: build/StinkBugsVsVacuums-flight-preview.rbxlx. The existing imported Studio house was not overwritten.
+- Aikido proposal scan reported zero issues; final on-disk scan covered all nine changed first-party code files with zero findings and zero skipped paths.
+- Studio flight physics, steering, ceiling clearance, touch layout and multiplayer replication are not yet verified. See SOLO_SNACK_RUN.md for the acceptance checklist.
+- User confirmed existing robot vacuum works well; longer/stronger suction remains deferred and its settings were not changed.

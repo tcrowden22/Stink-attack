@@ -17,3 +17,4 @@ end
 require(script.Parent.Hud).start()
 require(script.Parent.BugAnimation).start()
 require(script.Parent.Welcome).start()
+require(script.Parent.FlightController).start()

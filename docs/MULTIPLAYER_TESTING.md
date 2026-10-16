@@ -144,3 +144,6 @@ Before starting, read README's Studio actions. Connect Rojo, stop any existing s
 # Solo robot and collection gate
 
 Follow the complete checklist in SOLO_SNACK_RUN.md. In particular test solo patrol and capture, refuge immunity, delivery and carried-item loss, then add a second client during pursuit to verify robot/beam cleanup. Check concurrent pickup claims, character resets and disconnects before accepting this feature.
+# Snack flight regression
+
+Follow the flight checks in [Solo snack run](SOLO_SNACK_RUN.md). With two clients, verify only the StinkBug earns fuel, the Vacuum sees the bug's flight/wings, and reset or disconnect during flight leaves no lift behind. These engine checks are pending.

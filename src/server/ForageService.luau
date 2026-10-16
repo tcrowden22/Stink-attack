@@ -2,6 +2,7 @@
 local Players=game:GetService("Players")
 local Rules=require(game:GetService("ReplicatedStorage").Shared.SoloRules)
 local Refuge=require(script.Parent.RefugeService)
+local Flight=require(script.Parent.FlightService)
 local Forage={}
 local states: {[Player]: {carried: number,banked: number,last: number,connection: RBXScriptConnection?}}={}
 local positions={
@@ -85,7 +86,8 @@ function Forage.start()
             -- No yield between claiming the shared item and updating server inventory.
             ready=false; prompt.Enabled=false; snack.Transparency=1
             s.carried+=1; sync(p)
-            p:SetAttribute("ForageMessage","Snack collected! Return to the bug clubhouse.")
+            Flight.award(p)
+            p:SetAttribute("ForageMessage","Snack collected! Flight charged. Bring snacks home.")
             task.delay(Rules.ItemRespawn,function()
                 if snack.Parent then ready=true; snack.Transparency=0; prompt.Enabled=true end
             end)

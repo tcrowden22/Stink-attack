@@ -34,15 +34,21 @@ function Hud.start()
         local message=player:GetAttribute("ForageMessage") or "Collect glowing snacks."
         local safe=player:GetAttribute("InBugRefuge")
         local status=if threat~="" then threat elseif safe then "HOME • Safe from Clean Team" else message
+        local readyAt=player:GetAttribute("FlightReadyAt") or 0
+        local remaining=math.max(0,math.ceil(readyAt-workspace:GetServerTimeNow()))
+        local flightHint=if player:GetAttribute("FlightActive") then "Flying! Steer normally."
+            elseif remaining>0 then "Flight recharging: "..remaining.."s"
+            else "F / Fly: take off from the ground"
         panel.Text=string.format(
-            "STINK BUGS vs. VACUUMS • %s\nCarrying %d/5  •  Delivered %d\n%s\nCollect nearby snacks (E / tap). Return home to deliver.",
-            teamName,player:GetAttribute("CarriedSnacks") or 0,player:GetAttribute("BankedSnacks") or 0,status
+            "STINK BUGS vs. VACUUMS • %s\nCarrying %d/5  •  Delivered %d  •  Flights %d/3\n%s\nE / tap: collect • %s",
+            teamName,player:GetAttribute("CarriedSnacks") or 0,player:GetAttribute("BankedSnacks") or 0,
+            player:GetAttribute("FlightCharges") or 0,status,flightHint
         )
     end
     player:GetPropertyChangedSignal("Team"):Connect(refresh)
     player:GetAttributeChangedSignal("SpawnStatus"):Connect(refresh)
     player:GetAttributeChangedSignal("InBugRefuge"):Connect(refresh)
-    for _,name in {"CarriedSnacks","BankedSnacks","ForageMessage","CleanerThreat"} do
+    for _,name in {"CarriedSnacks","BankedSnacks","ForageMessage","CleanerThreat","FlightCharges"} do
         player:GetAttributeChangedSignal(name):Connect(refresh)
     end
     Players.PlayerAdded:Connect(refresh)
@@ -50,6 +56,12 @@ function Hud.start()
         task.defer(refresh)
     end)
     refresh()
+    task.spawn(function()
+        while gui.Parent do
+            task.wait(.2)
+            refresh()
+        end
+    end)
 end
 
 return Hud
