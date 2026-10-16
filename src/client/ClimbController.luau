@@ -30,5 +30,17 @@ function Climb.start()
     player:GetAttributeChangedSignal("BugClimbing"):Connect(refresh)
     gui.ChildAdded:Connect(refresh); gui.ChildRemoved:Connect(refresh)
     refresh()
+    local elapsed=0
+    game:GetService("RunService").Heartbeat:Connect(function(dt)
+        elapsed+=dt
+        if elapsed<.1 then return end
+        elapsed=0
+        if not player:GetAttribute("BugClimbing") then return end
+        local c=player.Character
+        local h=c and c:FindFirstChildOfClass("Humanoid")
+        local direction=if h and not Input:GetFocusedTextBox() and not gui:FindFirstChild("Welcome")
+            then h.MoveDirection else Vector3.zero
+        remote:FireServer("move",Vector3.new(direction.X,0,direction.Z))
+    end)
 end
 return Climb

@@ -35,14 +35,23 @@ The server awards fuel only after a validated pickup and checks team, life, floo
 
 ## Wall and furniture climbing
 
-Face a solid wall or furniture within two studs, then press **C** (gamepad **X**) or tap **Climb**. The bug climbs upward at five studs/second without spending snacks. Keep moving toward the surface to step onto furniture when the feet clear its edge. Legs animate while climbing. Press C / Let go again or turn away to release.
+Face a solid wall or furniture within two studs, then press **C** (gamepad **X**) or tap **Climb**. Normal movement toward the wall climbs up; movement away climbs down; sideways movement traverses the wall. Releasing movement pauses. Speed is capped at five studs/second and climbing costs no snacks. Legs animate with motion. Press C / Let go again to release.
 
-The server checks nearby anchored collision geometry continuously. Floors, ceilings, bug-only gates, decorative non-colliding props, players and the robot are not climb surfaces. Climbing releases at a lost surface, overhead obstacle, death, respawn, team change or grab. Flight and climbing cannot run together. This prototype climbs vertical faces upright; it does not crawl upside down on ceilings or rotate the whole body onto a wall.
+Grip lasts four seconds including time spent paused. Releasing/regrabbing in the air does not refill it. After 0.75 seconds off the wall, grounded bugs recover two seconds of grip per second, up to four. The HUD shows remaining grip while climbing. Stale or invalid movement input stops wall motion; the server owns speed, wall checks and grip.
+
+The server checks nearby anchored collision geometry continuously. Floors, ceilings, bug-only gates, decorative non-colliding props, players and the robot are not climb surfaces. Overhead obstacles stop upward motion but still permit descending. Climbing releases at a lost surface, exhausted grip, death, respawn, team change or grab. Flight and climbing cannot run together. The character stays upright; ceiling crawling is not implemented.
+
+The robot now animates the authored top hose, with a raised start, curved ribbed reach and smooth retraction. Visuals run on each client; the server still validates and applies grabs. Ground walls reach Y=24, upper walls/dividers reach Y=48, and attic perimeter walls reach Y=64. Doorways and bug routes remain open: flying through an open doorway is still possible.
+
+The saved house contained an obsolete Workspace.LivingRoom with furniture stacked at the origin, separate from Workspace.House.LivingRoom. Only that exact obsolete signature is moved into ServerStorage.LegacyMapArchive during play. The ambiguous imported sofa overlay is disabled; the visible native seat/back/cushions now match their collision geometry. The imported Sofa asset remains in the library. The decoration installer now expects 15 placements.
 
 ### Sofa, climbing and reaching-grab acceptance (pending Studio)
 
-- [ ] From the starting room, confirm the imported sofa faces into the room, with the back toward the wall. Walk/climb against its back, seat and arms to check visual/collision alignment.
-- [ ] Climb a room wall, sofa back, cabinet and attic box. Move onto a furniture top without snagging. Release with C and by turning away.
+- [ ] From the starting room, confirm there is one visible sofa with the back toward the wall and cushions toward the room. Check the old overlay is gone and the native seat/arms match collisions.
+- [ ] Climb a room wall, sofa back, cabinet and attic box. Test up/down/sideways, pause and C to release. Overhead clearance should stop upward motion without blocking descent.
+- [ ] Time four seconds on a wall, including pauses. Grip expires, airborne regrabbing cannot refill it, and resting on the floor restores it. Walk speed and turning return on release/reset/grab.
+- [ ] Watch the top hose lift before reaching, bend toward a moving bug and retract after cover/capture. No second waist hose or frozen top hose should remain.
+- [ ] Try flying over downstairs seams and upstairs dividers from furniture; the walls should block passage. Test every doorway, stairs and bug tunnel still works.
 - [ ] Try C in open air, on a floor, under a ceiling, at invisible decorations and near the robot: no free-air climb.
 - [ ] Try flight during climbing and climbing during flight: neither overlaps nor consumes an extra flight charge.
 - [ ] Watch the hose extend before pulling; no instant capture at 18 studs. Cover, refuge, leaving range and turning behind the robot break the grab.

@@ -44,6 +44,22 @@ local function create(player: Player): Model?
             local weld=Instance.new("WeldConstraint"); weld.Part0=root; weld.Part1=p; weld.Parent=p
         end
     end
+    -- Preserve the authored hose endpoints after scaling, then animate that same top hose.
+    local ribs={}
+    for _,part in art:GetChildren() do
+        if part:IsA("BasePart") and part.Name=="HoseRib" then table.insert(ribs,part) end
+    end
+    if #ribs>0 then
+        local first=ribs[1]; local last=ribs[#ribs]
+        local socket=Instance.new("Attachment"); socket.Name="TopHoseSocket"
+        socket.Position=root.CFrame:PointToObjectSpace(first.CFrame:PointToWorldSpace(Vector3.new(0,0,first.Size.Z/2)))
+        socket.Parent=root
+        local rest=Instance.new("Attachment"); rest.Name="TopHoseRest"
+        rest.Position=root.CFrame:PointToObjectSpace(last.CFrame:PointToWorldSpace(Vector3.new(0,0,-last.Size.Z/2)))
+        rest.Parent=root
+        for _,rib in ribs do rib.Transparency=1 end
+    end
+    local grabTarget=Instance.new("ObjectValue"); grabTarget.Name="GrabTarget"; grabTarget.Parent=model
     art.Parent=model
     model:PivotTo(Map.spawnCFrame("Vacuums",0))
     model.Parent=workspace; root:SetNetworkOwner(nil)
@@ -58,7 +74,7 @@ function Cleaner.start()
         local seenAt=0; local lastSeen: Vector3?=nil; local chargedCharacter: Model?=nil
         local beam: Beam?=nil; local ends: {Attachment}={}
         local pull: LinearVelocity?=nil; local pulledRoot: BasePart?=nil
-        local pulledPlayer: Player?=nil; local nozzle: Part?=nil
+        local pulledPlayer: Player?=nil
         local grabStarted: number?=nil
         local function stopSuction()
             charge=0; chargedCharacter=nil; grabStarted=nil
@@ -69,7 +85,10 @@ function Cleaner.start()
             end
             pulledRoot=nil
             if pulledPlayer then pulledPlayer:SetAttribute("CleanerPulling",false); pulledPlayer=nil end
-            if nozzle then nozzle:Destroy(); nozzle=nil end
+            if robot then
+                local targetValue=robot:FindFirstChild("GrabTarget")
+                if targetValue and targetValue:IsA("ObjectValue") then targetValue.Value=nil end
+            end
             if beam then beam:Destroy(); beam=nil end
             for _,a in ends do a:Destroy() end
             table.clear(ends)
@@ -120,9 +139,17 @@ function Cleaner.start()
             charge=Rules.charge(charge,.15,valid)
             if valid and target then
                 chargedCharacter=target.Parent :: Model
-                if not grabStarted then grabStarted=now end
+                if not grabStarted then
+                    grabStarted=now
+                    robot:SetAttribute("GrabStartedAt",workspace:GetServerTimeNow())
+                    local targetValue=robot:FindFirstChild("GrabTarget") :: ObjectValue
+                    targetValue.Value=target.Parent
+                end
                 if not beam then
-                    local a=Instance.new("Attachment"); a.Parent=root
+                    local a=Instance.new("Attachment")
+                    local socket=root:FindFirstChild("TopHoseSocket")
+                    if socket and socket:IsA("Attachment") then a.Position=socket.Position end
+                    a.Parent=root
                     local b=Instance.new("Attachment"); b.Parent=target
                     ends={a,b}
                     beam=Instance.new("Beam"); beam.Attachment0=a; beam.Attachment1=b
@@ -133,23 +160,6 @@ function Cleaner.start()
                 player:SetAttribute("CleanerThreat",if pulling then "GRABBED! Break the hose's line of sight!"
                     else "HOSE REACHING! Get behind cover!")
                 workspace:SetAttribute("CleanerState","Vacuuming")
-                -- Extend a visible nozzle along the warning beam; cosmetic only.
-                if not nozzle then
-                    nozzle=Instance.new("Part")
-                    nozzle.Name="ReachingNozzle"; nozzle.Size=Vector3.new(1.5,.7,1)
-                    nozzle.Color=Color3.fromRGB(40,80,115); nozzle.Material=Enum.Material.Metal
-                    nozzle.Anchored=true; nozzle.CanCollide=false; nozzle.CanTouch=false; nozzle.CanQuery=false
-                    nozzle.Parent=robot
-                    local socket=Instance.new("Attachment"); socket.Parent=nozzle
-                    local hose=Instance.new("Beam"); hose.Name="ExtendingHose"
-                    hose.Attachment0=ends[1]; hose.Attachment1=socket
-                    hose.Width0=.7; hose.Width1=.7; hose.FaceCamera=true; hose.Segments=16
-                    hose.Color=ColorSequence.new(Color3.fromRGB(25,38,52))
-                    hose.CurveSize0=1.5; hose.CurveSize1=-1.5; hose.Parent=nozzle
-                end
-                local extension=math.min(.9,charge/Rules.Windup*.9)
-                local tip=root.Position:Lerp(target.Position,extension)
-                if (target.Position-tip).Magnitude>.05 then nozzle.CFrame=CFrame.lookAt(tip,target.Position) end
                 if pulling then
                     if not pull then
                         -- Stop other lift before attaching the server-created grab.

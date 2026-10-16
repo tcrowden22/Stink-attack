@@ -2,7 +2,7 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
-**Climbing and reaching grabs:** face a wall or furniture and press **C** / tap **Climb**; press again to let go. The solo robot now extends a hose, warns, and pulls nearby bugs into capture range. Cover and the clubhouse break the grab. The downstairs imported sofa has been turned toward the room. Sync Rojo and restart Play; no new imports.
+**Controlled climbing and top-hose grabs:** face a wall or furniture and press **C** / tap **Climb**. Move toward/away from the wall to go up/down, or move sideways; release movement to pause. Grip lasts four seconds, including pauses, and recharges on the ground. Press C again to let go. The robot's top hose now lifts, curves outward and retracts smoothly. Room walls meet the next floor so bugs cannot fly over the dividers. The starting sofa uses matching native seat/back geometry instead of the imported overlay. Sync Rojo and restart Play; no new imports.
 
 **Snack-powered flight:** gold snacks now earn short flight bursts (up to three saved). Press **F** or tap **Fly** from the ground; steer normally. Carrying and delivering snacks still work as before. Stop Play, save the current imported house, sync Rojo, then Play again; no mesh reimport is needed. See the [flight playtest checklist](docs/SOLO_SNACK_RUN.md#snack-powered-flight).
 

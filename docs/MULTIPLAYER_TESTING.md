@@ -151,3 +151,11 @@ Follow the flight checks in [Solo snack run](SOLO_SNACK_RUN.md). With two client
 # Climbing and reaching-grab regression
 
 Use the sofa/climbing/grab checklist in SOLO_SNACK_RUN.md. Confirm both clients see climbing legs, human players cannot climb or fly, and a second player joining during a solo grab removes the robot, nozzle, beam and pull immediately. Reset/disconnect a climbing bug and verify no force remains. These Studio checks are pending.
+
+# Controlled-climb and top-hose follow-up
+
+- [ ] Two clients observe consistent climbing movement/legs; input from a Vacuum or dead bug cannot activate climbing.
+- [ ] Idle grip expires in four seconds; releasing/regrabbing airborne does not replenish it. Ground recovery is capped and reset restores normal speed/turning.
+- [ ] Drop/delay movement packets: wall motion stops after the input timeout without extending grip. Try invalid/oversized/nonfinite movement inputs; server rejects them.
+- [ ] In solo Play, the visible top hose raises, follows moving targets, reaches and retracts. Adding a second player removes all local hose visuals and the server pull.
+- [ ] Test desktop and mobile controls, each doorway/tunnel and all floor transitions after taller walls. Verify the starting sofa in the saved imported house, not only a fresh preview build.

@@ -126,3 +126,13 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Aikido full-content proposal scans and on-disk scans of all 14 changed first-party code files reported zero issues and no skipped files. The final hose visual adjustment was rescanned successfully.
 - Rojo built build/StinkBugsVsVacuums-climb-grab-preview.rbxlx without replacing the saved imported house.
 - No Studio runtime or two-client test was performed here. The pending acceptance checklist covers wall/ledge behavior, ceiling stops, mobile layout, grabs during flight/climb, respawns and multiplayer cleanup.
+
+# Controlled climbing, top hose and room boundaries — 2026-10-16
+
+- Inspected the saved Studio XML without modifying it. Found an obsolete Workspace.LivingRoom whose furniture overlaps at the origin, distinct from House.LivingRoom and MeshDetails.LivingSofa. Runtime now quarantines only that exact legacy signature. Disabled the ambiguous imported sofa overlay; native visible sofa parts match the existing collision layout. Imported assets remain available in storage.
+- Extended 46 structural wall/header/divider parts to the next floor/ceiling, preserving door thresholds, route markers and opening bottoms. Ground walls reach 24, upstairs 48 and attic perimeter 64 studs. Open doorways still allow normal movement/flight.
+- Added bounded client movement intent for server-controlled climbing: up/down/sideways/idle, four seconds of grip including pauses, no airborne recovery, grounded recovery after a short rest. Walk speed/turning restore on cleanup. Nonfinite/oversized input is rejected; stale input stops motion.
+- Replaced the waist-origin hose visual with a client-rendered ribbed top hose. Authored socket/rest endpoints survive scaling, lift precedes reach, and the nozzle retracts smoothly. Grab validation, warning, pull and capture stay on the server.
+- All Luau compiles; six rule/gait suites pass, including stamina/input and arm-curve checks. Source human routes, twelve snack positions, explicit human/bug doorway probes, upper wall seams and starting sofa checks pass.
+- Aikido full-content code proposal scans passed; final on-disk scan covered all 21 changed code/data files with zero issues and no skipped paths.
+- Built build/StinkBugsVsVacuums-controlled-climb-preview.rbxlx. The user's saved imported house was not overwritten. No runtime, multiplayer or touch acceptance is claimed; use the updated SOLO_SNACK_RUN.md checklist.

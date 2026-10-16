@@ -15,6 +15,19 @@ function MapService.init()
     PhysicsService:CollisionGroupSetCollidable("StinkBugs", "Vacuums", false)
 
     local room = workspace:WaitForChild("House")
+    -- Old prototype template found in the saved place: all its furniture is stacked at origin.
+    -- Quarantine only this exact obsolete signature during play; keep it recoverable.
+    local legacy=workspace:FindFirstChild("LivingRoom")
+    if legacy and legacy:IsA("Model") and legacy~=room then
+        local seat=legacy:FindFirstChild("SofaSeat")
+        local back=legacy:FindFirstChild("SofaBack")
+        if seat and seat:IsA("BasePart") and back and back:IsA("BasePart")
+            and seat.Position.Magnitude<.1 and back.Position.Magnitude<.1 then
+            local archive=Instance.new("Folder")
+            archive.Name="LegacyMapArchive"; archive.Parent=game:GetService("ServerStorage")
+            legacy.Parent=archive
+        end
+    end
     for _, item in room:GetDescendants() do
         if item:IsA("BasePart") and string.sub(item.Name, 1, 10) == "EscapeGate" then
             item.CollisionGroup = "EscapeGate"

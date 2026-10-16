@@ -1,7 +1,7 @@
 --!strict
--- Bottom-center placement, uniform width in studs. Sofa import faces +Z at yaw zero.
+-- Bottom-center placements. The starting sofa uses its native visible/collision parts;
+-- keep the ambiguous imported sofa overlay disabled so it cannot obscure the corrected seat.
 return {
-    { Asset = "Sofa", Name = "LivingSofa", Position = Vector3.new(-16, 0, -24), Width = 30, Yaw = 0, Hide = { { "LivingRoom", "Sofa" }, { "Accessories/LivingRoom", "Sofa" } } },
     { Asset = "CeramicMug", Name = "LivingMug", Position = Vector3.new(4, 6.5, 1), Width = 1.7, Yaw = 0, Hide = { { "Accessories/LivingRoom", "CoffeeMug" } } },
     { Asset = "CeramicMug", Name = "KitchenMug", Position = Vector3.new(86, 6.7, 2), Width = 1.7, Yaw = 0, Hide = { { "Accessories/Kitchen", "BreakfastMug" } } },
     { Asset = "CeramicMug", Name = "GamerMug", Position = Vector3.new(100, 30.5, 97), Width = 1.7, Yaw = 0, Hide = { { "Accessories/Upstairs", "GamerMug" } } },
