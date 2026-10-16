@@ -115,17 +115,20 @@ Before starting, read README's Studio actions. Connect Rojo, stop any existing s
 | Commit | Studio version | Tester/device | Gate | Result/evidence |
 | --- | --- | --- | --- | --- |
 | Pending | Pending | Pending | 1 | Not run |
-# Character appearance acceptance — pending Studio
+# Reference character acceptance — pending Studio
 
-- [ ] Save the imported house and sync the new character source through Rojo.
-- [ ] Import StinkBug.fbx into ServerStorage.CharacterAssets, preserving the StinkBug name and texture.
-- [ ] Solo Play spawns a six-legged bug, with no visible humanoid body. Its Appearance attribute reads Blender stink bug.
-- [ ] Two clients produce one bug and one human holding a vacuum; both clients see the same appearances.
-- [ ] Five clients produce four bugs and one human, with independent cosmetic copies.
-- [ ] Reset each character; the correct costume/vacuum returns once, without duplicate parts.
-- [ ] Disconnect during spawn, then rejoin; no orphaned character or permanently loading player remains.
-- [ ] Bug faces its movement direction, feet sit near the floor, and it fits downstairs/upstairs escape routes.
-- [ ] Human vacuum stays attached to the hand and does not snag doorways or change movement.
-- [ ] Keyboard/mouse and mobile emulator movement, jump and camera remain usable.
-- [ ] Temporarily move the imported bug outside CharacterAssets, restart Play, and verify the native bug fallback. Restore the import afterward.
-- [ ] Save, reopen, and retest the imported mesh/texture before any private publishing.
+- [ ] Save the current imported house; sync source changes through Rojo.
+- [ ] Follow docs/CHARACTERS.md: import StinkBugV2 (body + six legs) and VacuumV2 (body + glow) into correctly named Models under ServerStorage.CharacterAssets.
+- [ ] Start solo Play. Welcome screen shows title, 3D preview and green button. PLAY dismisses it and restores movement.
+- [ ] Check mouse and touch activation in portrait and short landscape emulator sizes; ensure the button is visible and the thumbstick returns.
+- [ ] Bug has a brown shield, expressive eyes and no visible humanoid body. Imported appearance reads Blender V2 animated brown bug.
+- [ ] Walk forward, backward, strafe and turn. All six legs move in alternating tripods. Stop and jump: legs return to rest.
+- [ ] With two clients, observe the moving bug from the human's client as well as its own.
+- [ ] Reset each player three times: exactly one cosmetic copy and six bug motors return; no frozen legs or orphaned parts.
+- [ ] Walk bugs through existing vents and up book stairs; check foot clearance throughout a stride.
+- [ ] Human's vacuum has cyan glowing eyes/nozzle, correct grip and manageable size. It does not snag doorways.
+- [ ] Native fallback test: move V2 imports outside CharacterAssets, restart Play, verify brown bug movement and blue vacuum. Restore imports.
+- [ ] Five clients produce four bugs and one human; observe all bugs moving independently.
+- [ ] Disconnect during spawn, then reconnect: correct team appearance and camera return.
+- [ ] Check the four pictured slogans, potted plants, crowned shelf bug, purple cleaner and large vacuum mascot. No display should obstruct routes.
+- [ ] Save, reopen and verify mesh/texture permissions before private publishing.

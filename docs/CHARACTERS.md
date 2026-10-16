@@ -1,30 +1,50 @@
-# Stink bug and human characters
+# Reference-inspired characters and opening screen
 
-The server chooses a team on join. The first player is a bug, the second a human with a vacuum; larger lobbies target four bugs per human. Each player gets a separate character and cosmetic copy. There are no NPC bugs in this milestone.
+The October 16 reference replaces the green bug with a brown armored bug. The first player is a bug, the second a human with a blue vacuum; larger lobbies target four bugs per human. Multiple bugs are player characters, not autonomous NPCs.
 
-Both teams retain the existing R15 movement rig and desktop/mobile controls. Bugs hide the humanoid body under a small costume; humans have skin-colored heads/arms, orange shirts, blue trousers and a permanently attached vacuum prop. Cosmetics are massless, non-colliding and excluded from raycasts. The server still owns team assignment, rig creation and respawning.
+## Studio steps, preserving your existing house
 
-## Install in your current Studio house
+1. Stop Play and save your current house with its furniture imports. Keep that place open; the clean preview build does not contain Studio-only imports.
+2. Sync Rojo at localhost:34872. This loads the new server appearance, house details, leg animation and welcome screen. If the sync server is stopped, run scripts/Serve.ps1.
+3. Use Home > Import for each file in C:\Projects\Roblox Game\assets\characters\reference:
+   - StinkBugV2.fbx: import as separate meshes, keeping BugBody, LegL1, LegL2, LegL3, LegR1, LegR2 and LegR3. Do not merge the legs into the body.
+   - VacuumV2.fbx: keep VacuumBody and VacuumGlow separate.
+4. In Explorer, put each imported group under ServerStorage > CharacterAssets. Name the outer Models StinkBugV2 and VacuumV2 respectively. If Studio creates loose parts, group the appropriate parts into a Model and give it that name. Preserve the child mesh names above. The previous StinkBug model can remain; the new code uses V2 only.
+5. Save, then Play. The green Play button closes the introduction. Moving a bug should swing and lift alternating groups of three legs. Idle and airborne legs return to neutral. Humans wear blue, have brown hair and caps, and carry a blue cleaner.
+6. Start Server & Clients with two clients. Observe each bug from the other client; test respawns, stairs, vents, mobile controls, vacuum grip, texture orientation and the welcome button.
+7. Optional edit-mode house preview: after syncing, run require(game.ServerScriptService.Server.ReferenceDetails).apply() in the Command Bar. This adds the signs and display props to the editor. Play also creates them automatically.
 
-1. Stop any Play session and save your current house, including the imported furniture. Keep that place open. The character preview build is a separate clean build and does not contain your Studio-only furniture imports.
-2. Connect the Rojo plugin to localhost:34872 and sync the source changes. This adds ServerScriptService.Server.CharacterAppearance and ServerStorage.CharacterAssets. The sync server is already running on this computer. If restarted, run scripts/Serve.ps1 first.
-3. In Home, choose Import (the cube icon). Select C:\Projects\Roblox Game\assets\characters\StinkBug.fbx. Import the model with its texture. This is an ordinary mesh import, not an Avatar Setup conversion: the code supplies the R15 movement rig.
-4. In Explorer, move the imported StinkBug mesh/model into ServerStorage > CharacterAssets. Keep the mesh/model name StinkBug. Do not move HouseDetailKit out of DetailAssets. If the importer adds a wrapper, it may remain as long as a descendant is named StinkBug.
-5. Save the place. Start Play to spawn as a stink bug. The character's Appearance attribute should say Blender stink bug. Native stink bug means the imported name/folder was not found. Stop Play before correcting the import, then Play again.
-6. Use Server & Clients with two clients to see one bug and one human holding the vacuum. Inspect facing direction, feet on the floor, vacuum grip, tunnel clearance and mobile movement before accepting this feature.
+Missing/incomplete V2 imports select the new native brown bug or blue vacuum. The native bug also has moving legs. An imported bug's Appearance attribute reads Blender V2 animated brown bug. The fallback reads Native V2 animated brown bug.
 
-The source .blend and FBX are in assets/characters, with a packed palette texture. The FBX is 7,665 triangles. Blender forward is +Y, exported toward Roblox -Z. Roblox orientation and texture appearance still require an in-Studio check.
+## What from the photo is represented
 
-## Reproduce and validate
+| Reference feature | Prototype implementation |
+| --- | --- |
+| Brown shield bug, large eyes, eyebrows, amber belly, antennae | Blender model and native fallback; six separate moving leg assemblies |
+| Blue cleaner, black ribbed hose, broad lit nozzle, glowing eyes | Blender model with separate Neon glow mesh; native fallback; CLEAN TEAM badge |
+| Human cleaners | R15 humans, blue clothing, brown hair, caps, held cleaner |
+| Oversized robot-like vacuum | Static living-room mascot with display arms; no robot AI |
+| Purple cleaner | Shelf display; no paid variant |
+| Crowned small bug | Shelf decoration; no progression reward |
+| Plants and paper/wall slogans | Potted plants and all four major pictured slogans/checklist |
+| Warm floor, rug, sofa, lamp, bookshelf/books, windows | Existing furnished house retained |
+| Large title and green Play button | Responsive welcome UI with a 3D character preview, mouse/touch activation |
+| Upgrade/customize/rank rewards | Remain outside Week 1: no store, purchases or persistent progression |
+| Cinematic photograph, logo effects and composition | Visual direction, not a pixel-identical recreation or uploaded background image |
 
-Run Blender in background mode with scripts/build_stink_bug.py to rebuild the original mesh, texture, FBX, manifest and preview. Run scripts/validate_stink_bug.py in Blender to verify the FBX imports again with its name, triangles, UVs, dimensions and texture intact.
+The welcome button dismisses the introduction; it does not start a round. The large vacuum and crowned bug are decorations. The vacuum remains a visual prop until suction is implemented.
 
-Compile the Luau source and run tests/TeamPolicy.spec.luau. Build to build/StinkBugsVsVacuums-characters-preview.rbxlx for a clean fallback preview. Do not rebuild over your saved house containing Studio-only mesh imports. Export/preserve those imports separately before replacing a place with a clean Rojo build.
+## Animation and ownership
 
-## Current limits
+The server selects teams and constructs R15 movement/collision rigs, cosmetics, welds and six Motor6D joints. Only the legs are articulated; the underlying rig is invisible for bugs. All cosmetic geometry is massless and non-colliding. Leg yaw/lift is bounded.
 
-- The bug is a rigid cosmetic mesh, with no leg or antenna animation yet.
-- The vacuum is a held visual prop. Suction and capture are not implemented.
-- The humanoid collision rig remains the movement proxy; the mesh is not a custom six-legged physics rig.
-- Runtime, multiplayer and real-device acceptance remain pending. No asset upload or publishing was performed.
-- Uploaded mesh/texture ownership must match the publishing experience. Keep the Studio place with the imported asset references; FBX source alone cannot provide Roblox content IDs to a clean build.
+Each client animates all tagged bug legs from observed character velocity and grounded state during PreSimulation. No animation asset upload or per-frame remote is needed. Removing a character removes its animation entries. Tests exercise alternating tripods, idle/air behavior, angle limits and frame-gap clamping. Client visuals are not authoritative gameplay state.
+
+## Reproduction and checks
+
+- Blender 5.1: run scripts/build_reference_characters.py, then scripts/validate_reference_characters.py in background mode.
+- Assets and the packed source .blend are in assets/characters/reference. Bug: 5,804 triangles across seven meshes. Vacuum: 5,092 triangles across two meshes.
+- Run tests/TeamPolicy.spec.luau and tests/BugGait.spec.luau; scripts/Build.ps1 includes both.
+- A separate build is available at build/StinkBugsVsVacuums-reference-preview.rbxlx. The existing saved house was not overwritten.
+- Blender FBX round-trip and source compile/build checks are not Studio runtime verification. Follow docs/MULTIPLAYER_TESTING.md.
+- Preserve the saved place and uploaded asset references. A clean Rojo build uses native fallbacks until imports are restored.

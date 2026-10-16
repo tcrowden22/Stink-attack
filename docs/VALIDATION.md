@@ -79,3 +79,12 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Rojo 7.7.1 built build/StinkBugsVsVacuums-characters-preview.rbxlx. The user's existing StinkBugsVsVacuums.rbxlx was not overwritten.
 - Aikido full-content proposal scans passed; final on-disk scan covered five code/config files with zero issues and no skipped files (retried once after a connection timeout).
 - Studio import, runtime character physics, vacuum grip, camera, two-client play and mobile testing remain pending. See the character acceptance checklist.
+# Reference art milestone — 2026-10-16
+
+- Authored and visually reviewed Blender brown shield bug and blue vacuum. Bug: 5,804 triangles, seven independent meshes. Vacuum: 5,092 triangles, two meshes including a separate glow mesh.
+- Both FBXs passed round-trip checks for exact names, triangle counts, nonzero bounds, UVs and embedded texture data.
+- All Luau source/tests compiled. Team-policy and bug-gait tests passed. Gait checks cover idle, air, alternating tripods, bounded angles and clamped frame gaps.
+- Built a separate StinkBugsVsVacuums-reference-preview.rbxlx; existing user-saved house and import folders were not overwritten.
+- Aikido proposal scans and final scan of 13 first-party code files reported zero findings; none were skipped.
+- Added source-controlled Play screen, client leg animation, server cosmetics, blue human clothing/caps/hair, house slogans, plants and static display mascots.
+- Studio runtime, exact import orientation/grip, multi-client animation, menu layout and mobile interaction remain unverified. No public publish or progression systems added.

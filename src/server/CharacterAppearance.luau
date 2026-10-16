@@ -1,146 +1,142 @@
 --!strict
--- Server-created cosmetics. The R15 rig remains responsible for movement/collision.
 local ServerStorage = game:GetService("ServerStorage")
-local CharacterAppearance = {}
+local CollectionService = game:GetService("CollectionService")
+local Models = require(script.Parent.CharacterModels)
+local Appearance = {}
+local LEG_NAMES = {"LegL1","LegL2","LegL3","LegR1","LegR2","LegR3"}
 
-local function part(model: Model, name: string, size: Vector3, cf: CFrame, color: Color3, ball: boolean?): Part
-    local p = Instance.new("Part")
-    p.Name = name
-    p.Size = size
-    p.CFrame = cf
-    p.Color = color
-    p.Material = Enum.Material.SmoothPlastic
-    p.TopSurface = Enum.SurfaceType.Smooth
-    p.BottomSurface = Enum.SurfaceType.Smooth
-    if ball then p.Shape = Enum.PartType.Ball end
-    p.Parent = model
-    return p
-end
-
-local function rod(model: Model, name: string, a: Vector3, b: Vector3, width: number, color: Color3)
-    return part(model, name, Vector3.new(width, width, (b - a).Magnitude),
-        CFrame.lookAt((a + b) / 2, b), color, false)
-end
-
-local function fallbackBug(): Model
-    local model = Instance.new("Model")
-    local green = Color3.fromRGB(101, 143, 55)
-    local light = Color3.fromRGB(175, 196, 99)
-    local dark = Color3.fromRGB(44, 53, 33)
-    part(model, "ShieldBody", Vector3.new(1.5, .65, 1.9), CFrame.new(0, .65, .1), green, true)
-    part(model, "WingLeft", Vector3.new(.65, .25, 1.35), CFrame.new(-.32, .91, .25), light, true)
-    part(model, "WingRight", Vector3.new(.65, .25, 1.35), CFrame.new(.32, .91, .25), light, true)
-    part(model, "Head", Vector3.new(.8, .5, .65), CFrame.new(0, .65, -.9), green, true)
-    for _, side in {-1, 1} do
-        for index, z in {-.5, .1, .65} do
-            local a = Vector3.new(side * .55, .6, z)
-            local b = Vector3.new(side * .95, .36, z + .12)
-            local c = Vector3.new(side * 1.15, .08, z + .32)
-            rod(model, "LegUpper" .. side .. index, a, b, .09, dark)
-            rod(model, "LegLower" .. side .. index, b, c, .07, dark)
-        end
-        part(model, "Eye", Vector3.new(.3, .32, .22), CFrame.new(side * .24, .76, -1.18), Color3.fromRGB(245, 238, 210), true)
-        part(model, "Pupil", Vector3.new(.15, .19, .08), CFrame.new(side * .24, .76, -1.29), dark, true)
-        rod(model, "Antenna", Vector3.new(side * .25, .87, -1), Vector3.new(side * .6, 1.3, -1.55), .045, dark)
-        part(model, "AntennaTip", Vector3.new(.09, .09, .09), CFrame.new(side * .6, 1.3, -1.55), light, true)
-    end
-    return model
-end
-
-local function importedBug(): Model?
-    local library = ServerStorage:FindFirstChild("CharacterAssets")
-    local source = if library then library:FindFirstChild("StinkBug", true) else nil
-    if not source or not (source:IsA("Model") or source:IsA("BasePart")) then return nil end
-    -- Copy visual parts only. Never copy scripts, rigs, constraints or other behavior.
-    local model = Instance.new("Model")
-    local candidates: {Instance} = source:GetDescendants()
-    table.insert(candidates, source)
-    local count = 0
-    for _, item in candidates do
-        if item:IsA("BasePart") then
-            local copy = item:Clone()
-            for _, child in copy:GetChildren() do
-                if not (child:IsA("SurfaceAppearance") or child:IsA("DataModelMesh") or child:IsA("Decal")) then
-                    child:Destroy()
-                else
-                    for _, descendant in child:GetDescendants() do descendant:Destroy() end
-                end
+local function imported(name: string, required: {string}): Model?
+    local library=ServerStorage:FindFirstChild("CharacterAssets")
+    local source=if library then library:FindFirstChild(name,true) else nil
+    if not source or not source:IsA("Model") then return nil end
+    local model=Instance.new("Model")
+    for _,partName in required do
+        local p=source:FindFirstChild(partName,true)
+        if not p or not p:IsA("BasePart") then model:Destroy(); return nil end
+        local copy=p:Clone()
+        for _,child in copy:GetChildren() do
+            if not (child:IsA("SurfaceAppearance") or child:IsA("DataModelMesh") or child:IsA("Decal")) then
+                child:Destroy()
+            else
+                for _,nested in child:GetDescendants() do nested:Destroy() end
             end
-            copy.Parent = model
-            count += 1
         end
+        if copy.Name=="VacuumGlow" then copy.Material=Enum.Material.Neon end
+        copy.Parent=model
     end
-    if count == 0 then model:Destroy(); return nil end
     return model
 end
 
-local function attach(model: Model, target: BasePart, team: string)
-    for _, item in model:GetDescendants() do
-        if item:IsA("BasePart") then
-            item.Anchored = false
-            item.Massless = true
-            item.CanCollide = false
-            item.CanTouch = false
-            item.CanQuery = false
-            item.CollisionGroup = team
-            local weld = Instance.new("WeldConstraint")
-            weld.Part0 = target
-            weld.Part1 = item
-            weld.Parent = item
+local function fit(model: Model, limit: Vector3)
+    local bounds,size=model:GetBoundingBox()
+    model:PivotTo(bounds:Inverse()*model:GetPivot())
+    model:ScaleTo(model:GetScale()*math.min(limit.X/math.max(size.X,.01),limit.Y/math.max(size.Y,.01),limit.Z/math.max(size.Z,.01)))
+end
+
+local function weld(p: BasePart, target: BasePart, team: string)
+    p.Anchored=false; p.Massless=true; p.CanCollide=false; p.CanQuery=false; p.CanTouch=false; p.CollisionGroup=team
+    local joint=Instance.new("WeldConstraint")
+    joint.Part0=target; joint.Part1=p; joint.Parent=p
+end
+
+local function bugJoints(model: Model, root: BasePart)
+    local legs: {[string]: {BasePart}} = {}
+    for _,name in LEG_NAMES do legs[name]={} end
+    for _,p in model:GetDescendants() do
+        if p:IsA("BasePart") then
+            local name=p:GetAttribute("BugLeg") or p.Name
+            if typeof(name)=="string" and legs[name] then
+                table.insert(legs[name],p)
+            else weld(p,root,"StinkBugs") end
         end
+    end
+    local bounds,size=model:GetBoundingBox()
+    for index,name in LEG_NAMES do
+        local group=legs[name]
+        local leg=group[1]
+        if not leg then continue end
+        local side=if index<=3 then -1 else 1
+        local row=(index-1)%3+1
+        local hinge=bounds*CFrame.new(side*size.X*.23,-size.Y*.13,(row-2)*size.Z*.21)
+        leg.Anchored=false; leg.Massless=true; leg.CanCollide=false; leg.CanQuery=false; leg.CanTouch=false
+        leg.CollisionGroup="StinkBugs"
+        local motor=Instance.new("Motor6D")
+        motor.Name=name
+        motor.Part0=root; motor.Part1=leg
+        motor.C0=root.CFrame:ToObjectSpace(hinge)
+        motor.C1=leg.CFrame:ToObjectSpace(hinge)
+        motor:SetAttribute("Side",side)
+        motor:SetAttribute("Phase",if (row+(if side==1 then 1 else 0))%2==0 then 0 else math.pi)
+        motor.Parent=leg
+        CollectionService:AddTag(motor,"AnimatedBugLeg")
+        for i=2,#group do weld(group[i],leg,"StinkBugs") end
     end
 end
 
-local function vacuum(hand: BasePart): Model
-    local model = Instance.new("Model")
-    model.Name = "Vacuum"
-    local orange = Color3.fromRGB(233, 135, 49)
-    local dark = Color3.fromRGB(38, 47, 57)
-    local silver = Color3.fromRGB(159, 180, 185)
-    part(model, "Grip", Vector3.new(.2, .65, .22), CFrame.new(), dark)
-    part(model, "MotorHousing", Vector3.new(.65, .85, .65), CFrame.new(0, -.45, .2), orange, true)
-    part(model, "DustCanister", Vector3.new(.5, .75, .5), CFrame.new(0, -.9, .2), silver, true)
-    rod(model, "Wand", Vector3.new(0, -.9, 0), Vector3.new(0, -2.35, -.65), .13, silver)
-    part(model, "FloorHead", Vector3.new(1.1, .24, .6), CFrame.new(0, -2.35, -.8), dark)
-    part(model, "Intake", Vector3.new(.8, .1, .08), CFrame.new(0, -2.36, -1.11), orange)
-    model.WorldPivot = CFrame.identity
-    model:PivotTo(hand.CFrame)
+function Appearance.bug(): Model
+    local required={"BugBody"}
+    for _,name in LEG_NAMES do table.insert(required,name) end
+    local model=imported("StinkBugV2",required)
+    if model then model:SetAttribute("ArtSource","Blender V2"); return model end
+    model=Models.bug(); model:SetAttribute("ArtSource","Native V2")
     return model
 end
 
-function CharacterAppearance.apply(character: Model, team: string, humanoid: Humanoid)
-    local root = character:FindFirstChild("HumanoidRootPart")
-    if not root or not root:IsA("BasePart") then return end
-    if team == "StinkBugs" then
-        local model = importedBug()
-        local appearance = if model then "Blender stink bug" else "Native stink bug"
-        if not model then model = fallbackBug() end
-        model.Name = "StinkBugVisual"
-        -- Normalize arbitrary import size/pivot. Keep the complete costume inside
-        -- a 2.8 x 1.5 x 2.8 envelope, below the 2.4-stud vent height.
-        local bounds, size = model:GetBoundingBox()
-        model:PivotTo(bounds:Inverse() * model:GetPivot())
-        local factor = math.min(2.8 / math.max(size.X, .01), 1.5 / math.max(size.Y, .01), 2.8 / math.max(size.Z, .01))
-        model:ScaleTo(factor)
-        bounds, size = model:GetBoundingBox()
-        local bottom = -(humanoid.HipHeight + root.Size.Y / 2) + .06
-        local target = root.CFrame * CFrame.new(0, bottom + size.Y / 2, 0)
-        model:PivotTo(target * bounds:Inverse() * model:GetPivot())
-        for _, item in character:GetDescendants() do
-            if item:IsA("BasePart") or item:IsA("Decal") then item.Transparency = 1 end
-        end
-        attach(model, root, team)
-        model.Parent = character
-        character:SetAttribute("Appearance", appearance)
+function Appearance.vacuum(): Model
+    local model=imported("VacuumV2",{"VacuumBody","VacuumGlow"})
+    if model then
+        fit(model,Vector3.new(1.8,2.7,2))
+        local bounds,size=model:GetBoundingBox()
+        local plate=Models.part(model,"CleanTeamBadge",Vector3.new(size.X*.35,size.Y*.19,.025),
+            bounds*CFrame.new(0,-size.Y*.1,-size.Z*.14),Color3.fromRGB(28,36,50))
+        Models.label(plate,"CLEAN\nTEAM",Color3.new(1,1,1))
     else
-        local hand = character:FindFirstChild("RightHand")
-        if hand and hand:IsA("BasePart") then
-            local model = vacuum(hand)
-            attach(model, hand, team)
-            model.Parent = character
-        end
-        character:SetAttribute("Appearance", "Human with vacuum")
+        model=Models.vacuum()
     end
+    model.Name="Vacuum"
+    return model
 end
 
-return CharacterAppearance
+function Appearance.apply(character: Model, team: string, humanoid: Humanoid)
+    local root=character:FindFirstChild("HumanoidRootPart")
+    if not root or not root:IsA("BasePart") then return end
+    if team=="StinkBugs" then
+        local model=Appearance.bug(); model.Name="StinkBugVisual"
+        fit(model,Vector3.new(2.65,1.75,2.65))
+        local bounds,size=model:GetBoundingBox()
+        local bottom=-(humanoid.HipHeight+root.Size.Y/2)+.08
+        local target=root.CFrame*CFrame.new(0,bottom+size.Y/2,0)
+        model:PivotTo(target*bounds:Inverse()*model:GetPivot())
+        for _,p in character:GetDescendants() do
+            if p:IsA("BasePart") or p:IsA("Decal") then p.Transparency=1 end
+        end
+        bugJoints(model,root)
+        model.Parent=character
+        character:SetAttribute("Appearance",model:GetAttribute("ArtSource").." animated brown bug")
+    else
+        local hand=character:FindFirstChild("RightHand")
+        if hand and hand:IsA("BasePart") then
+            local model=Appearance.vacuum()
+            fit(model,Vector3.new(1.75,2.65,1.8))
+            local bounds=model:GetBoundingBox()
+            -- Handle near hand; keep the nozzle below and forward.
+            model:PivotTo(hand.CFrame*CFrame.new(0,-.55,-.45)*bounds:Inverse()*model:GetPivot())
+            for _,p in model:GetDescendants() do if p:IsA("BasePart") then weld(p,hand,team) end end
+            model.Parent=character
+        end
+        local head=character:FindFirstChild("Head")
+        if head and head:IsA("BasePart") then
+            local cap=Instance.new("Model"); cap.Name="CleanTeamCap"
+            local crown=Models.part(cap,"Cap",Vector3.new(1.08,.38,1.05),head.CFrame*CFrame.new(0,.55,0),Color3.fromRGB(27,52,71))
+            local brim=Models.part(cap,"Brim",Vector3.new(1.2,.09,.55),head.CFrame*CFrame.new(0,.4,-.6),Color3.fromRGB(27,52,71))
+            weld(crown,head,team); weld(brim,head,team)
+            for _,side in {-1,1} do
+                local hair=Models.part(cap,"BrownHair",Vector3.new(.16,.42,.6),head.CFrame*CFrame.new(side*.51,.12,.13),Color3.fromRGB(91,45,24))
+                weld(hair,head,team)
+            end
+            cap.Parent=character
+        end
+        character:SetAttribute("Appearance","Human with blue Clean Team vacuum")
+    end
+end
+return Appearance

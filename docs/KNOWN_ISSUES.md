@@ -2,7 +2,7 @@
 
 1. **Foundation only.** Suction, captures, spectator mode, 15-second lobby, five-minute rounds, victory/reset logic and the match HUD are not implemented. This is the initial requested environment milestone, not a finished Week 1 delivery.
 2. **Studio acceptance pending.** Two-client execution, visual quality, mobile input, character/camera behavior and tunnel clearance have not been observed in Studio. Rojo build and Luau compile success do not establish those results.
-3. **No locomotion animations yet.** Explicitly constructed R15 models have no custom Animate controller. They can use normal Humanoid movement, but may appear stiff. Animation polish is a later feature; no third-party animation model was imported.
+3. **Bug legs animate; human animation remains basic.** Bugs have six procedural leg joints, with idle/air poses and alternating tripods. Human R15 rigs still lack a full Animate controller and may look stiff. Engine-level animation acceptance is pending.
 4. **Avatar creation uses Roblox's avatar service.** First spawn can be slow or fail offline; the server retries and the HUD reports loading/failure.
 5. **No movement exploit protection yet.** Roblox's normal character network ownership remains in use. Server collision assignments are not sufficient protection against client teleporting. Future ability/round work must account for implausible movement.
 6. **Stable foundation teams.** A disconnect can leave one team empty until someone joins. There is no active round to resolve at this milestone.
@@ -24,5 +24,6 @@
 18. **Blender kit imported in the user's Studio place.** The user reported successful placement of 16/16 mesh details. These Studio-only asset references are not present in clean Rojo builds; preserve the saved place and imports.
 19. **Mesh placement unverified in Studio.** Scale, orientation, texture appearance and sofa collision-proxy alignment require inspection after import. The Blender catalogue render is not an in-game screenshot.
 20. **Portable mesh assets require owner permissions.** Save a source .rbxm with valid mesh/texture asset references under assets/imported for reproducible builds. Local-preview imports can contain temporary content.
-21. **Character art needs Studio acceptance.** The original Blender stink bug passes FBX round-trip checks but needs importing into ServerStorage.CharacterAssets. Until then, bugs use a native-part costume. Check orientation, floor clearance, camera, respawning and two-client visibility in Studio.
-22. **Rigid bug and decorative vacuum.** Six-leg animation is not implemented. Humans carry a non-interactive vacuum prop; suction remains a separate milestone.
+21. **V2 character art needs Studio acceptance.** Import StinkBugV2 and VacuumV2 into ServerStorage.CharacterAssets, preserving seven bug meshes and two vacuum meshes. Native V2 fallbacks work before import. Check orientation, size, floor clearance, animated legs, camera, respawns and two-client visibility.
+22. **Decorative vacuum and static antennae.** Suction remains a separate milestone. Legs articulate at the hip; knees and antennae are not independently animated. Oversized robot and crowned bug props are static decorations.
+23. **Reference UI needs device verification.** The welcome screen has a Play button and 3D preview, not the supplied photo as a background. Test short landscape screens, portrait touch input and movement restoration. Upgrades, cosmetics shops and ranked progression remain excluded.

@@ -1,0 +1,48 @@
+[
+  {
+    "file": "StinkBugV2.fbx",
+    "meshes": [
+      {
+        "name": "BugBody",
+        "triangles": 3860
+      },
+      {
+        "name": "LegL1",
+        "triangles": 324
+      },
+      {
+        "name": "LegL2",
+        "triangles": 324
+      },
+      {
+        "name": "LegL3",
+        "triangles": 324
+      },
+      {
+        "name": "LegR1",
+        "triangles": 324
+      },
+      {
+        "name": "LegR2",
+        "triangles": 324
+      },
+      {
+        "name": "LegR3",
+        "triangles": 324
+      }
+    ]
+  },
+  {
+    "file": "VacuumV2.fbx",
+    "meshes": [
+      {
+        "name": "VacuumBody",
+        "triangles": 4660
+      },
+      {
+        "name": "VacuumGlow",
+        "triangles": 432
+      }
+    ]
+  }
+]

@@ -32,7 +32,7 @@ function CharacterService.spawn(player: Player)
     local description = Instance.new("HumanoidDescription")
     local color = Color3.fromRGB(221, 174, 132)
     description.HeadColor = color
-    description.TorsoColor = Color3.fromRGB(230, 132, 45)
+    description.TorsoColor = Color3.fromRGB(28, 54, 76)
     description.LeftArmColor = color
     description.RightArmColor = color
     description.LeftLegColor = Color3.fromRGB(44, 65, 83)
