@@ -132,3 +132,12 @@ Before starting, read README's Studio actions. Connect Rojo, stop any existing s
 - [ ] Disconnect during spawn, then reconnect: correct team appearance and camera return.
 - [ ] Check the four pictured slogans, potted plants, crowned shelf bug, purple cleaner and large vacuum mascot. No display should obstruct routes.
 - [ ] Save, reopen and verify mesh/texture permissions before private publishing.
+# Interior expansion acceptance
+
+- [ ] Save the current house, stop Play, sync Rojo and find House.InteriorDetails.
+- [ ] Check all 16 furniture groups for visual overlap with any Studio-only or manually moved imports.
+- [ ] Walk a human around chairs, carts, luggage and storage; check every doorway and stair approach remains usable.
+- [ ] Pass through both cardboard tunnels as a bug; humans must be blocked.
+- [ ] Enter the blanket hideout from the front and leave through its rear gap as a bug; humans must be blocked.
+- [ ] Check that cover blocks movement and raycasts, while books, towels, straps and fruit do not snag avatars.
+- [ ] Repeat with two players and mobile controls; inspect camera clipping and performance.

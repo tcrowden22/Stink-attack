@@ -37,6 +37,9 @@
       },
       "House": {
         "$className": "Model",
+        "InteriorDetails": {
+          "$path": "map/InteriorDetails.model.json"
+        },
         "LivingRoom": {
           "$path": "map/LivingRoom.model.json"
         },

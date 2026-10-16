@@ -1,0 +1,242 @@
+[
+  {
+    "name": "LivingReadingChair",
+    "room": "LivingRoom",
+    "kind": "chair",
+    "origin": [
+      -25,
+      0,
+      5
+    ],
+    "envelope": [
+      10,
+      9,
+      10
+    ]
+  },
+  {
+    "name": "LivingBookBench",
+    "room": "LivingRoom",
+    "kind": "bench",
+    "origin": [
+      25,
+      0,
+      21
+    ],
+    "envelope": [
+      11,
+      6,
+      7
+    ]
+  },
+  {
+    "name": "KitchenServingCart",
+    "room": "Kitchen",
+    "kind": "cart",
+    "origin": [
+      99,
+      0,
+      13
+    ],
+    "envelope": [
+      10,
+      8,
+      7
+    ]
+  },
+  {
+    "name": "KitchenPantryCart",
+    "room": "Kitchen",
+    "kind": "cart",
+    "origin": [
+      103,
+      0,
+      -15
+    ],
+    "envelope": [
+      10,
+      8,
+      7
+    ]
+  },
+  {
+    "name": "BedroomLaundry",
+    "room": "Bedroom",
+    "kind": "hamper",
+    "origin": [
+      -31,
+      0,
+      91
+    ],
+    "envelope": [
+      7,
+      8,
+      6
+    ]
+  },
+  {
+    "name": "BedroomLuggage",
+    "room": "Bedroom",
+    "kind": "suitcase",
+    "origin": [
+      23,
+      0,
+      51
+    ],
+    "envelope": [
+      9,
+      5,
+      6
+    ]
+  },
+  {
+    "name": "BedroomCardboardRun",
+    "room": "Bedroom",
+    "kind": "tunnel",
+    "origin": [
+      -29,
+      0,
+      79
+    ],
+    "envelope": [
+      8,
+      5,
+      11
+    ]
+  },
+  {
+    "name": "PlayroomBlanketHideout",
+    "room": "Playroom",
+    "kind": "fort",
+    "origin": [
+      99,
+      0,
+      69
+    ],
+    "envelope": [
+      11,
+      5,
+      9
+    ]
+  },
+  {
+    "name": "PlayroomBookBench",
+    "room": "Playroom",
+    "kind": "bench",
+    "origin": [
+      63,
+      0,
+      63
+    ],
+    "envelope": [
+      11,
+      6,
+      7
+    ]
+  },
+  {
+    "name": "UpstairsReadingChair",
+    "room": "Upstairs",
+    "kind": "chair",
+    "origin": [
+      47,
+      24,
+      -15
+    ],
+    "envelope": [
+      10,
+      9,
+      10
+    ]
+  },
+  {
+    "name": "UpstairsLaundry",
+    "room": "Upstairs",
+    "kind": "hamper",
+    "origin": [
+      -37,
+      24,
+      15
+    ],
+    "envelope": [
+      7,
+      8,
+      6
+    ]
+  },
+  {
+    "name": "UpstairsSnackCart",
+    "room": "Upstairs",
+    "kind": "cart",
+    "origin": [
+      65,
+      24,
+      59
+    ],
+    "envelope": [
+      10,
+      8,
+      7
+    ]
+  },
+  {
+    "name": "UpstairsLuggage",
+    "room": "Upstairs",
+    "kind": "suitcase",
+    "origin": [
+      107,
+      24,
+      69
+    ],
+    "envelope": [
+      9,
+      5,
+      6
+    ]
+  },
+  {
+    "name": "AtticStorageCluster",
+    "room": "Attic",
+    "kind": "storage",
+    "origin": [
+      54,
+      48,
+      54
+    ],
+    "envelope": [
+      12,
+      9,
+      8
+    ]
+  },
+  {
+    "name": "AtticCardboardRun",
+    "room": "Attic",
+    "kind": "tunnel",
+    "origin": [
+      34,
+      48,
+      4
+    ],
+    "envelope": [
+      8,
+      5,
+      11
+    ]
+  },
+  {
+    "name": "AtticLuggage",
+    "room": "Attic",
+    "kind": "suitcase",
+    "origin": [
+      82,
+      48,
+      90
+    ],
+    "envelope": [
+      9,
+      5,
+      6
+    ]
+  }
+]

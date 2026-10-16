@@ -88,3 +88,12 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Aikido proposal scans and final scan of 13 first-party code files reported zero findings; none were skipped.
 - Added source-controlled Play screen, client leg animation, server cosmetics, blue human clothing/caps/hair, house slogans, plants and static display mascots.
 - Studio runtime, exact import orientation/grip, multi-client animation, menu layout and mobile interaction remain unverified. No public publish or progression systems added.
+# Interior expansion — 2026-10-16
+
+- Added 16 groups / 198 native anchored parts across six interior areas.
+- Generator checked new furniture envelopes against source collision geometry, protected approaches and other additions.
+- Static human-route connectivity passed on floors Y=0,24,48. Three bug-only gates and collision/query consistency passed.
+- Inspected the Blender catalogue made from the same furniture source geometry. Editable .blend and preview saved.
+- Rojo built StinkBugsVsVacuums-interior-preview.rbxlx without overwriting the user's existing saved house.
+- Aikido scanned six changed source/config/data files with zero findings and zero skipped files.
+- Live avatar clearance, manually moved/imported Studio props, gate behavior and mobile performance remain pending Studio acceptance.

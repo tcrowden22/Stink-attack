@@ -47,7 +47,7 @@ Create the build directory before using the raw build command. For Lua syntax ch
 | Path | Responsibility |
 | --- | --- |
 | `default.project.json` | Rojo DataModel mappings and lighting |
-| `map/*.model.json` | 1,047 native anchored parts across nine structure models plus Accessories and ArtFinish |
+| `map/*.model.json` | House structure, accessories and art finish, plus 198 new interior furniture parts |
 | `src/shared/Config.luau` | Scales, speeds, team ratio, future round timing |
 | `src/shared/TeamPolicy.luau` | Pure allocation policy, independently tested |
 | `src/server/MapService.luau` | Collision groups and spawn positions |
@@ -70,6 +70,8 @@ The living room retains its two tunnels. The kitchen and bedroom each connect th
 The current HUD deliberately says **Foundation free play**. It is not the future round timer/remaining-bug HUD. Suction, captures, spectators, round transitions and mid-round policies are not implemented yet. No game action remotes exist at this milestone.
 
 ## Verification
+
+The latest [interior expansion](docs/INTERIOR_EXPANSION.md) adds 16 furniture groups and three bug-only hiding spaces without additional imports. After map edits, run `python scripts/build_interiors.py` and `python scripts/validate_interiors.py` to check the generated placements and sampled human routes.
 
 Run `.\scripts\Build.ps1` after edits. This compiles all Luau files, tests allocation policy and produces the Studio place. Compilation does not prove Roblox API correctness or replace a multiplayer playtest. See [validation evidence](docs/VALIDATION.md), [multiplayer testing](docs/MULTIPLAYER_TESTING.md), and [known issues](docs/KNOWN_ISSUES.md).
 
