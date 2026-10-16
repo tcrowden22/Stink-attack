@@ -2,6 +2,8 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
+**Climbing and reaching grabs:** face a wall or furniture and press **C** / tap **Climb**; press again to let go. The solo robot now extends a hose, warns, and pulls nearby bugs into capture range. Cover and the clubhouse break the grab. The downstairs imported sofa has been turned toward the room. Sync Rojo and restart Play; no new imports.
+
 **Snack-powered flight:** gold snacks now earn short flight bursts (up to three saved). Press **F** or tap **Fly** from the ground; steer normally. Carrying and delivering snacks still work as before. Stop Play, save the current imported house, sync Rojo, then Play again; no mesh reimport is needed. See the [flight playtest checklist](docs/SOLO_SNACK_RUN.md#snack-powered-flight).
 
 **New: [solo snack run](docs/SOLO_SNACK_RUN.md).** Collect glowing snacks, return them to the bug clubhouse, and evade a server-controlled Clean Team robot. Capture loses carried snacks and respawns you at home; delivered totals last only for the session. The robot is enabled for one StinkBug player. Player vacuum abilities and full multiplayer rounds remain unfinished.

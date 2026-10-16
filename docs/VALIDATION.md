@@ -116,3 +116,13 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Aikido proposal scan reported zero issues; final on-disk scan covered all nine changed first-party code files with zero findings and zero skipped paths.
 - Studio flight physics, steering, ceiling clearance, touch layout and multiplayer replication are not yet verified. See SOLO_SNACK_RUN.md for the acceptance checklist.
 - User confirmed existing robot vacuum works well; longer/stronger suction remains deferred and its settings were not changed.
+
+# Sofa, climbing and reaching grab — 2026-10-16
+
+- User identified the downstairs starting-room sofa as facing the wall. Changed only that imported sofa's yaw by 180 degrees; original native collision back remains on the wall side. Source routes still pass on all three floors. In-game imported-mesh appearance remains to be checked.
+- Added server-validated vertical climbing with desktop C, gamepad X and touch Climb/Let go. Checks nearby anchored collidable walls, head clearance, life, team and conflicting abilities. Character/removal/team cleanup and climbing leg motion are included.
+- Extended the solo robot's reach to 18 studs, added an extending hose/nozzle, 0.8-second warning and physical pull. Capture requires four-stud proximity. Pull expires after three seconds beyond warning, then uses a four-second cooldown. Flight/climbing cancel when grabbed. Cover, refuge and range/direction checks are retained.
+- Each feature was compiled/checked before proceeding. Final compilation and all five rule/gait suites pass; route and twelve-snack placement checks pass.
+- Aikido full-content proposal scans and on-disk scans of all 14 changed first-party code files reported zero issues and no skipped files. The final hose visual adjustment was rescanned successfully.
+- Rojo built build/StinkBugsVsVacuums-climb-grab-preview.rbxlx without replacing the saved imported house.
+- No Studio runtime or two-client test was performed here. The pending acceptance checklist covers wall/ledge behavior, ceiling stops, mobile layout, grabs during flight/climb, respawns and multiplayer cleanup.

@@ -20,7 +20,9 @@ function Animation.start()
             if not humanoid then continue end
             local v=root.AssemblyLinearVelocity
             local speed=Vector3.new(v.X,0,v.Z).Magnitude
-            local walking=humanoid.Health>0 and humanoid.FloorMaterial~=Enum.Material.Air
+            local climbing=root.Parent:GetAttribute("BugClimbing") == true
+            if climbing then speed=math.max(speed,math.abs(v.Y)) end
+            local walking=humanoid.Health>0 and (humanoid.FloorMaterial~=Enum.Material.Air or climbing)
             local nextPhase,yaw,lift=Gait.step(phase,dt,speed,walking,motor:GetAttribute("Phase") or 0)
             motors[motor]=nextPhase
             local side=motor:GetAttribute("Side") or 1

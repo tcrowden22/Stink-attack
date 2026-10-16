@@ -38,7 +38,8 @@ function Hud.start()
         local remaining=math.max(0,math.ceil(readyAt-workspace:GetServerTimeNow()))
         local flightHint=if player:GetAttribute("FlightActive") then "Flying! Steer normally."
             elseif remaining>0 then "Flight recharging: "..remaining.."s"
-            else "F / Fly: take off from the ground"
+            elseif player:GetAttribute("BugClimbing") then "Climbing • C / Let go to drop"
+            else "F: Fly • C: Climb (or tap buttons)"
         panel.Text=string.format(
             "STINK BUGS vs. VACUUMS • %s\nCarrying %d/5  •  Delivered %d  •  Flights %d/3\n%s\nE / tap: collect • %s",
             teamName,player:GetAttribute("CarriedSnacks") or 0,player:GetAttribute("BankedSnacks") or 0,

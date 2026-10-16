@@ -147,3 +147,7 @@ Follow the complete checklist in SOLO_SNACK_RUN.md. In particular test solo patr
 # Snack flight regression
 
 Follow the flight checks in [Solo snack run](SOLO_SNACK_RUN.md). With two clients, verify only the StinkBug earns fuel, the Vacuum sees the bug's flight/wings, and reset or disconnect during flight leaves no lift behind. These engine checks are pending.
+
+# Climbing and reaching-grab regression
+
+Use the sofa/climbing/grab checklist in SOLO_SNACK_RUN.md. Confirm both clients see climbing legs, human players cannot climb or fly, and a second player joining during a solo grab removes the robot, nozzle, beam and pull immediately. Reset/disconnect a climbing bug and verify no force remains. These Studio checks are pending.

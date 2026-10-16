@@ -6,6 +6,8 @@ local Forage=require(script.Parent.ForageService)
 local Refuge=require(script.Parent.RefugeService)
 local Models=require(script.Parent.CharacterModels)
 local Map=require(script.Parent.MapService)
+local Flight=require(script.Parent.FlightService)
+local Climb=require(script.Parent.ClimbService)
 local Cleaner={}
 local patrol={Vector3.new(24,0,8),Vector3.new(69,0,0),Vector3.new(103,0,25),Vector3.new(80,0,80),Vector3.new(27,0,55),Vector3.new(-12,0,15)}
 local function solo(): Player?
@@ -55,8 +57,19 @@ function Cleaner.start()
         local patrolSince=os.clock(); local charge=0; local cooldown=0
         local seenAt=0; local lastSeen: Vector3?=nil; local chargedCharacter: Model?=nil
         local beam: Beam?=nil; local ends: {Attachment}={}
+        local pull: LinearVelocity?=nil; local pulledRoot: BasePart?=nil
+        local pulledPlayer: Player?=nil; local nozzle: Part?=nil
+        local grabStarted: number?=nil
         local function stopSuction()
-            charge=0; chargedCharacter=nil
+            charge=0; chargedCharacter=nil; grabStarted=nil
+            if pull then pull:Destroy(); pull=nil end
+            if pulledRoot and pulledRoot.Parent then
+                -- A broken grab releases the bug without throwing it through the room.
+                pulledRoot.AssemblyLinearVelocity=Vector3.zero
+            end
+            pulledRoot=nil
+            if pulledPlayer then pulledPlayer:SetAttribute("CleanerPulling",false); pulledPlayer=nil end
+            if nozzle then nozzle:Destroy(); nozzle=nil end
             if beam then beam:Destroy(); beam=nil end
             for _,a in ends do a:Destroy() end
             table.clear(ends)
@@ -100,10 +113,14 @@ function Cleaner.start()
             end
             if not target or protected or now-seenAt>3 then lastSeen=nil end
             if chargedCharacter~=(if target then target.Parent else nil) then stopSuction() end
+            if grabStarted and Rules.grabExpired(now-grabStarted) then
+                stopSuction(); cooldown=now+Rules.Cooldown
+            end
             local valid=target~=nil and now>=cooldown and Rules.canSuction(distance,facing,visible,protected,true)
             charge=Rules.charge(charge,.15,valid)
             if valid and target then
                 chargedCharacter=target.Parent :: Model
+                if not grabStarted then grabStarted=now end
                 if not beam then
                     local a=Instance.new("Attachment"); a.Parent=root
                     local b=Instance.new("Attachment"); b.Parent=target
@@ -112,11 +129,46 @@ function Cleaner.start()
                     beam.Width0=2; beam.Width1=.4; beam.FaceCamera=true
                     beam.Color=ColorSequence.new(Color3.fromRGB(60,220,255)); beam.Parent=root
                 end
-                player:SetAttribute("CleanerThreat","VACUUMING! Run or get behind cover!")
+                local pulling=charge>=Rules.Windup
+                player:SetAttribute("CleanerThreat",if pulling then "GRABBED! Break the hose's line of sight!"
+                    else "HOSE REACHING! Get behind cover!")
                 workspace:SetAttribute("CleanerState","Vacuuming")
-                if charge>=Rules.Windup then
-                    -- All conditions were checked this tick; capture also rechecks life/refuge.
-                    Forage.capture(player); cooldown=now+Rules.Cooldown; lastSeen=nil; stopSuction()
+                -- Extend a visible nozzle along the warning beam; cosmetic only.
+                if not nozzle then
+                    nozzle=Instance.new("Part")
+                    nozzle.Name="ReachingNozzle"; nozzle.Size=Vector3.new(1.5,.7,1)
+                    nozzle.Color=Color3.fromRGB(40,80,115); nozzle.Material=Enum.Material.Metal
+                    nozzle.Anchored=true; nozzle.CanCollide=false; nozzle.CanTouch=false; nozzle.CanQuery=false
+                    nozzle.Parent=robot
+                    local socket=Instance.new("Attachment"); socket.Parent=nozzle
+                    local hose=Instance.new("Beam"); hose.Name="ExtendingHose"
+                    hose.Attachment0=ends[1]; hose.Attachment1=socket
+                    hose.Width0=.7; hose.Width1=.7; hose.FaceCamera=true; hose.Segments=16
+                    hose.Color=ColorSequence.new(Color3.fromRGB(25,38,52))
+                    hose.CurveSize0=1.5; hose.CurveSize1=-1.5; hose.Parent=nozzle
+                end
+                local extension=math.min(.9,charge/Rules.Windup*.9)
+                local tip=root.Position:Lerp(target.Position,extension)
+                if (target.Position-tip).Magnitude>.05 then nozzle.CFrame=CFrame.lookAt(tip,target.Position) end
+                if pulling then
+                    if not pull then
+                        -- Stop other lift before attaching the server-created grab.
+                        Flight.cancel(player); Climb.cancel(player)
+                        player:SetAttribute("CleanerPulling",true); pulledPlayer=player; pulledRoot=target
+                        pull=Instance.new("LinearVelocity"); pull.Name="CleanerGrab"
+                        pull.Attachment0=ends[2]; pull.RelativeTo=Enum.ActuatorRelativeTo.World
+                        pull.VelocityConstraintMode=Enum.VelocityConstraintMode.Line
+                        pull.ForceLimitsEnabled=true; pull.ForceLimitMode=Enum.ForceLimitMode.Magnitude
+                        pull.MaxForce=target.AssemblyMass*workspace.Gravity*4
+                        pull.Parent=target
+                    end
+                    local toward=root.Position-target.Position
+                    if toward.Magnitude>.05 then pull.LineDirection=toward.Unit end
+                    pull.LineVelocity=Rules.PullSpeed
+                    if Rules.canCapture(distance,charge) then
+                        -- Rechecked range, direction, life, cover and refuge this tick.
+                        Forage.capture(player); cooldown=now+Rules.Cooldown; lastSeen=nil; stopSuction()
+                    end
                 end
             else
                 stopSuction()

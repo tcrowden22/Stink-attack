@@ -36,6 +36,10 @@ local function stop(player: Player, state: State)
     end
     sync(player, state)
 end
+function Flight.cancel(player: Player)
+    local state = states[player]
+    if state then stop(player, state) end
+end
 local function reset(player: Player, state: State)
     state.charges = 0
     state.readyAt = 0
@@ -89,7 +93,8 @@ local function request(player: Player)
     if not character or not humanoid or not root then return end
     if not Rules.canStart(state.charges, now, state.readyAt, state.active ~= nil,
         humanoid.FloorMaterial ~= Enum.Material.Air) then return end
-    if humanoid.Sit or humanoid.PlatformStand or ceiling(root, character) then return end
+    if humanoid.Sit or humanoid.PlatformStand or ceiling(root, character)
+        or player:GetAttribute("BugClimbing") or player:GetAttribute("CleanerPulling") then return end
     -- Only this server path spends a charge and creates lift. The client sends no physics values.
     state.charges -= 1
     state.readyAt = now + Rules.Cooldown
