@@ -163,3 +163,7 @@ Use the sofa/climbing/grab checklist in SOLO_SNACK_RUN.md. Confirm both clients 
 # Team choice and player vacuum acceptance
 
 Follow TEAM_CHOICE_AND_HUNT.md for both solo roles, two-vacuum cooperative hunts, mixed human teams, duplicate role requests, competing capture claims, stale/held input, disconnects during spawn/pull and touch/gamepad controls. These runtime checks are pending; automatic first-player/second-player team expectations in historical sections are superseded by explicit role selection.
+
+# Stink and spider acceptance
+
+Follow [STINK_AND_SPIDERS.md](STINK_AND_SPIDERS.md) with two clients, including independent clubhouse grace timers, overlapping stink slows, center-crossing captures, respawn/disconnect cleanup, attic boundary behavior and touch controls. Historical refuge-immunity checks refer to vacuums; the clubhouse now has spiders after five seconds. Runtime checks remain pending.

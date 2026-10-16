@@ -135,7 +135,7 @@ function Cleaner.start()
             if grabStarted and Rules.grabExpired(now-grabStarted) then
                 stopSuction(); cooldown=now+Rules.Cooldown
             end
-            local valid=target~=nil and now>=cooldown and Rules.canSuction(distance,facing,visible,protected,true)
+            local valid=target~=nil and now>=cooldown and Rules.canSuction(distance,facing,visible,protected,true,charge>=Rules.Windup)
             charge=Rules.charge(charge,.15,valid)
             if valid and target then
                 chargedCharacter=target.Parent :: Model

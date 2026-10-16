@@ -45,7 +45,7 @@ function RefugeService.start()
             label.TextColor3 = Color3.fromRGB(237, 255, 196)
             label.TextScaled = true
             label.Font = Enum.Font.GothamBold
-            label.Text = "BUG CLUBHOUSE\nSTINK BUGS ONLY"
+            label.Text = "DELIVER & GO!\nSPIDERS WAKE AFTER 5s"
             label.Parent = surface
             surface.Parent = item
         end

@@ -12,6 +12,10 @@ end
 function Rules.canSuck(distance: number,facing: number,clear: boolean,protected: boolean): boolean
     return distance>=0 and distance<=Rules.Range and facing>=Rules.Facing and clear and not protected
 end
+function Rules.canMaintain(distance: number,facing: number,clear: boolean,protected: boolean,locked: boolean): boolean
+    return Rules.canSuck(distance,facing,clear,protected)
+        or (locked and distance>=0 and distance<=Rules.CaptureRange and clear and not protected)
+end
 function Rules.canCapture(distance: number,elapsed: number): boolean
     return distance>=0 and distance<=Rules.CaptureRange and elapsed>=Rules.Windup
 end

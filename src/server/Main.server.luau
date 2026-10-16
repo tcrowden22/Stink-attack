@@ -44,3 +44,6 @@ for _, player in Players:GetPlayers() do
     onPlayerAdded(player)
 end
 print("[Team choice] Ready: Stink Bug escape or Vacuum bug hunt.")
+
+require(script.Parent.StinkService).start()
+require(script.Parent.SpiderService).start()

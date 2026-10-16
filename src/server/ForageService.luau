@@ -23,11 +23,11 @@ local function sync(p: Player)
     if not s then return end
     p:SetAttribute("CarriedSnacks",s.carried); p:SetAttribute("BankedSnacks",s.banked)
 end
-function Forage.capture(p: Player)
+function Forage.eliminate(p: Player,message: string)
     local s=states[p]; local root=Forage.bugRoot(p)
-    if not s or not root or Refuge.isProtected(p) then return end
+    if not s or not root then return end
     s.carried=0; sync(p)
-    p:SetAttribute("ForageMessage","Vacuumed up! Returning home...")
+    p:SetAttribute("ForageMessage",message)
     p:SetAttribute("CleanerThreat","")
     local h=root.Parent:FindFirstChildOfClass("Humanoid")
     if h then
@@ -36,6 +36,10 @@ function Forage.capture(p: Player)
         end
         h.Health=0
     end
+end
+function Forage.capture(p: Player)
+    if Refuge.isProtected(p) then return end
+    Forage.eliminate(p,"Vacuumed up! Returning home...")
 end
 local function join(p: Player)
     if states[p] then return end

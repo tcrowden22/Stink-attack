@@ -146,3 +146,12 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - All Luau compiled; seven rule/gait suites passed, including new choice-lock, AI-mode, suction-boundary/refuge/capture tests. House checks passed. Feature code was compiled/scanned as it was added.
 - Aikido full-content proposal scans passed; final on-disk scan covered all 11 changed first-party code files with zero findings and no skipped files.
 - Built build/StinkBugsVsVacuums-team-choice-preview.rbxlx without overwriting the imported saved house. No Studio runtime or multiplayer pass is claimed; the explicit acceptance checklist is in TEAM_CHOICE_AND_HUNT.md.
+
+# Stink burst and spiders — 2026-10-16
+
+- Fixed retention of acquired targets inside the vacuum capture radius, retaining cover/refuge/life checks. New targets still require the forward cone.
+- Added server-authorized stink cooldown/range/LOS and nonstacking timed hunter slowdown; desktop/gamepad/touch controls and replicated temporary green cloud animation.
+- Built original eight-legged spider in Blender 5.1.2; exported blend/FBX/preview and matching native Roblox geometry. Visually inspected render; verified 47 parts and eight four-part leg groups.
+- Added two clubhouse spiders with individual continuous five-second grace timers and two attic guards; pathfinding, zone checks, close LOS bites, head/leg animation and existing respawn flow.
+- All Luau compiled, eight rule/gait suites passed, house/interior/snack validators passed. Aikido proposal scans and final on-disk scan of 21 code files found zero issues with no skipped paths.
+- Built build/StinkBugsVsVacuums-stink-spiders-preview.rbxlx without replacing the saved imported place. Runtime and multiplayer checks are pending in STINK_AND_SPIDERS.md.

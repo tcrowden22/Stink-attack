@@ -26,6 +26,8 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Arm motion tests failed' }
     & $luau tests\HuntRules.spec.luau
     if ($LASTEXITCODE -ne 0) { throw 'Hunt rules tests failed' }
+    & $luau tests\DangerRules.spec.luau
+    if ($LASTEXITCODE -ne 0) { throw 'Danger rules tests failed' }
     New-Item -ItemType Directory -Force build | Out-Null
     & $rojo build default.project.json --output build\StinkBugsVsVacuums.rbxlx
     if ($LASTEXITCODE -ne 0) { throw 'Rojo build failed' }

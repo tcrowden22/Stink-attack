@@ -3,8 +3,8 @@ local Rules={Capacity=5,PickupRange=6,ItemRespawn=20,DetectRange=45,SuctionRange
 function Rules.canCollect(carried: number, distance: number, visible: boolean, available: boolean): boolean
     return available and visible and distance>=0 and distance<=Rules.PickupRange and carried<Rules.Capacity
 end
-function Rules.canSuction(distance: number, facing: number, visible: boolean, protected: boolean, alive: boolean): boolean
-    return alive and not protected and visible and distance>=0 and distance<=Rules.SuctionRange and facing>=.55
+function Rules.canSuction(distance: number, facing: number, visible: boolean, protected: boolean, alive: boolean, locked: boolean?): boolean
+    return alive and not protected and visible and distance>=0 and distance<=Rules.SuctionRange and (facing>=.55 or (locked==true and distance<=Rules.CaptureRange))
 end
 function Rules.canCapture(distance: number, elapsed: number): boolean
     return distance>=0 and distance<=Rules.CaptureRange and elapsed>=Rules.Windup

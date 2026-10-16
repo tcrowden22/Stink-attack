@@ -2,6 +2,8 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
+**Stink burst and spiders:** press **R**, gamepad **B**, or tap **Stink!** to make a green cloud that slows nearby hunters. Leave the clubhouse within five seconds to avoid waking its spiders; two more guard the attic. Vacuum captures retain already-pulled bugs at the center. See [setup and acceptance checks](docs/STINK_AND_SPIDERS.md). No new mesh import is required.
+
 **Choose your team:** select **Stink Bug** to collect and escape, or **Vacuum** to hunt three roaming AI bugs. Face a bug and hold **click / Q / Suction** to pull it in. See [team choice and bug hunt](docs/TEAM_CHOICE_AND_HUNT.md) for controls, multiplayer behavior and testing.
 
 **Controlled climbing and top-hose grabs:** face a wall or furniture and press **C** / tap **Climb**. Move toward/away from the wall to go up/down, or move sideways; release movement to pause. Grip lasts four seconds, including pauses, and recharges on the ground. Press C again to let go. The robot's top hose now lifts, curves outward and retracts smoothly. Room walls meet the next floor so bugs cannot fly over the dividers. The starting sofa uses matching native seat/back geometry instead of the imported overlay. Sync Rojo and restart Play; no new imports.

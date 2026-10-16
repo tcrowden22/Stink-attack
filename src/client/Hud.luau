@@ -33,19 +33,20 @@ function Hud.start()
         if player.Team and player.Team.Name=="Vacuums" then
             panel.Text=string.format("CLEAN TEAM • VACUUM\nBugs caught: %d • AI bugs roaming: %d\n%s\nFace a bug • Hold click / Q / Suction",
                 player:GetAttribute("BugsCaught") or 0,workspace:GetAttribute("AIBugsRemaining") or 0,
-                player:GetAttribute("VacuumStatus") or "Find the stink bugs hiding around the house.")
+                if player.Character and (player.Character:GetAttribute("StinkSlowedUntil") or 0)>workspace:GetServerTimeNow() then "STINKED! Movement slowed for a few seconds." else player:GetAttribute("VacuumStatus") or "Find the stink bugs hiding around the house.")
             return
         end
         local threat=player:GetAttribute("CleanerThreat") or ""
         local message=player:GetAttribute("ForageMessage") or "Collect glowing snacks."
         local safe=player:GetAttribute("InBugRefuge")
-        local status=if threat~="" then threat elseif safe then "HOME • Safe from Clean Team" else message
+        local spider=player:GetAttribute("SpiderWarning") or ""
+        local status=if spider~="" then spider elseif threat~="" then threat elseif safe then "HOME • Deliver and leave before spiders wake!" else message
         local readyAt=player:GetAttribute("FlightReadyAt") or 0
         local remaining=math.max(0,math.ceil(readyAt-workspace:GetServerTimeNow()))
         local flightHint=if player:GetAttribute("FlightActive") then "Flying! Steer normally."
             elseif remaining>0 then "Flight recharging: "..remaining.."s"
             elseif player:GetAttribute("BugClimbing") then string.format("Grip %.1fs • Move to climb • C: drop",player:GetAttribute("ClimbGrip") or 0)
-            else "F: Fly • C: Climb (or tap buttons)"
+            else "F: Fly • C: Climb • R: Stink (or tap buttons)"
         panel.Text=string.format(
             "STINK BUGS vs. VACUUMS • %s\nCarrying %d/5  •  Delivered %d  •  Flights %d/3\n%s\nE / tap: collect • %s",
             teamName,player:GetAttribute("CarriedSnacks") or 0,player:GetAttribute("BankedSnacks") or 0,

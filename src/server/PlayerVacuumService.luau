@@ -30,13 +30,13 @@ local function vacuumRoot(player: Player): BasePart?
         or not h or h.Health<=0 or not root or not root:IsA("BasePart") then return nil end
     return root
 end
-local function valid(root: BasePart,target: Model): BasePart?
+local function valid(root: BasePart,target: Model,locked: boolean?): BasePart?
     local h=target:FindFirstChildOfClass("Humanoid")
     local r=target:FindFirstChild("HumanoidRootPart")
     if not target.Parent or not h or h.Health<=0 or not r or not r:IsA("BasePart") then return nil end
     local delta=r.Position-root.Position
     local facing=if delta.Magnitude>.01 then root.CFrame.LookVector:Dot(delta.Unit) else 1
-    if not Rules.canSuck(delta.Magnitude,facing,true,Refuge.containsPosition(r.Position)) then return nil end
+    if not Rules.canMaintain(delta.Magnitude,facing,true,Refuge.containsPosition(r.Position),locked==true) then return nil end
     local params=RaycastParams.new(); params.FilterType=Enum.RaycastFilterType.Exclude
     params.FilterDescendantsInstances={root.Parent,target}; params.RespectCanCollide=true
     params.CollisionGroup="Vacuums"
@@ -89,7 +89,7 @@ function Vacuum.start()
                     clear(state); state.started=0; state.cooldown=now+Rules.Cooldown
                     continue
                 end
-                if state.target and (not valid(root,state.target) or
+                if state.target and (not valid(root,state.target,state.charge>=Rules.Windup) or
                     (state.targetPlayer and (not state.targetPlayer.Team or state.targetPlayer.Team.Name~="StinkBugs"))) then clear(state) end
                 if not state.target then
                     local nearest=math.huge
@@ -120,7 +120,7 @@ function Vacuum.start()
                     end
                 end
                 local target=state.target
-                local targetRoot=if target then valid(root,target) else nil
+                local targetRoot=if target then valid(root,target,state.charge>=Rules.Windup) else nil
                 if not target or not targetRoot then
                     clear(state); player:SetAttribute("VacuumStatus","Aim your character toward a bug!")
                     continue

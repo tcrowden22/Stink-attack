@@ -24,3 +24,6 @@ require(script.Parent.ClimbController).start()
 require(script.Parent.CleanerArm).start()
 
 require(script.Parent.VacuumController).start()
+
+require(script.Parent.StinkController).start()
+require(script.Parent.SpiderAnimation).start()

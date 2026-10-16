@@ -29,3 +29,7 @@ check(not R.canCapture(2,R.Windup-.01),"No capture before warning")
 check(not R.grabExpired(R.Windup+R.GrabDuration-.01),"Grab window")
 check(R.grabExpired(R.Windup+R.GrabDuration),"Timed escape from stalled grab")
 print("PASS reaching grab: longer reach, warning, close capture and bounded duration")
+
+check(R.canSuction(2,-1,true,false,true,true),"Robot retains already-pulled bug at center")
+check(not R.canSuction(2,-1,false,false,true,true),"Robot center capture blocked by walls")
+check(not R.canSuction(2,-1,true,true,true,true),"Robot center capture blocked in refuge")
