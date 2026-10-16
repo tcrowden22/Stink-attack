@@ -16,6 +16,8 @@ The October 16 reference replaces the green bug with a brown armored bug. The fi
 
 Missing/incomplete V2 imports select the new native brown bug or blue vacuum. The native bug also has moving legs. An imported bug's Appearance attribute reads Blender V2 animated brown bug. The fallback reads Native V2 animated brown bug.
 
+Facing correction: the imported bug receives a 180-degree turn at spawn before its joints are created. This aligns the observed Studio import with the humanoid's travel direction and turns the hip frames with the body. The native bug already faces forward. Sync and restart Play to apply this correction; no reimport is needed. The user confirmed the legs animate in Studio; the facing correction still needs a fresh play check.
+
 ## What from the photo is represented
 
 | Reference feature | Prototype implementation |

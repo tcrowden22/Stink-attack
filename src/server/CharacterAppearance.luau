@@ -105,7 +105,11 @@ function Appearance.apply(character: Model, team: string, humanoid: Humanoid)
         fit(model,Vector3.new(2.65,1.75,2.65))
         local bounds,size=model:GetBoundingBox()
         local bottom=-(humanoid.HipHeight+root.Size.Y/2)+.08
-        local target=root.CFrame*CFrame.new(0,bottom+size.Y/2,0)
+        -- Studio imports this FBX facing +Z; the humanoid walks toward -Z.
+        -- Rotate the complete imported costume before constructing its joints,
+        -- so the body, hip frames and working leg animation turn together.
+        local facing=if model:GetAttribute("ArtSource")=="Blender V2" then CFrame.Angles(0,math.pi,0) else CFrame.identity
+        local target=root.CFrame*CFrame.new(0,bottom+size.Y/2,0)*facing
         model:PivotTo(target*bounds:Inverse()*model:GetPivot())
         for _,p in character:GetDescendants() do
             if p:IsA("BasePart") or p:IsA("Decal") then p.Transparency=1 end
