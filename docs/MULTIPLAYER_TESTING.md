@@ -171,3 +171,7 @@ Follow [STINK_AND_SPIDERS.md](STINK_AND_SPIDERS.md) with two clients, including 
 # Bathrooms and automatic crawl
 
 Follow BATHROOMS_AND_CRAWLING.md with two players: check body/leg alignment on differently oriented walls, spider body coherence, pose restoration after capture/reset, main/book stair entrances and all bathroom doorways. Repeat with touch controls. These Studio checks remain pending.
+
+# Spatial sound and stair covering
+
+Follow SOUNDS_AND_STAIRS.md with two players: confirm one fart per accepted burst, nearby vacuum/spider cues, distance attenuation, voice limits and cleanup after resets/disconnections. Inspect all main stair flights in the imported place. Listening and visual runtime acceptance are pending.

@@ -73,8 +73,10 @@ for p in stairs["Children"]:
     n=p["Name"]; q=p.get("Properties",{})
     if n.startswith("Flight") and "Tread" in n:
         floor=int(n.split("Tread")[0].removeprefix("Flight"))
-        step=int(n.split("Tread")[1]); h=step*.5
-        q["Size"][1]=h; q["Position"][1]=floor+h/2
+        step=int(n.split("Tread")[1])
+        # Thin treads preserve the clear space beneath each flight.
+        q["Size"][1]=.5; q["Position"][1]=floor+step*.5-.25
+        q["Color"]=[.56,.37,.22]; q["Material"]="WoodPlanks"
 for y in (0,24,48):
     stairs["Children"].append(part("EntryLanding"+str(y),[134,y-.5,-23],[14,1,2.2],[.65,.47,.3],True,"WoodPlanks"))
 for y in (0,24):

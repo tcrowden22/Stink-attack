@@ -117,11 +117,11 @@
           -21.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -134,20 +134,20 @@
         "Anchored": true,
         "Size": [
           12,
-          1.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          0.5,
+          0.75,
           -20.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -160,20 +160,20 @@
         "Anchored": true,
         "Size": [
           12,
-          1.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          0.75,
+          1.25,
           -18.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -186,20 +186,20 @@
         "Anchored": true,
         "Size": [
           12,
-          2.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          1.0,
+          1.75,
           -17.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -212,20 +212,20 @@
         "Anchored": true,
         "Size": [
           12,
-          2.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          1.25,
+          2.25,
           -16.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -238,20 +238,20 @@
         "Anchored": true,
         "Size": [
           12,
-          3.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          1.5,
+          2.75,
           -15.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -264,20 +264,20 @@
         "Anchored": true,
         "Size": [
           12,
-          3.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          1.75,
+          3.25,
           -13.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -290,20 +290,20 @@
         "Anchored": true,
         "Size": [
           12,
-          4.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          2.0,
+          3.75,
           -12.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -316,20 +316,20 @@
         "Anchored": true,
         "Size": [
           12,
-          4.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          2.25,
+          4.25,
           -11.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -342,20 +342,20 @@
         "Anchored": true,
         "Size": [
           12,
-          5.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          2.5,
+          4.75,
           -10.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -368,20 +368,20 @@
         "Anchored": true,
         "Size": [
           12,
-          5.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          2.75,
+          5.25,
           -8.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -394,20 +394,20 @@
         "Anchored": true,
         "Size": [
           12,
-          6.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          3.0,
+          5.75,
           -7.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -420,20 +420,20 @@
         "Anchored": true,
         "Size": [
           12,
-          6.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          3.25,
+          6.25,
           -6.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -446,20 +446,20 @@
         "Anchored": true,
         "Size": [
           12,
-          7.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          3.5,
+          6.75,
           -5.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -472,20 +472,20 @@
         "Anchored": true,
         "Size": [
           12,
-          7.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          3.75,
+          7.25,
           -3.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -498,20 +498,20 @@
         "Anchored": true,
         "Size": [
           12,
-          8.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          4.0,
+          7.75,
           -2.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -524,20 +524,20 @@
         "Anchored": true,
         "Size": [
           12,
-          8.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          4.25,
+          8.25,
           -1.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -550,20 +550,20 @@
         "Anchored": true,
         "Size": [
           12,
-          9.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          4.5,
+          8.75,
           -0.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -576,20 +576,20 @@
         "Anchored": true,
         "Size": [
           12,
-          9.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          4.75,
+          9.25,
           1.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -602,20 +602,20 @@
         "Anchored": true,
         "Size": [
           12,
-          10.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          5.0,
+          9.75,
           2.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -628,20 +628,20 @@
         "Anchored": true,
         "Size": [
           12,
-          10.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          5.25,
+          10.25,
           3.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -654,20 +654,20 @@
         "Anchored": true,
         "Size": [
           12,
-          11.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          5.5,
+          10.75,
           4.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -680,20 +680,20 @@
         "Anchored": true,
         "Size": [
           12,
-          11.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          5.75,
+          11.25,
           6.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -706,20 +706,20 @@
         "Anchored": true,
         "Size": [
           12,
-          12.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          6.0,
+          11.75,
           7.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -732,20 +732,20 @@
         "Anchored": true,
         "Size": [
           12,
-          12.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          6.25,
+          12.25,
           8.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -758,20 +758,20 @@
         "Anchored": true,
         "Size": [
           12,
-          13.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          6.5,
+          12.75,
           9.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -784,20 +784,20 @@
         "Anchored": true,
         "Size": [
           12,
-          13.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          6.75,
+          13.25,
           11.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -810,20 +810,20 @@
         "Anchored": true,
         "Size": [
           12,
-          14.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          7.0,
+          13.75,
           12.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -836,20 +836,20 @@
         "Anchored": true,
         "Size": [
           12,
-          14.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          7.25,
+          14.25,
           13.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -862,20 +862,20 @@
         "Anchored": true,
         "Size": [
           12,
-          15.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          7.5,
+          14.75,
           14.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -888,20 +888,20 @@
         "Anchored": true,
         "Size": [
           12,
-          15.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          7.75,
+          15.25,
           16.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -914,20 +914,20 @@
         "Anchored": true,
         "Size": [
           12,
-          16.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          8.0,
+          15.75,
           17.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -940,20 +940,20 @@
         "Anchored": true,
         "Size": [
           12,
-          16.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          8.25,
+          16.25,
           18.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -966,20 +966,20 @@
         "Anchored": true,
         "Size": [
           12,
-          17.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          8.5,
+          16.75,
           19.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -992,20 +992,20 @@
         "Anchored": true,
         "Size": [
           12,
-          17.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          8.75,
+          17.25,
           21.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1018,20 +1018,20 @@
         "Anchored": true,
         "Size": [
           12,
-          18.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          9.0,
+          17.75,
           22.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1044,20 +1044,20 @@
         "Anchored": true,
         "Size": [
           12,
-          18.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          9.25,
+          18.25,
           23.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1070,20 +1070,20 @@
         "Anchored": true,
         "Size": [
           12,
-          19.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          9.5,
+          18.75,
           24.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1096,20 +1096,20 @@
         "Anchored": true,
         "Size": [
           12,
-          19.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          9.75,
+          19.25,
           26.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1122,20 +1122,20 @@
         "Anchored": true,
         "Size": [
           12,
-          20.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          10.0,
+          19.75,
           27.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1148,20 +1148,20 @@
         "Anchored": true,
         "Size": [
           12,
-          20.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          10.25,
+          20.25,
           28.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1174,20 +1174,20 @@
         "Anchored": true,
         "Size": [
           12,
-          21.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          10.5,
+          20.75,
           29.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1200,20 +1200,20 @@
         "Anchored": true,
         "Size": [
           12,
-          21.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          10.75,
+          21.25,
           31.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1226,20 +1226,20 @@
         "Anchored": true,
         "Size": [
           12,
-          22.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          11.0,
+          21.75,
           32.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1252,20 +1252,20 @@
         "Anchored": true,
         "Size": [
           12,
-          22.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          11.25,
+          22.25,
           33.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1278,20 +1278,20 @@
         "Anchored": true,
         "Size": [
           12,
-          23.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          11.5,
+          22.75,
           34.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1304,20 +1304,20 @@
         "Anchored": true,
         "Size": [
           12,
-          23.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          11.75,
+          23.25,
           36.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1330,20 +1330,20 @@
         "Anchored": true,
         "Size": [
           12,
-          24.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          12.0,
+          23.75,
           37.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1483,11 +1483,11 @@
           -21.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1500,20 +1500,20 @@
         "Anchored": true,
         "Size": [
           12,
-          1.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          24.5,
+          24.75,
           -20.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1526,20 +1526,20 @@
         "Anchored": true,
         "Size": [
           12,
-          1.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          24.75,
+          25.25,
           -18.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1552,20 +1552,20 @@
         "Anchored": true,
         "Size": [
           12,
-          2.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          25.0,
+          25.75,
           -17.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1578,20 +1578,20 @@
         "Anchored": true,
         "Size": [
           12,
-          2.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          25.25,
+          26.25,
           -16.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1604,20 +1604,20 @@
         "Anchored": true,
         "Size": [
           12,
-          3.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          25.5,
+          26.75,
           -15.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1630,20 +1630,20 @@
         "Anchored": true,
         "Size": [
           12,
-          3.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          25.75,
+          27.25,
           -13.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1656,20 +1656,20 @@
         "Anchored": true,
         "Size": [
           12,
-          4.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          26.0,
+          27.75,
           -12.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1682,20 +1682,20 @@
         "Anchored": true,
         "Size": [
           12,
-          4.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          26.25,
+          28.25,
           -11.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1708,20 +1708,20 @@
         "Anchored": true,
         "Size": [
           12,
-          5.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          26.5,
+          28.75,
           -10.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1734,20 +1734,20 @@
         "Anchored": true,
         "Size": [
           12,
-          5.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          26.75,
+          29.25,
           -8.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1760,20 +1760,20 @@
         "Anchored": true,
         "Size": [
           12,
-          6.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          27.0,
+          29.75,
           -7.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1786,20 +1786,20 @@
         "Anchored": true,
         "Size": [
           12,
-          6.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          27.25,
+          30.25,
           -6.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1812,20 +1812,20 @@
         "Anchored": true,
         "Size": [
           12,
-          7.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          27.5,
+          30.75,
           -5.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1838,20 +1838,20 @@
         "Anchored": true,
         "Size": [
           12,
-          7.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          27.75,
+          31.25,
           -3.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1864,20 +1864,20 @@
         "Anchored": true,
         "Size": [
           12,
-          8.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          28.0,
+          31.75,
           -2.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1890,20 +1890,20 @@
         "Anchored": true,
         "Size": [
           12,
-          8.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          28.25,
+          32.25,
           -1.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1916,20 +1916,20 @@
         "Anchored": true,
         "Size": [
           12,
-          9.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          28.5,
+          32.75,
           -0.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1942,20 +1942,20 @@
         "Anchored": true,
         "Size": [
           12,
-          9.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          28.75,
+          33.25,
           1.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1968,20 +1968,20 @@
         "Anchored": true,
         "Size": [
           12,
-          10.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          29.0,
+          33.75,
           2.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -1994,20 +1994,20 @@
         "Anchored": true,
         "Size": [
           12,
-          10.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          29.25,
+          34.25,
           3.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2020,20 +2020,20 @@
         "Anchored": true,
         "Size": [
           12,
-          11.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          29.5,
+          34.75,
           4.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2046,20 +2046,20 @@
         "Anchored": true,
         "Size": [
           12,
-          11.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          29.75,
+          35.25,
           6.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2072,20 +2072,20 @@
         "Anchored": true,
         "Size": [
           12,
-          12.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          30.0,
+          35.75,
           7.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2098,20 +2098,20 @@
         "Anchored": true,
         "Size": [
           12,
-          12.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          30.25,
+          36.25,
           8.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2124,20 +2124,20 @@
         "Anchored": true,
         "Size": [
           12,
-          13.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          30.5,
+          36.75,
           9.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2150,20 +2150,20 @@
         "Anchored": true,
         "Size": [
           12,
-          13.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          30.75,
+          37.25,
           11.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2176,20 +2176,20 @@
         "Anchored": true,
         "Size": [
           12,
-          14.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          31.0,
+          37.75,
           12.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2202,20 +2202,20 @@
         "Anchored": true,
         "Size": [
           12,
-          14.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          31.25,
+          38.25,
           13.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2228,20 +2228,20 @@
         "Anchored": true,
         "Size": [
           12,
-          15.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          31.5,
+          38.75,
           14.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2254,20 +2254,20 @@
         "Anchored": true,
         "Size": [
           12,
-          15.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          31.75,
+          39.25,
           16.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2280,20 +2280,20 @@
         "Anchored": true,
         "Size": [
           12,
-          16.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          32.0,
+          39.75,
           17.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2306,20 +2306,20 @@
         "Anchored": true,
         "Size": [
           12,
-          16.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          32.25,
+          40.25,
           18.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2332,20 +2332,20 @@
         "Anchored": true,
         "Size": [
           12,
-          17.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          32.5,
+          40.75,
           19.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2358,20 +2358,20 @@
         "Anchored": true,
         "Size": [
           12,
-          17.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          32.75,
+          41.25,
           21.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2384,20 +2384,20 @@
         "Anchored": true,
         "Size": [
           12,
-          18.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          33.0,
+          41.75,
           22.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2410,20 +2410,20 @@
         "Anchored": true,
         "Size": [
           12,
-          18.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          33.25,
+          42.25,
           23.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2436,20 +2436,20 @@
         "Anchored": true,
         "Size": [
           12,
-          19.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          33.5,
+          42.75,
           24.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2462,20 +2462,20 @@
         "Anchored": true,
         "Size": [
           12,
-          19.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          33.75,
+          43.25,
           26.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2488,20 +2488,20 @@
         "Anchored": true,
         "Size": [
           12,
-          20.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          34.0,
+          43.75,
           27.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2514,20 +2514,20 @@
         "Anchored": true,
         "Size": [
           12,
-          20.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          34.25,
+          44.25,
           28.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2540,20 +2540,20 @@
         "Anchored": true,
         "Size": [
           12,
-          21.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          34.5,
+          44.75,
           29.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2566,20 +2566,20 @@
         "Anchored": true,
         "Size": [
           12,
-          21.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          34.75,
+          45.25,
           31.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2592,20 +2592,20 @@
         "Anchored": true,
         "Size": [
           12,
-          22.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          35.0,
+          45.75,
           32.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2618,20 +2618,20 @@
         "Anchored": true,
         "Size": [
           12,
-          22.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          35.25,
+          46.25,
           33.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2644,20 +2644,20 @@
         "Anchored": true,
         "Size": [
           12,
-          23.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          35.5,
+          46.75,
           34.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2670,20 +2670,20 @@
         "Anchored": true,
         "Size": [
           12,
-          23.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          35.75,
+          47.25,
           36.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2696,20 +2696,20 @@
         "Anchored": true,
         "Size": [
           12,
-          24.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          36.0,
+          47.75,
           37.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2849,11 +2849,11 @@
           -21.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2866,20 +2866,20 @@
         "Anchored": true,
         "Size": [
           12,
-          1.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          48.5,
+          48.75,
           -20.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2892,20 +2892,20 @@
         "Anchored": true,
         "Size": [
           12,
-          1.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          48.75,
+          49.25,
           -18.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2918,20 +2918,20 @@
         "Anchored": true,
         "Size": [
           12,
-          2.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          49.0,
+          49.75,
           -17.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2944,20 +2944,20 @@
         "Anchored": true,
         "Size": [
           12,
-          2.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          49.25,
+          50.25,
           -16.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2970,20 +2970,20 @@
         "Anchored": true,
         "Size": [
           12,
-          3.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          49.5,
+          50.75,
           -15.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -2996,20 +2996,20 @@
         "Anchored": true,
         "Size": [
           12,
-          3.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          49.75,
+          51.25,
           -13.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3022,20 +3022,20 @@
         "Anchored": true,
         "Size": [
           12,
-          4.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          50.0,
+          51.75,
           -12.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3048,20 +3048,20 @@
         "Anchored": true,
         "Size": [
           12,
-          4.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          50.25,
+          52.25,
           -11.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3074,20 +3074,20 @@
         "Anchored": true,
         "Size": [
           12,
-          5.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          50.5,
+          52.75,
           -10.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3100,20 +3100,20 @@
         "Anchored": true,
         "Size": [
           12,
-          5.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          50.75,
+          53.25,
           -8.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3126,20 +3126,20 @@
         "Anchored": true,
         "Size": [
           12,
-          6.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          51.0,
+          53.75,
           -7.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3152,20 +3152,20 @@
         "Anchored": true,
         "Size": [
           12,
-          6.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          51.25,
+          54.25,
           -6.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3178,20 +3178,20 @@
         "Anchored": true,
         "Size": [
           12,
-          7.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          51.5,
+          54.75,
           -5.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3204,20 +3204,20 @@
         "Anchored": true,
         "Size": [
           12,
-          7.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          51.75,
+          55.25,
           -3.875
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3230,20 +3230,20 @@
         "Anchored": true,
         "Size": [
           12,
-          8.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          52.0,
+          55.75,
           -2.625
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3256,20 +3256,20 @@
         "Anchored": true,
         "Size": [
           12,
-          8.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          52.25,
+          56.25,
           -1.375
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3282,20 +3282,20 @@
         "Anchored": true,
         "Size": [
           12,
-          9.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          52.5,
+          56.75,
           -0.125
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3308,20 +3308,20 @@
         "Anchored": true,
         "Size": [
           12,
-          9.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          52.75,
+          57.25,
           1.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3334,20 +3334,20 @@
         "Anchored": true,
         "Size": [
           12,
-          10.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          53.0,
+          57.75,
           2.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3360,20 +3360,20 @@
         "Anchored": true,
         "Size": [
           12,
-          10.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          53.25,
+          58.25,
           3.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3386,20 +3386,20 @@
         "Anchored": true,
         "Size": [
           12,
-          11.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          53.5,
+          58.75,
           4.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3412,20 +3412,20 @@
         "Anchored": true,
         "Size": [
           12,
-          11.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          53.75,
+          59.25,
           6.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3438,20 +3438,20 @@
         "Anchored": true,
         "Size": [
           12,
-          12.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          54.0,
+          59.75,
           7.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3464,20 +3464,20 @@
         "Anchored": true,
         "Size": [
           12,
-          12.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          54.25,
+          60.25,
           8.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3490,20 +3490,20 @@
         "Anchored": true,
         "Size": [
           12,
-          13.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          54.5,
+          60.75,
           9.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3516,20 +3516,20 @@
         "Anchored": true,
         "Size": [
           12,
-          13.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          54.75,
+          61.25,
           11.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3542,20 +3542,20 @@
         "Anchored": true,
         "Size": [
           12,
-          14.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          55.0,
+          61.75,
           12.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3568,20 +3568,20 @@
         "Anchored": true,
         "Size": [
           12,
-          14.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          55.25,
+          62.25,
           13.625
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3594,20 +3594,20 @@
         "Anchored": true,
         "Size": [
           12,
-          15.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          55.5,
+          62.75,
           14.875
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3620,20 +3620,20 @@
         "Anchored": true,
         "Size": [
           12,
-          15.5,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          55.75,
+          63.25,
           16.125
         ],
         "Color": [
-          0.93,
-          0.86,
-          0.7
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false
@@ -3646,20 +3646,20 @@
         "Anchored": true,
         "Size": [
           12,
-          16.0,
+          0.5,
           1.25
         ],
         "Position": [
           134,
-          56.0,
+          63.75,
           17.375
         ],
         "Color": [
-          0.65,
-          0.47,
-          0.3
+          0.56,
+          0.37,
+          0.22
         ],
-        "Material": "SmoothPlastic",
+        "Material": "WoodPlanks",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth",
         "CanCollide": false

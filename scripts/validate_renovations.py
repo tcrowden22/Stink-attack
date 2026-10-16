@@ -43,8 +43,10 @@ for floor in (0,24,48):
         raise RuntimeError("Stair entrance not flush with floor")
     for step in range(1,(32 if floor==48 else 48)+1):
         q=stairs[f"Flight{floor}Tread{step}"]
-        if abs(q["Position"][1]-q["Size"][1]/2-floor)>.001:
-            raise RuntimeError("Unsupported open riser")
+        if abs(q["Size"][1]-.5)>.001:
+            raise RuntimeError("Tall stair covering returned")
+        if q["Material"]!="WoodPlanks" or q["Color"]!=[.56,.37,.22]:
+            raise RuntimeError("Alternating white/brown stair covering returned")
         if abs(q["Position"][1]+q["Size"][1]/2-(floor+step*.5))>.001:
             raise RuntimeError("Stair rise changed")
 for floor in (0,24):

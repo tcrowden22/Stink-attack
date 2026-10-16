@@ -164,3 +164,10 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Added server-validated automatic wall entry and a shared visual pose carrier so the bug and legs turn together to match the wall. Four-second grip, grounded recovery, manual drop and ability cancellation remain.
 - All Luau compilation, eight rule/gait suites, renovation/house/interior/snack checks and separate Rojo build pass. Blender bathroom cutaway visually inspected. Final Aikido scan: 17 files, zero findings, no skipped paths. Replaced a generic generator output helper with explicit fixed output paths after the proposal scan flagged it; rescans pass.
 - Saved imported place preserved. Studio acceptance is documented in BATHROOMS_AND_CRAWLING.md and remains pending.
+
+# Spatial sounds and stair covering — 2026-10-16
+
+- Added a client audio controller for nearby vacuum motors, spider scuttles and server-authorized stink bursts. Uses four verified bundled Roblox sound files with pitch/filter/distortion/tremolo effects; no external upload dependency. Caps nearby voices and cleans up on range exit, death/removal, resets and menu state.
+- Reverted tall floor-to-tread blocks responsible for the likely striped stair covering to half-stud wooden treads. Preserved tread tops, collision ramps and all five entry landings. Updated the generator and geometry regression check.
+- All Luau compiles; eight test suites plus house/interior/snack/renovation checks pass. Built build/StinkBugsVsVacuums-sound-stairs-preview.rbxlx without overwriting the imported place. Full-content proposal scans and final Aikido scan of six code/data files pass with no findings or skipped files.
+- Runtime listening and verification of the reported covering in the user's Studio view remain pending in SOUNDS_AND_STAIRS.md.
