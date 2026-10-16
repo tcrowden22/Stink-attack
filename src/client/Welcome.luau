@@ -39,7 +39,7 @@ function Menu.start()
     local corner=Instance.new("UICorner"); corner.CornerRadius=UDim.new(.18,0); corner.Parent=play
     local stroke=Instance.new("UIStroke"); stroke.Thickness=4; stroke.Color=Color3.fromRGB(24,103,23); stroke.Parent=play
     text("BUG ROUTES  •  CLEAN TEAM  •  TEAM REFUGE  •  EXPLORE",UDim2.fromScale(.04,.89),UDim2.fromScale(.92,.04),Color3.fromRGB(255,237,206))
-    text("House exploration prototype",UDim2.fromScale(.1,.95),UDim2.fromScale(.8,.025),Color3.fromRGB(220,213,198))
+    text("Collect snacks. Dodge Clean Team. Bring them home.",UDim2.fromScale(.1,.95),UDim2.fromScale(.8,.025),Color3.fromRGB(220,213,198))
     gui.Parent=player:WaitForChild("PlayerGui")
     local oldTouch=GuiService.TouchControlsEnabled
     GuiService.TouchControlsEnabled=false

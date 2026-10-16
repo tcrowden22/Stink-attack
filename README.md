@@ -2,6 +2,8 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
+**New: [solo snack run](docs/SOLO_SNACK_RUN.md).** Collect glowing snacks, return them to the bug clubhouse, and evade a server-controlled Clean Team robot. Capture loses carried snacks and respawns you at home; delivered totals last only for the session. The robot is enabled for one StinkBug player. Player vacuum abilities and full multiplayer rounds remain unfinished.
+
 **Current milestone: foundation free play, awaiting Studio acceptance. This is not yet the complete Week 1 game.** The repository contains a multi-level house with four ground-floor rooms, upstairs rooms, an attic, a rooftop and a bug clubhouse, two server-assigned teams, explicit R15 character creation, scaled avatars, respawning, bug-only tunnel collision rules, and a small diagnostic HUD. No external models or runtime packages are used.
 
 Repository: https://github.com/tcrowden22/Stink-attack
@@ -67,7 +69,7 @@ Bugs use an invisible R15 rig at scale 0.35 with a stink bug costume; humans use
 
 The living room retains its two tunnels. The kitchen and bedroom each connect through a 14-stud-wide, 12-stud-high doorway plus a separate 4-stud-wide, 2.4-stud-high bug vent. Green markings identify bug routes; invisible gates collide with vacuums but not bugs. The bed also has crawl space underneath. See [house layout](docs/HOUSE_LAYOUT.md). These are collision rules for ordinary play, not an anti-teleport system. Future capture validation must use server state and validate movement assumptions.
 
-The current HUD deliberately says **Foundation free play**. It is not the future round timer/remaining-bug HUD. Suction, captures, spectators, round transitions and mid-round policies are not implemented yet. No game action remotes exist at this milestone.
+The HUD shows carried snacks, delivered snacks and robot warnings. Solo NPC suction/capture is implemented; player-operated suction, spectators, round transitions and mid-round policies are not. Pickup prompts are validated on the server, and no client inventory or capture remote is exposed.
 
 ## Verification
 
@@ -98,7 +100,7 @@ The playroom connects the kitchen and bedroom into a loop. A covered BugClubhous
 
 At 10 players the initial split is 8 bugs / 2 vacuums; at 20 it is 16 / 4; at 30 it is 24 / 6. Two-player testing remains 1 / 1. These are player slots, not generated AI bugs. Configuring Roblox's actual server capacity and load-testing it are still required.
 
-Future suction/capture code must call `RefugeService.isProtected(player)` at capture time. The replicated HUD attribute is informational. Capture and rounds remain unimplemented, so protection against capture cannot yet be playtested.
+Solo robot suction and capture call `RefugeService.isProtected(player)` using live position. The replicated HUD attribute is informational. Player-operated suction must use the same checks when implemented; full rounds remain unfinished.
 
 ## Upstairs, attic and rooftop
 

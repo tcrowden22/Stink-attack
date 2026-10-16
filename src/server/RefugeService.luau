@@ -14,7 +14,11 @@ local function contains(position: Vector3): boolean
         and math.abs(point.Z) <= half.Z
 end
 
--- Future capture code must call this at the moment of capture, not trust a HUD attribute.
+function RefugeService.containsPosition(position: Vector3): boolean
+    return contains(position)
+end
+
+-- Capture code checks position directly instead of trusting a HUD attribute.
 function RefugeService.isProtected(player: Player): boolean
     local character = player.Character
     local root = character and character:FindFirstChild("HumanoidRootPart")

@@ -10,7 +10,9 @@ require(script.Parent.ArtDetailService).apply()
 require(script.Parent.ReferenceDetails).apply()
 TeamService.init()
 require(script.Parent.RefugeService).start()
-workspace:SetAttribute("PrototypePhase", "Foundation free play")
+require(script.Parent.ForageService).start()
+require(script.Parent.CleanerBotService).start()
+workspace:SetAttribute("PrototypePhase", "Snack run")
 local initialized: { [Player]: boolean } = {}
 local function onPlayerAdded(player: Player)
     if initialized[player] then
@@ -28,4 +30,4 @@ end)
 for _, player in Players:GetPlayers() do
     onPlayerAdded(player)
 end
-print("[Foundation] Ready. Start Server & Clients with 2 players.")
+print("[Snack run] Ready. Solo players: collect snacks and evade Clean Team.")

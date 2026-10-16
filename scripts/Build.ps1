@@ -16,6 +16,8 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Team policy tests failed' }
     & $luau tests\BugGait.spec.luau
     if ($LASTEXITCODE -ne 0) { throw 'Bug gait tests failed' }
+    & $luau tests\SoloRules.spec.luau
+    if ($LASTEXITCODE -ne 0) { throw 'Solo rules tests failed' }
     New-Item -ItemType Directory -Force build | Out-Null
     & $rojo build default.project.json --output build\StinkBugsVsVacuums.rbxlx
     if ($LASTEXITCODE -ne 0) { throw 'Rojo build failed' }

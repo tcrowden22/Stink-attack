@@ -141,3 +141,6 @@ Before starting, read README's Studio actions. Connect Rojo, stop any existing s
 - [ ] Enter the blanket hideout from the front and leave through its rear gap as a bug; humans must be blocked.
 - [ ] Check that cover blocks movement and raycasts, while books, towels, straps and fruit do not snag avatars.
 - [ ] Repeat with two players and mobile controls; inspect camera clipping and performance.
+# Solo robot and collection gate
+
+Follow the complete checklist in SOLO_SNACK_RUN.md. In particular test solo patrol and capture, refuge immunity, delivery and carried-item loss, then add a second client during pursuit to verify robot/beam cleanup. Check concurrent pickup claims, character resets and disconnects before accepting this feature.

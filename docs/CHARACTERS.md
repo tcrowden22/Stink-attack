@@ -34,7 +34,7 @@ Facing correction: the imported bug receives a 180-degree turn at spawn before i
 | Upgrade/customize/rank rewards | Remain outside Week 1: no store, purchases or persistent progression |
 | Cinematic photograph, logo effects and composition | Visual direction, not a pixel-identical recreation or uploaded background image |
 
-The welcome button dismisses the introduction; it does not start a round. The large vacuum and crowned bug are decorations. The vacuum remains a visual prop until suction is implemented.
+The welcome button dismisses the introduction; it does not start a round. The large vacuum and crowned bug are decorations. Player-held vacuums remain visual props; the separate solo CleanTeamRobot can now chase and capture bugs. See SOLO_SNACK_RUN.md.
 
 ## Animation and ownership
 

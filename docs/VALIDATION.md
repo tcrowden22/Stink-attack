@@ -97,3 +97,11 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Rojo built StinkBugsVsVacuums-interior-preview.rbxlx without overwriting the user's existing saved house.
 - Aikido scanned six changed source/config/data files with zero findings and zero skipped files.
 - Live avatar clearance, manually moved/imported Studio props, gate behavior and mobile performance remain pending Studio acceptance.
+# Solo snack run — 2026-10-16
+
+- Added server-owned solo robot, patrol/chase paths, validated suction windup/cooldown, and capture with home respawn.
+- Added twelve shared snack pickups, server inventory capacity and automatic clubhouse delivery. Counts are session-only.
+- All Luau compiled. Team, gait and solo-rule tests passed, including pickup range/availability/capacity, wall checks, facing cone, safe refuge and continuous windup.
+- Twelve snack locations passed the static source-part overlap check. Built StinkBugsVsVacuums-solo-preview.rbxlx separately from the user's saved house.
+- Aikido final scan: ten changed code files, zero issues, zero skipped.
+- Actual Roblox pathfinding, capture feel, respawn visuals, mobile prompts and join/leave transitions remain pending Studio acceptance in SOLO_SNACK_RUN.md.

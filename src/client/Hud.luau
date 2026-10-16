@@ -30,19 +30,21 @@ function Hud.start()
 
     local function refresh()
         local teamName = if player.Team then player.Team.Name else "Assigning team"
-        local count = #Players:GetPlayers()
-        local status = player:GetAttribute("SpawnStatus") or "Loading"
-        if player:GetAttribute("InBugRefuge") then
-            status = "BUG CLUBHOUSE • Team refuge"
-        end
-        panel.Text = string.format(
-            "STINK BUGS vs. VACUUMS\nFoundation free play • %s • %d player(s)\n%s\nExplore upstairs, the attic and roof. Green paths are bug routes.",
-            teamName, count, status
+        local threat=player:GetAttribute("CleanerThreat") or ""
+        local message=player:GetAttribute("ForageMessage") or "Collect glowing snacks."
+        local safe=player:GetAttribute("InBugRefuge")
+        local status=if threat~="" then threat elseif safe then "HOME • Safe from Clean Team" else message
+        panel.Text=string.format(
+            "STINK BUGS vs. VACUUMS • %s\nCarrying %d/5  •  Delivered %d\n%s\nCollect nearby snacks (E / tap). Return home to deliver.",
+            teamName,player:GetAttribute("CarriedSnacks") or 0,player:GetAttribute("BankedSnacks") or 0,status
         )
     end
     player:GetPropertyChangedSignal("Team"):Connect(refresh)
     player:GetAttributeChangedSignal("SpawnStatus"):Connect(refresh)
     player:GetAttributeChangedSignal("InBugRefuge"):Connect(refresh)
+    for _,name in {"CarriedSnacks","BankedSnacks","ForageMessage","CleanerThreat"} do
+        player:GetAttributeChangedSignal(name):Connect(refresh)
+    end
     Players.PlayerAdded:Connect(refresh)
     Players.PlayerRemoving:Connect(function()
         task.defer(refresh)
