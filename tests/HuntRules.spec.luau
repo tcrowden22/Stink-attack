@@ -1,0 +1,17 @@
+--!strict
+local R=require("../src/shared/HuntRules")
+local function check(ok: boolean,message: string) if not ok then error(message) end end
+check(R.canChoose("StinkBugs",false) and R.canChoose("Vacuums",false),"Both roles selectable")
+check(not R.canChoose("Vacuums",true),"No repeated selection or spawn race")
+check(not R.canChoose({},false) and not R.canChoose("Admin",false),"Reject unknown roles")
+check(R.aiNeeded(0,1) and R.aiNeeded(0,2),"Solo and cooperative AI hunt")
+check(not R.aiNeeded(1,1) and not R.aiNeeded(0,0),"No AI when human bugs or no hunters")
+check(R.canSuck(18,.55,true,false),"Range/cone boundary")
+check(not R.canSuck(18.01,1,true,false),"Out of range")
+check(not R.canSuck(3,.54,true,false),"Behind vacuum")
+check(not R.canSuck(3,1,false,false),"Cover")
+check(not R.canSuck(3,1,true,true),"Protected clubhouse")
+check(not R.canSuck(0/0,1,true,false),"Reject nonfinite distance")
+check(R.canCapture(4,.7),"Close capture after windup")
+check(not R.canCapture(4.1,2) and not R.canCapture(2,.69),"No remote or immediate capture")
+print("PASS hunt rules: choice locking, AI modes, range/cone/cover/refuge and capture")

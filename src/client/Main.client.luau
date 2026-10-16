@@ -22,3 +22,5 @@ require(script.Parent.FlightController).start()
 require(script.Parent.ClimbController).start()
 
 require(script.Parent.CleanerArm).start()
+
+require(script.Parent.VacuumController).start()

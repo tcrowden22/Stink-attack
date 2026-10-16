@@ -5,8 +5,11 @@ local Shared = game:GetService("ReplicatedStorage").Shared
 local Config = require(Shared.Config)
 local TeamPolicy = require(Shared.TeamPolicy)
 local TeamService = {}
+local HuntRules=require(Shared.HuntRules)
+local chosen: {[Player]: boolean}={}
 
 function TeamService.init()
+    Players.PlayerRemoving:Connect(function(player) chosen[player]=nil end)
     for name, color in { StinkBugs = "Lime green", Vacuums = "Bright orange" } do
         local team = Instance.new("Team")
         team.Name = name
@@ -32,4 +35,13 @@ function TeamService.assign(player: Player)
     player.Neutral = false
 end
 
+function TeamService.choose(player: Player,name: any): boolean
+    if player.Parent~=Players or not HuntRules.canChoose(name,chosen[player]==true) then return false end
+    local team=Teams:FindFirstChild(name)
+    if not team or not team:IsA("Team") then return false end
+    chosen[player]=true
+    player.Team=team; player.Neutral=false
+    player:SetAttribute("TeamChosen",true)
+    return true
+end
 return TeamService

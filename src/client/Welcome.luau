@@ -29,17 +29,30 @@ function Menu.start()
     text("STINK BUGS",UDim2.fromScale(.05,.04),UDim2.fromScale(.9,.12),Color3.fromRGB(155,243,49))
     text("vs. VACUUMS",UDim2.fromScale(.05,.16),UDim2.fromScale(.9,.1),Color3.fromRGB(161,219,255))
     text("SMALL BUGS. BIG CHAOS!",UDim2.fromScale(.08,.28),UDim2.fromScale(.84,.045),Color3.fromRGB(255,224,166))
-    local play=Instance.new("TextButton")
-    play.Name="Play"; play.AnchorPoint=Vector2.new(.5,.5)
-    play.Position=UDim2.fromScale(.5,.8); play.Size=UDim2.fromScale(.65,.115)
-    play.BackgroundColor3=Color3.fromRGB(72,213,32); play.Text="▶  PLAY"
-    play.TextColor3=Color3.new(1,1,1); play.Font=Enum.Font.GothamBlack; play.TextScaled=true
-    play.TextStrokeTransparency=.25; play.Modal=true; play.Selectable=true; play.Parent=background
-    local max=Instance.new("UISizeConstraint"); max.MaxSize=Vector2.new(520,95); max.Parent=play
-    local corner=Instance.new("UICorner"); corner.CornerRadius=UDim.new(.18,0); corner.Parent=play
-    local stroke=Instance.new("UIStroke"); stroke.Thickness=4; stroke.Color=Color3.fromRGB(24,103,23); stroke.Parent=play
-    text("BUG ROUTES  •  CLEAN TEAM  •  TEAM REFUGE  •  EXPLORE",UDim2.fromScale(.04,.89),UDim2.fromScale(.92,.04),Color3.fromRGB(255,237,206))
-    text("Collect snacks. Dodge Clean Team. Bring them home.",UDim2.fromScale(.1,.95),UDim2.fromScale(.8,.025),Color3.fromRGB(220,213,198))
+    local choice=ReplicatedStorage:WaitForChild("ChooseTeam") :: RemoteEvent
+    local buttons: {TextButton}={}
+    local status=text("CHOOSE YOUR TEAM",UDim2.fromScale(.1,.57),UDim2.fromScale(.8,.055),Color3.fromRGB(255,237,206))
+    local selected=false
+    for i,entry in {
+        {"StinkBugs","STINK BUG • Collect, climb & escape",Color3.fromRGB(72,173,32)},
+        {"Vacuums","VACUUM • Hunt & suck up bugs",Color3.fromRGB(35,111,209)},
+    } do
+        local button=Instance.new("TextButton")
+        button.Name=entry[1]; button.Position=UDim2.fromScale(.1,.64+(i-1)*.14)
+        button.Size=UDim2.fromScale(.8,.12); button.BackgroundColor3=entry[3]
+        button.Text=entry[2]; button.TextColor3=Color3.new(1,1,1); button.Font=Enum.Font.GothamBold
+        button.TextScaled=true; button.TextWrapped=true; button.Modal=true; button.Selectable=true; button.Parent=background
+        local limit=Instance.new("UITextSizeConstraint"); limit.MaxTextSize=28; limit.MinTextSize=12; limit.Parent=button
+        local corner=Instance.new("UICorner"); corner.CornerRadius=UDim.new(.15,0); corner.Parent=button
+        table.insert(buttons,button)
+        button.Activated:Connect(function()
+            if selected then return end
+            selected=true; status.Text="Joining your team..."
+            for _,b in buttons do b.Active=false; b.AutoButtonColor=false end
+            choice:FireServer(entry[1])
+        end)
+    end
+    text("Choose a side. AI opponents fill solo play.",UDim2.fromScale(.08,.94),UDim2.fromScale(.84,.035),Color3.fromRGB(220,213,198))
     gui.Parent=player:WaitForChild("PlayerGui")
     local oldTouch=GuiService.TouchControlsEnabled
     GuiService.TouchControlsEnabled=false
@@ -52,7 +65,19 @@ function Menu.start()
         GuiService.TouchControlsEnabled=oldTouch
         gui:Destroy()
     end
-    play.Activated:Connect(close)
+    local function refresh()
+        if closed then return end
+        if player:GetAttribute("TeamChosen") then
+            selected=true
+            status.Text=player:GetAttribute("SpawnStatus") or "Joining..."
+            if player:GetAttribute("SpawnStatus")=="Ready" and player.Character then close() end
+        end
+    end
+    local connection=player:GetAttributeChangedSignal("SpawnStatus"):Connect(refresh)
+    local teamConnection=player:GetAttributeChangedSignal("TeamChosen"):Connect(refresh)
+    local characterConnection=player.CharacterAdded:Connect(function() task.defer(refresh) end)
+    gui.Destroying:Connect(function() connection:Disconnect(); teamConnection:Disconnect(); characterConnection:Disconnect() end)
+    refresh()
     gui.Destroying:Connect(function()
         if not closed then
             closed=true

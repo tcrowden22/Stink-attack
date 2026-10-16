@@ -136,3 +136,13 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - All Luau compiles; six rule/gait suites pass, including stamina/input and arm-curve checks. Source human routes, twelve snack positions, explicit human/bug doorway probes, upper wall seams and starting sofa checks pass.
 - Aikido full-content code proposal scans passed; final on-disk scan covered all 21 changed code/data files with zero issues and no skipped paths.
 - Built build/StinkBugsVsVacuums-controlled-climb-preview.rbxlx. The user's saved imported house was not overwritten. No runtime, multiplayer or touch acceptance is claimed; use the updated SOLO_SNACK_RUN.md checklist.
+
+# Team selection and AI stink bug hunt — 2026-10-16
+
+- Welcome now offers Stink Bug / Vacuum. Server validates exact role names and accepts one choice per join before spawning; client waits for both Ready and Character replication before dismissing the menu. Reset retains selection.
+- Added three server-owned R15 AI stink bugs using the existing costume and leg animation. They navigate ground-floor routes, flee nearby vacuum players, respawn eight seconds after capture, and clear when human bugs are present or no hunters remain. Cooperative all-vacuum play is supported.
+- Added held click/Q/gamepad R2/mobile Suction input and server selection of eligible bug targets. Validates live hunter/team, range, cone, two line-of-sight rays, refuge, cooldown, windup and close capture. Target claims do not yield. Cleanup handles release, stale input, invalid targets, reset, team changes and disconnects.
+- Vacuum HUD shows session captures, AI count and suction status. Human bug captures use the existing protected-home respawn behavior; full rounds/spectators remain future work.
+- All Luau compiled; seven rule/gait suites passed, including new choice-lock, AI-mode, suction-boundary/refuge/capture tests. House checks passed. Feature code was compiled/scanned as it was added.
+- Aikido full-content proposal scans passed; final on-disk scan covered all 11 changed first-party code files with zero findings and no skipped files.
+- Built build/StinkBugsVsVacuums-team-choice-preview.rbxlx without overwriting the imported saved house. No Studio runtime or multiplayer pass is claimed; the explicit acceptance checklist is in TEAM_CHOICE_AND_HUNT.md.

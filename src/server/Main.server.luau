@@ -14,16 +14,27 @@ require(script.Parent.FlightService).start()
 require(script.Parent.ClimbService).start()
 require(script.Parent.ForageService).start()
 require(script.Parent.CleanerBotService).start()
-workspace:SetAttribute("PrototypePhase", "Snack run")
+require(script.Parent.BugBotService).start()
+require(script.Parent.PlayerVacuumService).start()
+workspace:SetAttribute("PrototypePhase", "Choose a side")
 local initialized: { [Player]: boolean } = {}
 local function onPlayerAdded(player: Player)
     if initialized[player] then
         return
     end
     initialized[player] = true
-    TeamService.assign(player)
-    task.spawn(CharacterService.spawn, player)
+    player.Team=nil; player.Neutral=true
+    player:SetAttribute("TeamChosen",false)
+    player:SetAttribute("SpawnStatus","Choose your team")
+    player:SetAttribute("BugsCaught",0)
 end
+local choice=Instance.new("RemoteEvent")
+choice.Name="ChooseTeam"; choice.Parent=game:GetService("ReplicatedStorage")
+choice.OnServerEvent:Connect(function(player,name)
+    if initialized[player] and TeamService.choose(player,name) then
+        task.spawn(CharacterService.spawn,player)
+    end
+end)
 Players.PlayerAdded:Connect(onPlayerAdded)
 Players.PlayerRemoving:Connect(function(player)
     initialized[player] = nil
@@ -32,4 +43,4 @@ end)
 for _, player in Players:GetPlayers() do
     onPlayerAdded(player)
 end
-print("[Snack run] Ready. Solo players: collect snacks and evade Clean Team.")
+print("[Team choice] Ready: Stink Bug escape or Vacuum bug hunt.")

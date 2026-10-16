@@ -30,6 +30,12 @@ function Hud.start()
 
     local function refresh()
         local teamName = if player.Team then player.Team.Name else "Assigning team"
+        if player.Team and player.Team.Name=="Vacuums" then
+            panel.Text=string.format("CLEAN TEAM • VACUUM\nBugs caught: %d • AI bugs roaming: %d\n%s\nFace a bug • Hold click / Q / Suction",
+                player:GetAttribute("BugsCaught") or 0,workspace:GetAttribute("AIBugsRemaining") or 0,
+                player:GetAttribute("VacuumStatus") or "Find the stink bugs hiding around the house.")
+            return
+        end
         local threat=player:GetAttribute("CleanerThreat") or ""
         local message=player:GetAttribute("ForageMessage") or "Collect glowing snacks."
         local safe=player:GetAttribute("InBugRefuge")

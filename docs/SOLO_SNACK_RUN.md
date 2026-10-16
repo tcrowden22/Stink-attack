@@ -5,7 +5,7 @@ One Clean Team robot activates when exactly one player is present and assigned t
 ## Play
 
 1. Stop Play, save the current house and sync Rojo. Keep the saved place with the imported bug/furniture.
-2. Start ordinary solo Play and press the green PLAY button.
+2. Start ordinary solo Play and select **STINK BUG**. Select **VACUUM** instead for the [AI bug hunt](TEAM_CHOICE_AND_HUNT.md).
 3. Find glowing gold snacks. Press E nearby, or tap the prompt on mobile, to collect.
 4. Carry up to five snacks. Return anywhere inside the bug clubhouse to automatically deliver them.
 5. Avoid the robot. It patrols six ground-floor points and chases a visible bug within 45 studs. It remembers the last seen location for up to three seconds.
@@ -62,8 +62,8 @@ The saved house contained an obsolete Workspace.LivingRoom with furniture stacke
 
 ## Other boundaries
 
-- The robot is solo-only. It despawns with two or more players and resumes when a sole StinkBug remains. A sole Vacuum left after a multiplayer session keeps that team; rejoin solo to become a bug.
-- Collection/delivery works for bug players in multiplayer, but player-operated vacuum suction, full rounds and spectator mode remain separate work.
+- The robot is solo-only. It despawns with two or more players and resumes when a sole StinkBug remains. Rejoin to choose a different team. Vacuum players without human bug opponents get AI stink bugs to hunt.
+- Collection/delivery and player vacuum suction work in multiplayer; full rounds and spectator mode remain separate work.
 - Solo capture respawns the player rather than leaving a single player spectating indefinitely.
 - Scores are session-only. No DataStore, progression unlocks, purchases or monetization were added.
 - Collection checks team/life, server inventory capacity, item availability, rate, distance and line of sight. Shared item claims do not yield before consumption.

@@ -2,11 +2,13 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
+**Choose your team:** select **Stink Bug** to collect and escape, or **Vacuum** to hunt three roaming AI bugs. Face a bug and hold **click / Q / Suction** to pull it in. See [team choice and bug hunt](docs/TEAM_CHOICE_AND_HUNT.md) for controls, multiplayer behavior and testing.
+
 **Controlled climbing and top-hose grabs:** face a wall or furniture and press **C** / tap **Climb**. Move toward/away from the wall to go up/down, or move sideways; release movement to pause. Grip lasts four seconds, including pauses, and recharges on the ground. Press C again to let go. The robot's top hose now lifts, curves outward and retracts smoothly. Room walls meet the next floor so bugs cannot fly over the dividers. The starting sofa uses matching native seat/back geometry instead of the imported overlay. Sync Rojo and restart Play; no new imports.
 
 **Snack-powered flight:** gold snacks now earn short flight bursts (up to three saved). Press **F** or tap **Fly** from the ground; steer normally. Carrying and delivering snacks still work as before. Stop Play, save the current imported house, sync Rojo, then Play again; no mesh reimport is needed. See the [flight playtest checklist](docs/SOLO_SNACK_RUN.md#snack-powered-flight).
 
-**New: [solo snack run](docs/SOLO_SNACK_RUN.md).** Collect glowing snacks, return them to the bug clubhouse, and evade a server-controlled Clean Team robot. Capture loses carried snacks and respawns you at home; delivered totals last only for the session. The robot is enabled for one StinkBug player. Player vacuum abilities and full multiplayer rounds remain unfinished.
+**[Solo snack run](docs/SOLO_SNACK_RUN.md):** choose Stink Bug, collect glowing snacks, return them to the bug clubhouse, and evade a server-controlled Clean Team robot. Capture loses carried snacks and respawns you at home; delivered totals last only for the session. Full multiplayer rounds remain unfinished.
 
 **Current milestone: foundation free play, awaiting Studio acceptance. This is not yet the complete Week 1 game.** The repository contains a multi-level house with four ground-floor rooms, upstairs rooms, an attic, a rooftop and a bug clubhouse, two server-assigned teams, explicit R15 character creation, scaled avatars, respawning, bug-only tunnel collision rules, and a small diagnostic HUD. No external models or runtime packages are used.
 
@@ -19,8 +21,8 @@ The place has already been built at `build/StinkBugsVsVacuums.rbxlx`. Rojo 7.7.1
 1. **Save your current Studio work.** Reopen Studio if needed so it loads the newly installed local Rojo plugin. The CLI plugin installer failed to find Studio's registry entry on this computer; the official, checksum-verified `Rojo.rbxm` was instead copied to `%LOCALAPPDATA%\Roblox\Plugins`. If it is absent in Studio, open Studio's Plugins Folder and copy `.tools/Rojo.rbxm` into that actual folder, then restart Studio.
 2. **Open the place:** use Studio's Open from File action and select `C:\Projects\Roblox Game\build\StinkBugsVsVacuums.rbxlx`. This loads the authored map and scripts; no Toolbox models are needed.
 3. **Start synchronization:** in PowerShell at the repository root run `.\scripts\Serve.ps1`. In Studio open the Rojo plugin, connect to `localhost:34872`, and review/accept its initial sync. Check that `Workspace.House`, `ReplicatedStorage.Shared`, `ServerScriptService.Server`, and `StarterPlayer.StarterPlayerScripts.Client` exist. Rojo owns these project instances; edit their source files rather than making unsaved changes in Studio.
-4. **Check one avatar first:** choose Play (not Run, which creates no player), then the green PLAY button. Expect a brown armored stink bug with moving legs, the foundation HUD, and a furnished house. Movement uses Roblox keyboard/mouse and touch controls with R15 underneath the bug costume. Follow [V2 character installation](docs/CHARACTERS.md) for the Blender bug and blue vacuum; native versions work before import.
-5. **Run the acceptance gate:** stop Play, choose **Server & Clients** in Studio's test controls, select **2 clients**, and start. Expect one StinkBug and one Vacuum. Follow [the foundation checklist](docs/MULTIPLAYER_TESTING.md) before implementing the next feature. Roblox may ask for local-server firewall access.
+4. **Check one avatar first:** choose Play (not Run, which creates no player), then select Stink Bug or Vacuum. Movement uses Roblox keyboard/mouse and touch controls with R15 underneath the costumes. Follow [V2 character installation](docs/CHARACTERS.md) for the Blender bug and blue vacuum; native versions work before import.
+5. **Run the acceptance gate:** stop Play, choose **Server & Clients**, select **2 clients**, and start. Choose one Stink Bug and one Vacuum; then separately test two Vacuum players hunting AI. Follow [the checklist](docs/TEAM_CHOICE_AND_HUNT.md). Roblox may ask for local-server firewall access.
 6. **Stop all test sessions** before editing/syncing again. Save a local copy if desired; source files remain authoritative.
 
 The exact toolbar placement varies with Studio layout. See Roblox's [testing modes documentation](https://create.roblox.com/docs/studio/testing-modes) and Rojo's [new game guide](https://rojo.space/docs/v7/getting-started/new-game/).
@@ -67,13 +69,13 @@ Create the build directory before using the raw build command. For Lua syntax ch
 
 ## Behavior and boundaries
 
-The first player becomes a StinkBug; the second becomes a Vacuum. `VacuumFraction = 1/5` targets roughly one vacuum per five players in larger lobbies, with at least one player on each team at a population of two or more. Assignments remain stable when someone disconnects; the next join fills a missing team first. Foundation solo exploration is intentional, while actual rounds will require two players.
+Players now choose their team once per join; the server validates the choice and handles spawning. Reset keeps the selection; rejoin to choose again. Automatic ratio assignment is bypassed for this free-play mode. The allocation helper and `VacuumFraction = 1/5` remain available for future rounds.
 
 Bugs use an invisible R15 rig at scale 0.35 with a stink bug costume; humans use scale 1 and carry a vacuum prop. No personal accessories are imported. The server controls assignment, appearance and spawn lifecycle. In-progress avatar requests discard their result if the player leaves. Failed avatar requests retry after five seconds; dead characters respawn after three seconds. See [character setup and limitations](docs/CHARACTERS.md).
 
 The living room retains its two tunnels. The kitchen and bedroom each connect through a 14-stud-wide, 12-stud-high doorway plus a separate 4-stud-wide, 2.4-stud-high bug vent. Green markings identify bug routes; invisible gates collide with vacuums but not bugs. The bed also has crawl space underneath. See [house layout](docs/HOUSE_LAYOUT.md). These are collision rules for ordinary play, not an anti-teleport system. Future capture validation must use server state and validate movement assumptions.
 
-The HUD shows carried snacks, delivered snacks and robot warnings. Solo NPC suction/capture is implemented; player-operated suction, spectators, round transitions and mid-round policies are not. Pickup prompts are validated on the server, and no client inventory or capture remote is exposed.
+The bug HUD shows snacks, flight and robot warnings; the vacuum HUD shows captures, AI count and suction status. Both NPC and player suction/capture are implemented. Spectators, round transitions and mid-round policies remain unfinished. Pickup and suction requests are server-validated; clients cannot declare captures.
 
 ## Verification
 

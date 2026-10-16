@@ -8,7 +8,7 @@ Record Studio version, Git commit, date, tester, device(s), observed results and
 
 Before starting, read README's Studio actions. Connect Rojo, stop any existing simulation, and open Output so errors are visible.
 
-- [ ] Solo Play spawns a green R15 bug inside the clubhouse and shows Foundation free play.
+- [ ] Solo Play first presents Stink Bug / Vacuum choices. Choosing Stink Bug spawns the animated brown bug at home; choosing Vacuum spawns the human hunter and AI bugs.
 - [ ] House contains furnished living room, kitchen, bedroom, playroom and Bug Clubhouse; nothing falls or drifts.
 - [ ] Both teams can walk through the wide kitchen and bedroom doorways in both directions.
 - [ ] Bug can cross both green-marked inter-room vents; vacuum is blocked at both.
@@ -16,7 +16,7 @@ Before starting, read README's Studio actions. Connect Rojo, stop any existing s
 - [ ] Bedroom bed, wardrobe and desk leave navigable routes; test bug crawl space under the bed.
 - [ ] Inspect cameras near doorways, beneath furniture and at the map perimeter.
 - [ ] Use Server & Clients with **2 clients**, not two unrelated solo Play sessions.
-- [ ] Exactly one client is StinkBugs and one is Vacuums. Confirm Player.Team in the server Explorer.
+- [ ] Choose Stink Bug on one client and Vacuum on the other. Confirm Player.Team in the server Explorer.
 - [ ] On the server, both Humanoids have RigType R15; model scales are 0.35 and 1.
 - [ ] Each avatar spawns clear of furniture and can move and jump using desktop controls.
 - [ ] Each client can see the other player moving with the correct size and team color.
@@ -119,7 +119,7 @@ Before starting, read README's Studio actions. Connect Rojo, stop any existing s
 
 - [ ] Save the current imported house; sync source changes through Rojo.
 - [ ] Follow docs/CHARACTERS.md: import StinkBugV2 (body + six legs) and VacuumV2 (body + glow) into correctly named Models under ServerStorage.CharacterAssets.
-- [ ] Start solo Play. Welcome screen shows title, 3D preview and green button. PLAY dismisses it and restores movement.
+- [ ] Start solo Play. Welcome shows title, 3D preview and two role buttons. A valid selection waits for the server spawn, then closes the menu and restores movement.
 - [ ] Check mouse and touch activation in portrait and short landscape emulator sizes; ensure the button is visible and the thumbstick returns.
 - [ ] Bug has a brown shield, expressive eyes and no visible humanoid body. Imported appearance reads Blender V2 animated brown bug.
 - [ ] Walk forward, backward, strafe and turn. All six legs move in alternating tripods. Stop and jump: legs return to rest.
@@ -159,3 +159,7 @@ Use the sofa/climbing/grab checklist in SOLO_SNACK_RUN.md. Confirm both clients 
 - [ ] Drop/delay movement packets: wall motion stops after the input timeout without extending grip. Try invalid/oversized/nonfinite movement inputs; server rejects them.
 - [ ] In solo Play, the visible top hose raises, follows moving targets, reaches and retracts. Adding a second player removes all local hose visuals and the server pull.
 - [ ] Test desktop and mobile controls, each doorway/tunnel and all floor transitions after taller walls. Verify the starting sofa in the saved imported house, not only a fresh preview build.
+
+# Team choice and player vacuum acceptance
+
+Follow TEAM_CHOICE_AND_HUNT.md for both solo roles, two-vacuum cooperative hunts, mixed human teams, duplicate role requests, competing capture claims, stale/held input, disconnects during spawn/pull and touch/gamepad controls. These runtime checks are pending; automatic first-player/second-player team expectations in historical sections are superseded by explicit role selection.
