@@ -35,7 +35,7 @@ function Climb.start()
         elapsed+=dt
         if elapsed<.1 then return end
         elapsed=0
-        if not player:GetAttribute("BugClimbing") then return end
+        if not player.Team or player.Team.Name~="StinkBugs" then return end
         local c=player.Character
         local h=c and c:FindFirstChildOfClass("Humanoid")
         local direction=if h and not Input:GetFocusedTextBox() and not gui:FindFirstChild("Welcome")

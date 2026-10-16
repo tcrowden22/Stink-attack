@@ -114,7 +114,14 @@ function Appearance.apply(character: Model, team: string, humanoid: Humanoid)
         for _,p in character:GetDescendants() do
             if p:IsA("BasePart") or p:IsA("Decal") then p.Transparency=1 end
         end
-        bugJoints(model,root)
+        -- Keep every visible component on one pose carrier. Humanoid physics stays upright.
+        local carrier=Instance.new("Part"); carrier.Name="BugVisualRoot"
+        carrier.Size=Vector3.one*.1; carrier.Transparency=1; carrier.Massless=true
+        carrier.CanCollide=false; carrier.CanTouch=false; carrier.CanQuery=false
+        carrier.CFrame=root.CFrame*CFrame.new(0,bottom+size.Y/2,0); carrier.Parent=character
+        local pose=Instance.new("Motor6D"); pose.Name="BugWallPose"; pose.Part0=root; pose.Part1=carrier
+        pose.C0=root.CFrame:ToObjectSpace(carrier.CFrame); pose:SetAttribute("RestC0",pose.C0); pose.Parent=root
+        bugJoints(model,carrier)
         model.Parent=character
         character:SetAttribute("Appearance",model:GetAttribute("ArtSource").." animated brown bug")
     else

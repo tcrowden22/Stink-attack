@@ -2,6 +2,8 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
+**Bathrooms and automatic crawling:** furnished bathrooms now sit in the downstairs bedroom area, upstairs southwest corner, and west attic. Walk into a wall to climb automatically; the bug turns vertical, with four seconds of grip. C / Let go drops you. Spider body joints use fixed offsets, and main/book stair entrances have gap-closing landings. Stop Play, save, sync Rojo, then Play again. See [renovation checks](docs/BATHROOMS_AND_CRAWLING.md).
+
 **Stink burst and spiders:** press **R**, gamepad **B**, or tap **Stink!** to make a green cloud that slows nearby hunters. Leave the clubhouse within five seconds to avoid waking its spiders; two more guard the attic. Vacuum captures retain already-pulled bugs at the center. See [setup and acceptance checks](docs/STINK_AND_SPIDERS.md). No new mesh import is required.
 
 **Choose your team:** select **Stink Bug** to collect and escape, or **Vacuum** to hunt three roaming AI bugs. Face a bug and hold **click / Q / Suction** to pull it in. See [team choice and bug hunt](docs/TEAM_CHOICE_AND_HUNT.md) for controls, multiplayer behavior and testing.

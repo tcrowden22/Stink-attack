@@ -29,6 +29,13 @@ function MapService.init()
         end
     end
     for _, item in room:GetDescendants() do
+        if item:IsA("BasePart") and item.Name=="BathroomSign" then
+            local surface=Instance.new("SurfaceGui"); surface.Face=Enum.NormalId.Back
+            surface.CanvasSize=Vector2.new(600,120); surface.Parent=item
+            local label=Instance.new("TextLabel"); label.Size=UDim2.fromScale(1,1)
+            label.BackgroundTransparency=1; label.Text="BATHROOM"; label.TextScaled=true
+            label.TextColor3=Color3.new(1,1,1); label.Font=Enum.Font.GothamBold; label.Parent=surface
+        end
         if item:IsA("BasePart") and string.sub(item.Name, 1, 10) == "EscapeGate" then
             item.CollisionGroup = "EscapeGate"
         end

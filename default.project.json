@@ -76,6 +76,9 @@
         },
         "ArtFinish": {
           "$path": "map/ArtFinish.model.json"
+        },
+        "Bathrooms": {
+          "$path": "map/Bathrooms.model.json"
         }
       }
     },

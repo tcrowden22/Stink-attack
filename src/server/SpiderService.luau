@@ -95,6 +95,7 @@ local function create(folder: Folder,index: number,nest): boolean
  if not h or not root or not root:IsA("BasePart") then model:Destroy(); return false end
  model.Name=(if nest.club then "ClubhouseSpider" else "AtticSpider")..index; model:ScaleTo(.45)
  h.WalkSpeed=12; h.UseJumpPower=false; h.JumpHeight=0; h.DisplayDistanceType=Enum.HumanoidDisplayDistanceType.None
+ h.AutomaticScalingEnabled=false
  ModelBuilder.dress(model,h,root)
  model:PivotTo(CFrame.new(nest.position+Vector3.new(0,2,0)))
  model.Parent=folder; root:SetNetworkOwner(nil)

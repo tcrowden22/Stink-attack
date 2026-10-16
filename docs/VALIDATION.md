@@ -155,3 +155,12 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Added two clubhouse spiders with individual continuous five-second grace timers and two attic guards; pathfinding, zone checks, close LOS bites, head/leg animation and existing respawn flow.
 - All Luau compiled, eight rule/gait suites passed, house/interior/snack validators passed. Aikido proposal scans and final on-disk scan of 21 code files found zero issues with no skipped paths.
 - Built build/StinkBugsVsVacuums-stink-spiders-preview.rbxlx without replacing the saved imported place. Runtime and multiplayer checks are pending in STINK_AND_SPIDERS.md.
+
+# Bathrooms, stair seams and automatic crawl — 2026-10-16
+
+- Added three furnished native bathrooms with full-height walls. Corrected one proposed placement that overlapped a suitcase before finalizing; final fixture/footprint/door checks pass without moving furniture.
+- Closed five main/book stair entrance gaps and filled main stair risers while preserving tread heights and existing ramp/rail geometry.
+- Replaced spider fixed-body constraints with explicit joint offsets, grouped its visuals, disabled post-size avatar scaling, and reduced bite travel. In-game confirmation of the reported separation remains pending.
+- Added server-validated automatic wall entry and a shared visual pose carrier so the bug and legs turn together to match the wall. Four-second grip, grounded recovery, manual drop and ability cancellation remain.
+- All Luau compilation, eight rule/gait suites, renovation/house/interior/snack checks and separate Rojo build pass. Blender bathroom cutaway visually inspected. Final Aikido scan: 17 files, zero findings, no skipped paths. Replaced a generic generator output helper with explicit fixed output paths after the proposal scan flagged it; rescans pass.
+- Saved imported place preserved. Studio acceptance is documented in BATHROOMS_AND_CRAWLING.md and remains pending.

@@ -167,3 +167,7 @@ Follow TEAM_CHOICE_AND_HUNT.md for both solo roles, two-vacuum cooperative hunts
 # Stink and spider acceptance
 
 Follow [STINK_AND_SPIDERS.md](STINK_AND_SPIDERS.md) with two clients, including independent clubhouse grace timers, overlapping stink slows, center-crossing captures, respawn/disconnect cleanup, attic boundary behavior and touch controls. Historical refuge-immunity checks refer to vacuums; the clubhouse now has spiders after five seconds. Runtime checks remain pending.
+
+# Bathrooms and automatic crawl
+
+Follow BATHROOMS_AND_CRAWLING.md with two players: check body/leg alignment on differently oriented walls, spider body coherence, pose restoration after capture/reset, main/book stair entrances and all bathroom doorways. Repeat with touch controls. These Studio checks remain pending.

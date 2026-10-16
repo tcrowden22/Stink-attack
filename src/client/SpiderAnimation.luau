@@ -16,7 +16,7 @@ function Animation.start()
    local root=motor.Part0
    if root and root.Parent then
     local bite=root.Parent:GetAttribute("SpiderBiting")
-    motor.Transform=if bite then CFrame.new(0,0,-.25*(1+math.sin(t*24)))*CFrame.Angles(math.sin(t*24)*.18,0,0) else CFrame.identity
+    motor.Transform=if bite then CFrame.new(0,0,-.06*(1+math.sin(t*24)))*CFrame.Angles(math.sin(t*24)*.1,0,0) else CFrame.identity
    end
   end
  end)

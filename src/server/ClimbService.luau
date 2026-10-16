@@ -23,6 +23,8 @@ local function stop(player: Player, state: State)
         local v = state.root.AssemblyLinearVelocity
         state.root.AssemblyLinearVelocity = Vector3.new(v.X, math.min(v.Y, 0), v.Z)
         state.root.Parent:SetAttribute("BugClimbing", false)
+        local pose=state.root:FindFirstChild("BugWallPose")
+        if pose and pose:IsA("Motor6D") then pose.C0=pose:GetAttribute("RestC0") or CFrame.identity end
     end
     state.root = nil; state.input = Vector3.zero
     player:SetAttribute("BugClimbing", false)
@@ -51,7 +53,7 @@ end
 local function wall(root: BasePart, direction: Vector3): Vector3?
     local flat = Vector3.new(direction.X, 0, direction.Z)
     if flat.Magnitude < .1 then return nil end
-    for _,height in {0, -.8} do
+    for _,height in {0, .8} do
         local hit = workspace:Raycast(root.Position + Vector3.new(0,height,0), flat.Unit * Rules.Reach, params(root))
         if hit and hit.Instance:IsA("BasePart") and Rules.canClimb(hit.Distance, hit.Normal.Y,
             hit.Instance.Anchored, hit.Instance.CanCollide) then
@@ -60,6 +62,20 @@ local function wall(root: BasePart, direction: Vector3): Vector3?
         end
     end
     return nil
+end
+local function begin(player: Player,state: State,root: BasePart,h: Humanoid,normal: Vector3,now: number)
+        local attachment=Instance.new("Attachment"); attachment.Name="ClimbAttachment"; attachment.Parent=root
+        local lift=Instance.new("LinearVelocity"); lift.Name="BugClimb"; lift.Attachment0=attachment
+        lift.RelativeTo=Enum.ActuatorRelativeTo.World; lift.VelocityConstraintMode=Enum.VelocityConstraintMode.Vector
+        lift.VectorVelocity=Vector3.zero
+        lift.ForceLimitsEnabled=true; lift.ForceLimitMode=Enum.ForceLimitMode.Magnitude
+        lift.MaxForce=root.AssemblyMass*workspace.Gravity*4; lift.Parent=root
+        state.active=true; state.root=root; state.humanoid=h; state.lift=lift; state.attachment=attachment
+        state.normal=normal; state.lastMove=now
+        state.walkSpeed=h.WalkSpeed; state.autoRotate=h.AutoRotate
+        -- Client still reads MoveDirection; these prevent ordinary walking from fighting wall motion.
+        h.AutoRotate=false; h.WalkSpeed=0
+        player:SetAttribute("BugClimbing",true); root.Parent:SetAttribute("BugClimbing",true)
 end
 local function join(player: Player)
     if states[player] then return end
@@ -81,7 +97,7 @@ function Climb.start()
         local state=states[player]; local now=os.clock()
         if not state then return end
         if kind=="move" then
-            if not state.active or now-state.lastMove<.06 or typeof(input)~="Vector3" then return end
+            if now-state.lastMove<.06 or typeof(input)~="Vector3" then return end
             if not Rules.validAxis(input.X) or not Rules.validAxis(input.Y) or not Rules.validAxis(input.Z)
                 or math.abs(input.Y)>.01 or input.Magnitude>1.05 then return end
             state.lastMove=now; state.input=if input.Magnitude>1 then input.Unit else input
@@ -101,18 +117,7 @@ function Climb.start()
             player:SetAttribute("ForageMessage","Face a wall or solid furniture, then press C / Climb.")
             return
         end
-        local attachment=Instance.new("Attachment"); attachment.Name="ClimbAttachment"; attachment.Parent=root
-        local lift=Instance.new("LinearVelocity"); lift.Name="BugClimb"; lift.Attachment0=attachment
-        lift.RelativeTo=Enum.ActuatorRelativeTo.World; lift.VelocityConstraintMode=Enum.VelocityConstraintMode.Vector
-        lift.VectorVelocity=Vector3.zero
-        lift.ForceLimitsEnabled=true; lift.ForceLimitMode=Enum.ForceLimitMode.Magnitude
-        lift.MaxForce=root.AssemblyMass*workspace.Gravity*4; lift.Parent=root
-        state.active=true; state.root=root; state.humanoid=h; state.lift=lift; state.attachment=attachment
-        state.normal=normal; state.input=Vector3.zero; state.lastMove=now
-        state.walkSpeed=h.WalkSpeed; state.autoRotate=h.AutoRotate
-        -- Client still reads MoveDirection; these prevent ordinary walking from fighting wall motion.
-        h.AutoRotate=false; h.WalkSpeed=0
-        player:SetAttribute("BugClimbing",true); root.Parent:SetAttribute("BugClimbing",true)
+        begin(player,state,root,h,normal,now)
     end)
     Players.PlayerAdded:Connect(join)
     Players.PlayerRemoving:Connect(function(player)
@@ -138,6 +143,12 @@ function Climb.start()
                     else
                         state.normal=normal
                         local input=if now-state.lastMove<=Rules.InputTimeout then state.input else Vector3.zero
+                        local pose=root:FindFirstChild("BugWallPose")
+                        if pose and pose:IsA("Motor6D") then
+                            local rest=pose:GetAttribute("RestC0") or CFrame.identity
+                            local center=root.CFrame:PointToWorldSpace(rest.Position)+normal*.65
+                            pose.C0=root.CFrame:ToObjectSpace(CFrame.lookAt(center,center+Vector3.yAxis,normal))
+                        end
                         local right=Vector3.yAxis:Cross(normal)
                         local up=input:Dot(-normal)
                         if up>0 and workspace:Raycast(root.Position,Vector3.new(0,1.4,0),params(root)) then up=0 end
@@ -146,6 +157,16 @@ function Climb.start()
                 end
             elseif root and h and now-state.stopped>=Rules.RestDelay and h.FloorMaterial~=Enum.Material.Air then
                 state.grip=Rules.grip(state.grip,dt,false,true)
+                if now-state.lastMove<=Rules.InputTimeout and state.input.Magnitude>.2 then
+                    local normal=wall(root,state.input)
+                    -- Require a tall wall probe so shallow stair risers do not auto-attach.
+                    local upper=workspace:Raycast(root.Position+Vector3.yAxis*1.2,state.input.Unit*Rules.Reach,params(root))
+                    if normal and upper and upper.Instance:IsA("BasePart")
+                        and Rules.canClimb(upper.Distance,upper.Normal.Y,upper.Instance.Anchored,upper.Instance.CanCollide)
+                        and Rules.canAutoStart(state.grip,state.input:Dot(-normal),now-state.stopped) then
+                        begin(player,state,root,h,normal,now)
+                    end
+                end
             end
             local displayed=math.ceil(state.grip*10)/10
             if player:GetAttribute("ClimbGrip")~=displayed then player:SetAttribute("ClimbGrip",displayed) end

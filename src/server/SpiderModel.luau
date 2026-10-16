@@ -8,6 +8,7 @@ function Spider.dress(model: Model,h: Humanoid,root: BasePart)
   elseif part:IsA("Decal") then part.Transparency=1 end
  end
  local floor=root.CFrame*CFrame.new(0,-h.HipHeight-root.Size.Y/2,0)
+ local visual=Instance.new("Model"); visual.Name="ConnectedSpider"; visual.Parent=model
  local limbs: {[number]: BasePart}={}
  local head: BasePart?=nil
  for _,shape in Geometry do
@@ -21,7 +22,7 @@ function Spider.dress(model: Model,h: Humanoid,root: BasePart)
    p.Shape=Enum.PartType.Cylinder; p.Size=Vector3.new(delta.Magnitude,shape.width,shape.width)
    p.CFrame=floor*CFrame.lookAt((shape.a+shape.b)/2,shape.b)*CFrame.Angles(0,math.pi/2,0)
   end
-  p.Parent=model
+  p.Parent=visual
   if shape.name=="GreenHead" then
    head=p
    local joint=Instance.new("Motor6D"); joint.Name="SpiderBite"; joint.Part0=root; joint.Part1=p
@@ -36,7 +37,10 @@ function Spider.dress(model: Model,h: Humanoid,root: BasePart)
    joint:SetAttribute("Phase",if shape.leg%2==0 then math.pi else 0)
    joint.Parent=root; Collection:AddTag(joint,"AnimatedBugLeg")
   else
-   local weld=Instance.new("WeldConstraint"); weld.Part0=limbs[shape.leg] or (if head and (string.find(shape.name,"Eye") or string.find(shape.name,"Pupil") or string.find(shape.name,"Fang")) then head else root); weld.Part1=p; weld.Parent=p
+   local target=limbs[shape.leg] or (if head and (string.find(shape.name,"Eye") or string.find(shape.name,"Pupil") or string.find(shape.name,"Fang")) then head else root)
+   local weld=Instance.new("Weld"); weld.Name="FixedSpiderJoint"
+   weld.Part0=target; weld.Part1=p
+   weld.C0=target.CFrame:ToObjectSpace(p.CFrame); weld.C1=CFrame.identity; weld.Parent=p
   end
  end
 end

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "GroundBathroom",
+    "center": [
+      0,
+      0,
+      60
+    ],
+    "size": [
+      20,
+      24,
+      20
+    ],
+    "door": [
+      0,
+      0,
+      70
+    ]
+  },
+  {
+    "name": "UpstairsBathroom",
+    "center": [
+      -32,
+      24,
+      90
+    ],
+    "size": [
+      20,
+      24,
+      20
+    ],
+    "door": [
+      -32,
+      24,
+      100
+    ]
+  },
+  {
+    "name": "AtticBathroom",
+    "center": [
+      -32,
+      48,
+      24
+    ],
+    "size": [
+      20,
+      16,
+      20
+    ],
+    "door": [
+      -32,
+      48,
+      34
+    ]
+  }
+]
