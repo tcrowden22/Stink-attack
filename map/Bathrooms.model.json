@@ -3367,7 +3367,7 @@
           }
         },
         {
-          "Name": "ToiletBase",
+          "Name": "ToiletFoot",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -3376,13 +3376,13 @@
             "CanTouch": false,
             "Position": [
               5,
-              1,
-              54.5
+              0.18,
+              54.2
             ],
             "Size": [
-              2,
-              2,
-              2.5
+              1.8,
+              0.36,
+              2.6
             ],
             "Color": [
               0.91,
@@ -3393,6 +3393,34 @@
             "TopSurface": "Smooth",
             "BottomSurface": "Smooth",
             "Shape": "Ball"
+          }
+        },
+        {
+          "Name": "ToiletBase",
+          "ClassName": "Part",
+          "Properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "CanQuery": true,
+            "CanTouch": false,
+            "Position": [
+              5,
+              0.95,
+              54.0
+            ],
+            "Size": [
+              1.45,
+              1.65,
+              1.9
+            ],
+            "Color": [
+              0.91,
+              0.94,
+              0.91
+            ],
+            "Material": "SmoothPlastic",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
           }
         },
         {
@@ -3405,13 +3433,13 @@
             "CanTouch": false,
             "Position": [
               5,
-              2,
-              54.5
+              1.8,
+              54.3
             ],
             "Size": [
-              3.4,
-              1.6,
-              4.2
+              3.0,
+              1.4,
+              3.7
             ],
             "Color": [
               0.91,
@@ -3425,7 +3453,7 @@
           }
         },
         {
-          "Name": "BowlOpening",
+          "Name": "ToiletSeat",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -3434,47 +3462,18 @@
             "CanTouch": false,
             "Position": [
               5,
-              2.77,
-              54.6
+              2.38,
+              54.4
             ],
             "Size": [
-              2.1,
-              0.08,
-              2.6
-            ],
-            "Color": [
-              0.24,
-              0.47,
-              0.52
-            ],
-            "Material": "SmoothPlastic",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        {
-          "Name": "SeatSide",
-          "ClassName": "Part",
-          "Properties": {
-            "Anchored": true,
-            "CanCollide": false,
-            "CanQuery": false,
-            "CanTouch": false,
-            "Position": [
-              3.65,
-              2.85,
-              54.5
-            ],
-            "Size": [
-              0.45,
+              3.12,
               0.22,
-              3.3
+              3.82
             ],
             "Color": [
-              0.91,
-              0.94,
-              0.91
+              0.8,
+              0.84,
+              0.82
             ],
             "Material": "SmoothPlastic",
             "TopSurface": "Smooth",
@@ -3483,36 +3482,7 @@
           }
         },
         {
-          "Name": "SeatSide",
-          "ClassName": "Part",
-          "Properties": {
-            "Anchored": true,
-            "CanCollide": false,
-            "CanQuery": false,
-            "CanTouch": false,
-            "Position": [
-              6.35,
-              2.85,
-              54.5
-            ],
-            "Size": [
-              0.45,
-              0.22,
-              3.3
-            ],
-            "Color": [
-              0.91,
-              0.94,
-              0.91
-            ],
-            "Material": "SmoothPlastic",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        {
-          "Name": "SeatEnd",
+          "Name": "ToiletLid",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -3521,13 +3491,13 @@
             "CanTouch": false,
             "Position": [
               5,
-              2.85,
-              53.0
+              2.52,
+              54.4
             ],
             "Size": [
-              2.8,
-              0.22,
-              0.5
+              3.05,
+              0.2,
+              3.75
             ],
             "Color": [
               0.91,
@@ -3541,7 +3511,7 @@
           }
         },
         {
-          "Name": "SeatEnd",
+          "Name": "SeatHinge",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -3550,23 +3520,22 @@
             "CanTouch": false,
             "Position": [
               5,
-              2.85,
-              56.0
+              2.45,
+              52.7
             ],
             "Size": [
-              2.8,
-              0.22,
-              0.5
+              1.9,
+              0.18,
+              0.35
             ],
             "Color": [
-              0.91,
-              0.94,
-              0.91
+              0.65,
+              0.72,
+              0.75
             ],
-            "Material": "SmoothPlastic",
+            "Material": "Metal",
             "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
+            "BottomSurface": "Smooth"
           }
         },
         {
@@ -3579,13 +3548,13 @@
             "CanTouch": false,
             "Position": [
               5,
-              3.1,
-              52
+              2.75,
+              52.1
             ],
             "Size": [
-              3.2,
-              3,
-              1.3
+              2.8,
+              2.8,
+              1.25
             ],
             "Color": [
               0.91,
@@ -3607,13 +3576,13 @@
             "CanTouch": false,
             "Position": [
               5,
-              4.68,
-              52
+              4.2,
+              52.1
             ],
             "Size": [
-              3.4,
-              0.2,
-              1.5
+              2.96,
+              0.18,
+              1.4
             ],
             "Color": [
               0.91,
@@ -3634,12 +3603,12 @@
             "CanQuery": false,
             "CanTouch": false,
             "Position": [
-              5.8,
-              4.82,
-              52
+              5.7,
+              4.32,
+              52.1
             ],
             "Size": [
-              0.45,
+              0.4,
               0.08,
               0.3
             ],
@@ -7415,7 +7384,7 @@
           }
         },
         {
-          "Name": "ToiletBase",
+          "Name": "ToiletFoot",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -7424,13 +7393,13 @@
             "CanTouch": false,
             "Position": [
               -27,
-              25,
-              84.5
+              24.18,
+              84.2
             ],
             "Size": [
-              2,
-              2,
-              2.5
+              1.8,
+              0.36,
+              2.6
             ],
             "Color": [
               0.91,
@@ -7441,6 +7410,34 @@
             "TopSurface": "Smooth",
             "BottomSurface": "Smooth",
             "Shape": "Ball"
+          }
+        },
+        {
+          "Name": "ToiletBase",
+          "ClassName": "Part",
+          "Properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "CanQuery": true,
+            "CanTouch": false,
+            "Position": [
+              -27,
+              24.95,
+              84.0
+            ],
+            "Size": [
+              1.45,
+              1.65,
+              1.9
+            ],
+            "Color": [
+              0.91,
+              0.94,
+              0.91
+            ],
+            "Material": "SmoothPlastic",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
           }
         },
         {
@@ -7453,13 +7450,13 @@
             "CanTouch": false,
             "Position": [
               -27,
-              26,
-              84.5
+              25.8,
+              84.3
             ],
             "Size": [
-              3.4,
-              1.6,
-              4.2
+              3.0,
+              1.4,
+              3.7
             ],
             "Color": [
               0.91,
@@ -7473,7 +7470,7 @@
           }
         },
         {
-          "Name": "BowlOpening",
+          "Name": "ToiletSeat",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -7482,47 +7479,18 @@
             "CanTouch": false,
             "Position": [
               -27,
-              26.77,
-              84.6
+              26.38,
+              84.4
             ],
             "Size": [
-              2.1,
-              0.08,
-              2.6
-            ],
-            "Color": [
-              0.24,
-              0.47,
-              0.52
-            ],
-            "Material": "SmoothPlastic",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        {
-          "Name": "SeatSide",
-          "ClassName": "Part",
-          "Properties": {
-            "Anchored": true,
-            "CanCollide": false,
-            "CanQuery": false,
-            "CanTouch": false,
-            "Position": [
-              -28.35,
-              26.85,
-              84.5
-            ],
-            "Size": [
-              0.45,
+              3.12,
               0.22,
-              3.3
+              3.82
             ],
             "Color": [
-              0.91,
-              0.94,
-              0.91
+              0.8,
+              0.84,
+              0.82
             ],
             "Material": "SmoothPlastic",
             "TopSurface": "Smooth",
@@ -7531,36 +7499,7 @@
           }
         },
         {
-          "Name": "SeatSide",
-          "ClassName": "Part",
-          "Properties": {
-            "Anchored": true,
-            "CanCollide": false,
-            "CanQuery": false,
-            "CanTouch": false,
-            "Position": [
-              -25.65,
-              26.85,
-              84.5
-            ],
-            "Size": [
-              0.45,
-              0.22,
-              3.3
-            ],
-            "Color": [
-              0.91,
-              0.94,
-              0.91
-            ],
-            "Material": "SmoothPlastic",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        {
-          "Name": "SeatEnd",
+          "Name": "ToiletLid",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -7569,13 +7508,13 @@
             "CanTouch": false,
             "Position": [
               -27,
-              26.85,
-              83.0
+              26.52,
+              84.4
             ],
             "Size": [
-              2.8,
-              0.22,
-              0.5
+              3.05,
+              0.2,
+              3.75
             ],
             "Color": [
               0.91,
@@ -7589,7 +7528,7 @@
           }
         },
         {
-          "Name": "SeatEnd",
+          "Name": "SeatHinge",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -7598,23 +7537,22 @@
             "CanTouch": false,
             "Position": [
               -27,
-              26.85,
-              86.0
+              26.45,
+              82.7
             ],
             "Size": [
-              2.8,
-              0.22,
-              0.5
+              1.9,
+              0.18,
+              0.35
             ],
             "Color": [
-              0.91,
-              0.94,
-              0.91
+              0.65,
+              0.72,
+              0.75
             ],
-            "Material": "SmoothPlastic",
+            "Material": "Metal",
             "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
+            "BottomSurface": "Smooth"
           }
         },
         {
@@ -7627,13 +7565,13 @@
             "CanTouch": false,
             "Position": [
               -27,
-              27.1,
-              82
+              26.75,
+              82.1
             ],
             "Size": [
-              3.2,
-              3,
-              1.3
+              2.8,
+              2.8,
+              1.25
             ],
             "Color": [
               0.91,
@@ -7655,13 +7593,13 @@
             "CanTouch": false,
             "Position": [
               -27,
-              28.68,
-              82
+              28.2,
+              82.1
             ],
             "Size": [
-              3.4,
-              0.2,
-              1.5
+              2.96,
+              0.18,
+              1.4
             ],
             "Color": [
               0.91,
@@ -7682,12 +7620,12 @@
             "CanQuery": false,
             "CanTouch": false,
             "Position": [
-              -26.2,
-              28.82,
-              82
+              -26.3,
+              28.32,
+              82.1
             ],
             "Size": [
-              0.45,
+              0.4,
               0.08,
               0.3
             ],
@@ -11463,7 +11401,7 @@
           }
         },
         {
-          "Name": "ToiletBase",
+          "Name": "ToiletFoot",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -11472,13 +11410,13 @@
             "CanTouch": false,
             "Position": [
               -27,
-              49,
-              18.5
+              48.18,
+              18.2
             ],
             "Size": [
-              2,
-              2,
-              2.5
+              1.8,
+              0.36,
+              2.6
             ],
             "Color": [
               0.91,
@@ -11489,6 +11427,34 @@
             "TopSurface": "Smooth",
             "BottomSurface": "Smooth",
             "Shape": "Ball"
+          }
+        },
+        {
+          "Name": "ToiletBase",
+          "ClassName": "Part",
+          "Properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "CanQuery": true,
+            "CanTouch": false,
+            "Position": [
+              -27,
+              48.95,
+              18.0
+            ],
+            "Size": [
+              1.45,
+              1.65,
+              1.9
+            ],
+            "Color": [
+              0.91,
+              0.94,
+              0.91
+            ],
+            "Material": "SmoothPlastic",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
           }
         },
         {
@@ -11501,13 +11467,13 @@
             "CanTouch": false,
             "Position": [
               -27,
-              50,
-              18.5
+              49.8,
+              18.3
             ],
             "Size": [
-              3.4,
-              1.6,
-              4.2
+              3.0,
+              1.4,
+              3.7
             ],
             "Color": [
               0.91,
@@ -11521,7 +11487,7 @@
           }
         },
         {
-          "Name": "BowlOpening",
+          "Name": "ToiletSeat",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -11530,47 +11496,18 @@
             "CanTouch": false,
             "Position": [
               -27,
-              50.77,
-              18.6
+              50.38,
+              18.4
             ],
             "Size": [
-              2.1,
-              0.08,
-              2.6
-            ],
-            "Color": [
-              0.24,
-              0.47,
-              0.52
-            ],
-            "Material": "SmoothPlastic",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        {
-          "Name": "SeatSide",
-          "ClassName": "Part",
-          "Properties": {
-            "Anchored": true,
-            "CanCollide": false,
-            "CanQuery": false,
-            "CanTouch": false,
-            "Position": [
-              -28.35,
-              50.85,
-              18.5
-            ],
-            "Size": [
-              0.45,
+              3.12,
               0.22,
-              3.3
+              3.82
             ],
             "Color": [
-              0.91,
-              0.94,
-              0.91
+              0.8,
+              0.84,
+              0.82
             ],
             "Material": "SmoothPlastic",
             "TopSurface": "Smooth",
@@ -11579,36 +11516,7 @@
           }
         },
         {
-          "Name": "SeatSide",
-          "ClassName": "Part",
-          "Properties": {
-            "Anchored": true,
-            "CanCollide": false,
-            "CanQuery": false,
-            "CanTouch": false,
-            "Position": [
-              -25.65,
-              50.85,
-              18.5
-            ],
-            "Size": [
-              0.45,
-              0.22,
-              3.3
-            ],
-            "Color": [
-              0.91,
-              0.94,
-              0.91
-            ],
-            "Material": "SmoothPlastic",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
-          }
-        },
-        {
-          "Name": "SeatEnd",
+          "Name": "ToiletLid",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -11617,13 +11525,13 @@
             "CanTouch": false,
             "Position": [
               -27,
-              50.85,
-              17.0
+              50.52,
+              18.4
             ],
             "Size": [
-              2.8,
-              0.22,
-              0.5
+              3.05,
+              0.2,
+              3.75
             ],
             "Color": [
               0.91,
@@ -11637,7 +11545,7 @@
           }
         },
         {
-          "Name": "SeatEnd",
+          "Name": "SeatHinge",
           "ClassName": "Part",
           "Properties": {
             "Anchored": true,
@@ -11646,23 +11554,22 @@
             "CanTouch": false,
             "Position": [
               -27,
-              50.85,
-              20.0
+              50.45,
+              16.7
             ],
             "Size": [
-              2.8,
-              0.22,
-              0.5
+              1.9,
+              0.18,
+              0.35
             ],
             "Color": [
-              0.91,
-              0.94,
-              0.91
+              0.65,
+              0.72,
+              0.75
             ],
-            "Material": "SmoothPlastic",
+            "Material": "Metal",
             "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Shape": "Ball"
+            "BottomSurface": "Smooth"
           }
         },
         {
@@ -11675,13 +11582,13 @@
             "CanTouch": false,
             "Position": [
               -27,
-              51.1,
-              16
+              50.75,
+              16.1
             ],
             "Size": [
-              3.2,
-              3,
-              1.3
+              2.8,
+              2.8,
+              1.25
             ],
             "Color": [
               0.91,
@@ -11703,13 +11610,13 @@
             "CanTouch": false,
             "Position": [
               -27,
-              52.68,
-              16
+              52.2,
+              16.1
             ],
             "Size": [
-              3.4,
-              0.2,
-              1.5
+              2.96,
+              0.18,
+              1.4
             ],
             "Color": [
               0.91,
@@ -11730,12 +11637,12 @@
             "CanQuery": false,
             "CanTouch": false,
             "Position": [
-              -26.2,
-              52.82,
-              16
+              -26.3,
+              52.32,
+              16.1
             ],
             "Size": [
-              0.45,
+              0.4,
               0.08,
               0.3
             ],

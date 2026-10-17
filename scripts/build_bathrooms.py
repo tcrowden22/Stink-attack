@@ -1,5 +1,5 @@
 """Add three furnished bathrooms and close stair-entry seams deterministically."""
-import json
+import json, math
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def read(path): return json.loads(path.read_text(encoding="utf-8-sig"))
@@ -36,15 +36,16 @@ for name,x,y,z,height in [("GroundBathroom",0,0,60,24),("UpstairsBathroom",-32,2
     add("ShowerArm",[-5.5,8.4,-8.6],[.18,.18,1.5],chrome,False,"Metal")
     add("ShowerHead",[-5.5,8.3,-7.9],[1.3,.18,1.1],chrome,False,"Metal")
     add("ShowerTap",[-5.5,4,-9.1],[.8,.5,.3],chrome,False,"Metal")
-    # Toilet with an inset dark bowl and an open white seat.
-    add("ToiletBase",[5,1,-5.5],[2,2,2.5],white,True,shape="Ball")
-    add("ToiletBowl",[5,2,-5.5],[3.4,1.6,4.2],white,True,shape="Ball")
-    add("BowlOpening",[5,2.77,-5.4],[2.1,.08,2.6],[.24,.47,.52],False,shape="Ball")
-    for dx in (-1.35,1.35): add("SeatSide",[5+dx,2.85,-5.5],[.45,.22,3.3],white,False,shape="Ball")
-    for dz in (-1.5,1.5): add("SeatEnd",[5,2.85,-5.5+dz],[2.8,.22,.5],white,False,shape="Ball")
-    add("ToiletTank",[5,3.1,-8],[3.2,3,1.3],white)
-    add("TankLid",[5,4.68,-8],[3.4,.2,1.5],white,False)
-    add("FlushButton",[5.8,4.82,-8],[.45,.08,.3],chrome,False,"Metal")
+    # Compact closed-lid toilet: one coherent seat instead of detached ring pieces.
+    add("ToiletFoot",[5,.18,-5.8],[1.8,.36,2.6],white,True,shape="Ball")
+    add("ToiletBase",[5,.95,-6.0],[1.45,1.65,1.9],white,True)
+    add("ToiletBowl",[5,1.8,-5.7],[3.0,1.4,3.7],white,True,shape="Ball")
+    add("ToiletSeat",[5,2.38,-5.6],[3.12,.22,3.82],[.80,.84,.82],False,shape="Ball")
+    add("ToiletLid",[5,2.52,-5.6],[3.05,.20,3.75],white,False,shape="Ball")
+    add("SeatHinge",[5,2.45,-7.3],[1.9,.18,.35],chrome,False,"Metal")
+    add("ToiletTank",[5,2.75,-7.9],[2.8,2.8,1.25],white)
+    add("TankLid",[5,4.20,-7.9],[2.96,.18,1.4],white,False)
+    add("FlushButton",[5.7,4.32,-7.9],[.4,.08,.3],chrome,False,"Metal")
     # Vanity, mirror, tap, soap and towels.
     add("Vanity",[6.7,2,2],[5,4,4],teal)
     add("Countertop",[6.7,4.15,2],[5.4,.3,4.4],white)
@@ -68,7 +69,7 @@ project=read(ROOT/"default.project.json")
 project["tree"]["Workspace"]["House"]["Bathrooms"]={"$path":"map/Bathrooms.model.json"}
 (ROOT/"default.project.json").write_text(json.dumps(project,indent=2)+"\n",encoding="utf-8")
 stairs=read(ROOT/"map/Stairwell.model.json")
-stairs["Children"]=[p for p in stairs["Children"] if not p["Name"].startswith(("EntryLanding","BookEntryLanding"))]
+stairs["Children"]=[p for p in stairs["Children"] if not p["Name"].startswith(("EntryLanding","BookEntryLanding","BookWalkRamp"))]
 for p in stairs["Children"]:
     n=p["Name"]; q=p.get("Properties",{})
     if n.startswith("Flight") and "Tread" in n:
@@ -77,6 +78,21 @@ for p in stairs["Children"]:
         # Thin treads preserve the clear space beneath each flight.
         q["Size"][1]=.5; q["Position"][1]=floor+step*.5-.25
         q["Color"]=[.56,.37,.22]; q["Material"]="WoodPlanks"
+# Replace the tall book steps with close-spaced wooden treads and a continuous ramp.
+stairs["Children"]=[p for p in stairs["Children"] if not
+    (p["Name"].startswith("BookClimb") and ("Book" in p["Name"][9:] or "Pages" in p["Name"]))]
+for y in (0,24):
+    for step in range(1,49):
+        tread=part("BookClimb"+str(y)+"Book"+str(step),[-22,y+step*.5-.25,43+(step-.5)*.5],
+                   [6,.5,.5],[.56,.37,.22],False,"WoodPlanks")
+        tread["Properties"]["CanQuery"]=False
+        stairs["Children"].append(tread)
+    ramp=part("BookWalkRamp"+str(y),[-22,y+12,55],[6,.2,math.sqrt(24**2+24**2)],[.56,.37,.22],True,"WoodPlanks")
+    ramp["Properties"].update(Orientation=[-45,0,0],Transparency=1,CanQuery=False)
+    stairs["Children"].append(ramp)
+for p in stairs["Children"]:
+    if "WalkRamp" in p["Name"]:
+        p["Properties"]["CanCollide"]=True
 for y in (0,24,48):
     stairs["Children"].append(part("EntryLanding"+str(y),[134,y-.5,-23],[14,1,2.2],[.65,.47,.3],True,"WoodPlanks"))
 for y in (0,24):

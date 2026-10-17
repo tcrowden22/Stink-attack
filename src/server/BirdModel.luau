@@ -9,6 +9,7 @@ function Bird.create(index: number): (Model,BasePart)
  root.Parent=model; model.PrimaryPart=root
  local frame=CFrame.new(0,-1.5,0)
  local wings: {[number]: BasePart}={}
+ local head: BasePart?=nil
  for _,shape in Geometry do
   local p=Instance.new("Part"); p.Name=shape.name; p.Massless=true
   p.CanCollide=false; p.CanTouch=false; p.CanQuery=false; p.Color=shape.color
@@ -20,7 +21,12 @@ function Bird.create(index: number): (Model,BasePart)
    p.CFrame=frame*CFrame.lookAt((shape.a+shape.b)/2,shape.b)*CFrame.Angles(0,math.pi/2,0)
   end
   p.Parent=model
-  if shape.leg>0 and not wings[shape.leg] then
+  if shape.name=="Head" then
+   head=p
+   local motor=Instance.new("Motor6D"); motor.Name="BirdPeckHead"; motor.Part0=root; motor.Part1=p
+   motor.C0=root.CFrame:ToObjectSpace(p.CFrame); motor.Parent=root
+   Collection:AddTag(motor,"AnimatedBirdHead")
+  elseif shape.leg>0 and not wings[shape.leg] then
    wings[shape.leg]=p
    local hinge=frame*CFrame.new(if shape.leg==1 then -.85 else .85,1.65,.1)
    local motor=Instance.new("Motor6D"); motor.Name="BirdWing"..shape.leg
@@ -28,7 +34,8 @@ function Bird.create(index: number): (Model,BasePart)
    motor:SetAttribute("Side",if shape.leg==1 then -1 else 1); motor:SetAttribute("Phase",index*.8)
    motor.Parent=root; Collection:AddTag(motor,"AnimatedBirdWing")
   else
-   local target=wings[shape.leg] or root
+   local face=string.find(shape.name,"Beak") or string.find(shape.name,"Eye") or string.find(shape.name,"Pupil") or shape.name=="Crest"
+   local target=wings[shape.leg] or (if face and head then head else root)
    local weld=Instance.new("Weld"); weld.Part0=target; weld.Part1=p
    weld.C0=target.CFrame:ToObjectSpace(p.CFrame); weld.Parent=p
   end

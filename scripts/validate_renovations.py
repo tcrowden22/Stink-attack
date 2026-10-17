@@ -54,3 +54,16 @@ for floor in (0,24):
     if entry["Position"][2]+entry["Size"][2]/2<first["Position"][2]-first["Size"][2]/2:
         raise RuntimeError("Open gap before book stair")
 print("PASS all stair entrance seams and unchanged half-stud rises")
+
+for floor in (0,24):
+    ramp=stairs[f"BookWalkRamp{floor}"]
+    if not ramp["CanCollide"] or ramp["Orientation"]!=[-45,0,0]:
+        raise RuntimeError("Book stair needs continuous walkable collision ramp")
+    steps=[q for name,q in stairs.items() if name.startswith(f"BookClimb{floor}Book")]
+    if len(steps)!=48 or any(q["CanCollide"] or q["Size"][1]!=.5 for q in steps):
+        raise RuntimeError("Tall jumping steps returned")
+for model in bath["Children"]:
+    names={p["Name"] for p in parts(model)}
+    if not {"ToiletSeat","ToiletLid","ToiletFoot"}<=names or "SeatSide" in names or "SeatEnd" in names:
+        raise RuntimeError("Disconnected toilet seat returned")
+print("PASS continuous wooden stair surfaces and connected closed toilet seats")

@@ -3,6 +3,7 @@ local Players=game:GetService("Players")
 local Replicated=game:GetService("ReplicatedStorage")
 local Rules=require(Replicated.Shared.DangerRules)
 local Forage=require(script.Parent.ForageService)
+local BirdRules=require(Replicated.Shared.BirdRules)
 local Service={}
 local cooldowns: {[Player]: number}={}
 local slowed: {[Humanoid]: {speed: number,expires: number}}={}
@@ -11,8 +12,10 @@ function Service.start()
  local effect=Instance.new("RemoteEvent"); effect.Name="StinkEffect"; effect.Parent=Replicated
  request.OnServerEvent:Connect(function(player)
   local now=workspace:GetServerTimeNow()
-  if not Rules.canStink(true,now,cooldowns[player] or 0) then return end
+  local escape=BirdRules.canEscape(player:GetAttribute("BirdCarried")==true,player:GetAttribute("BirdEscapeRequested")==true)
+  if not escape and not Rules.canStink(true,now,cooldowns[player] or 0) then return end
   local root=Forage.bugRoot(player); if not root then return end
+  if escape then player:SetAttribute("BirdEscapeRequested",true) end
   cooldowns[player]=now+Rules.StinkCooldown
   player:SetAttribute("StinkReadyAt",cooldowns[player])
   effect:FireAllClients(root.CFrame)

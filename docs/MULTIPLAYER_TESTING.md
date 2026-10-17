@@ -179,3 +179,7 @@ Follow SOUNDS_AND_STAIRS.md with two players: confirm one fart per accepted burs
 # Rooftop bird acceptance
 
 Follow ROOFTOP_BIRDS.md with two clients. Verify birds ignore humans/interior bugs, warn before diving, stop at cover, abandon targets leaving the roof, and clean up pursuit after reset/disconnect. Check shared wing animation, snack loss and respawn. Runtime acceptance remains pending.
+
+# Bird peck/pickup, walking stairs and toilets
+
+Follow PECK_CARRY_AND_FIXTURES.md with two clients: verify non-instant peck damage, shared peck grace, exclusive carrying, Stink drops during cooldown, normal movement after reset/drop, and jump-free traversal of both stair routes. Runtime acceptance remains pending.

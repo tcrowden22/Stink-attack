@@ -38,7 +38,7 @@ function Controller.start()
    elseif not eligible and bound then Actions:UnbindAction("StinkBurst"); bound=false end
    if bound then
     local left=math.max(0,math.ceil((player:GetAttribute("StinkReadyAt") or 0)-workspace:GetServerTimeNow()))
-    Actions:SetTitle("StinkBurst",if left>0 then "Stink "..left.."s" else "Stink!")
+    Actions:SetTitle("StinkBurst",if player:GetAttribute("BirdCarried") then "Stink! DROP" elseif left>0 then "Stink "..left.."s" else "Stink!")
    end
    task.wait(.2)
   end

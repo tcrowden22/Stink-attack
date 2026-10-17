@@ -35,7 +35,7 @@ function Climb.cancel(player: Player)
 end
 local function character(player: Player): (BasePart?, Humanoid?)
     if player.Parent ~= Players or not player.Team or player.Team.Name ~= "StinkBugs"
-        or player:GetAttribute("FlightActive") or player:GetAttribute("CleanerPulling") then return nil, nil end
+        or player:GetAttribute("BirdCarried") or player:GetAttribute("FlightActive") or player:GetAttribute("CleanerPulling") then return nil, nil end
     local c = player.Character
     local h = c and c:FindFirstChildOfClass("Humanoid")
     local root = c and c:FindFirstChild("HumanoidRootPart")

@@ -2,6 +2,8 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
+**Bird escape and stair/toilet fixes:** birds now peck for 20 damage or carry a bug briefly, rather than eliminate full-health bugs on contact. R / Stink! makes a carrying bird drop you, with one emergency burst available during each pickup. The steep book stairs now have continuous walking ramps and wooden treads. All three toilets have a coherent closed seat/lid. See [testing steps](docs/PECK_CARRY_AND_FIXTURES.md).
+
 **Rooftop birds:** three original bluebirds patrol above the roof with flapping wings. Exposed stink bugs get a warning before a dive. Fan shelters and solid cover break pursuit; birds never hunt downstairs. Close catches use the existing snack-loss/respawn flow. Stop Play, save, sync Rojo, then Play again; no new import is required. See [rooftop bird checks](docs/ROOFTOP_BIRDS.md).
 
 **Nearby sounds:** vacuum whirr, spider scuttle/rattle, and a cartoon fart with each accepted stink burst now use spatial audio. Sounds use Roblox's bundled files with effects, so no upload is needed. Tall cream/brown stair blocks have been replaced with thin wooden treads; the entry landings remain. Stop Play, save, sync Rojo and Play again. See [audio and stair checks](docs/SOUNDS_AND_STAIRS.md).

@@ -179,3 +179,11 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Added client wing animation and rooftop HUD warnings. Captures use existing snack-loss/respawn logic.
 - All Luau compiles, nine rule/gait suites and all house/interior/snack/renovation checks pass. Aikido proposal and final scans pass: 11 files, zero findings, no skipped paths.
 - Built build/StinkBugsVsVacuums-rooftop-birds-preview.rbxlx; imported saved place preserved. Studio flight, collision, capture and multiplayer checks remain pending in ROOFTOP_BIRDS.md.
+
+# Bird pecks/carry and fixture corrections — 2026-10-17
+
+- Replaced first-contact bird elimination with alternating 20-damage pecks and bounded five-second pickups. Added shared peck immunity, animated head pecks, one-carrier claims and cleanup/restoration on all release paths. Stink provides one server-validated emergency drop burst per pickup, including during cooldown. Flight/climb are blocked while carried; passenger sweeps stop unsafe movement.
+- Replaced both steep book routes with 48 thin wooden treads and continuous 45-degree collision ramps. Main attic-style flights retain their existing gentle ramps. Entry landings remain; route and stair validators pass.
+- Rebuilt all three toilets with a compact base and single closed oval seat/lid. Inspected a dedicated Blender render.
+- All Luau compiles, nine rule/gait suites and house/interior/snack/renovation checks pass. Built build/StinkBugsVsVacuums-peck-stairs-preview.rbxlx without overwriting the imported place. Full-content proposal scans and on-disk scan of 14 code/data files pass; final passenger-settling adjustment rescanned successfully.
+- Studio pickup/drop physics, stair walking and multiplayer acceptance remain pending in PECK_CARRY_AND_FIXTURES.md.

@@ -13,7 +13,7 @@ local function bug(player: Player): (Model?, Humanoid?, BasePart?)
     local h = c and c:FindFirstChildOfClass("Humanoid")
     local r = c and c:FindFirstChild("HumanoidRootPart")
     if player.Parent ~= Players or not player.Team or player.Team.Name ~= "StinkBugs"
-        or not c or not h or h.Health <= 0 or not r or not r:IsA("BasePart") then return nil, nil, nil end
+        or player:GetAttribute("BirdCarried") or not c or not h or h.Health <= 0 or not r or not r:IsA("BasePart") then return nil, nil, nil end
     return c, h, r
 end
 local function sync(player: Player, state: State)
