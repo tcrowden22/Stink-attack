@@ -40,7 +40,8 @@ function Hud.start()
         local message=player:GetAttribute("ForageMessage") or "Collect glowing snacks."
         local safe=player:GetAttribute("InBugRefuge")
         local spider=player:GetAttribute("SpiderWarning") or ""
-        local status=if spider~="" then spider elseif threat~="" then threat elseif safe then "HOME • Deliver and leave before spiders wake!" else message
+        local bird=player:GetAttribute("BirdWarning") or ""
+        local status=if bird~="" then bird elseif spider~="" then spider elseif threat~="" then threat elseif safe then "HOME • Deliver and leave before spiders wake!" else message
         local readyAt=player:GetAttribute("FlightReadyAt") or 0
         local remaining=math.max(0,math.ceil(readyAt-workspace:GetServerTimeNow()))
         local flightHint=if player:GetAttribute("FlightActive") then "Flying! Steer normally."

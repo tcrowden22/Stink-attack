@@ -2,6 +2,8 @@
 
 A Roblox multiplayer hide-and-chase prototype, built in Luau with Rojo.
 
+**Rooftop birds:** three original bluebirds patrol above the roof with flapping wings. Exposed stink bugs get a warning before a dive. Fan shelters and solid cover break pursuit; birds never hunt downstairs. Close catches use the existing snack-loss/respawn flow. Stop Play, save, sync Rojo, then Play again; no new import is required. See [rooftop bird checks](docs/ROOFTOP_BIRDS.md).
+
 **Nearby sounds:** vacuum whirr, spider scuttle/rattle, and a cartoon fart with each accepted stink burst now use spatial audio. Sounds use Roblox's bundled files with effects, so no upload is needed. Tall cream/brown stair blocks have been replaced with thin wooden treads; the entry landings remain. Stop Play, save, sync Rojo and Play again. See [audio and stair checks](docs/SOUNDS_AND_STAIRS.md).
 
 **Bathrooms and automatic crawling:** furnished bathrooms now sit in the downstairs bedroom area, upstairs southwest corner, and west attic. Walk into a wall to climb automatically; the bug turns vertical, with four seconds of grip. C / Let go drops you. Spider body joints use fixed offsets, and main/book stair entrances have gap-closing landings. Stop Play, save, sync Rojo, then Play again. See [renovation checks](docs/BATHROOMS_AND_CRAWLING.md).

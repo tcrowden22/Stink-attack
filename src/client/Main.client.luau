@@ -29,3 +29,5 @@ require(script.Parent.StinkController).start()
 require(script.Parent.SpiderAnimation).start()
 
 require(script.Parent.AudioController).start()
+
+require(script.Parent.BirdAnimation).start()

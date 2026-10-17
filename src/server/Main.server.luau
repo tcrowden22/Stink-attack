@@ -47,3 +47,5 @@ print("[Team choice] Ready: Stink Bug escape or Vacuum bug hunt.")
 
 require(script.Parent.StinkService).start()
 require(script.Parent.SpiderService).start()
+
+require(script.Parent.BirdService).start()

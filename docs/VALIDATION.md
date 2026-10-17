@@ -171,3 +171,11 @@ Build output is reproducible from source. Do not mark the foundation accepted un
 - Reverted tall floor-to-tread blocks responsible for the likely striped stair covering to half-stud wooden treads. Preserved tread tops, collision ramps and all five entry landings. Updated the generator and geometry regression check.
 - All Luau compiles; eight test suites plus house/interior/snack/renovation checks pass. Built build/StinkBugsVsVacuums-sound-stairs-preview.rbxlx without overwriting the imported place. Full-content proposal scans and final Aikido scan of six code/data files pass with no findings or skipped files.
 - Runtime listening and verification of the reported covering in the user's Studio view remain pending in SOUNDS_AND_STAIRS.md.
+
+# Rooftop birds — 2026-10-17
+
+- Created original bluebird art in Blender 5.1.2, exported blend/FBX/preview and matching native Roblox geometry. Inspected the preview and verified 33 parts plus two five-part wing groups.
+- Added three server-controlled roof patrols with warning, dive, close beak capture and recovery states. Validates live bug role, roof bounds, exposed position, sight and distance. Body sweeps stop at solid obstacles; leaving the roof, cover, death and character replacement cancel pursuit.
+- Added client wing animation and rooftop HUD warnings. Captures use existing snack-loss/respawn logic.
+- All Luau compiles, nine rule/gait suites and all house/interior/snack/renovation checks pass. Aikido proposal and final scans pass: 11 files, zero findings, no skipped paths.
+- Built build/StinkBugsVsVacuums-rooftop-birds-preview.rbxlx; imported saved place preserved. Studio flight, collision, capture and multiplayer checks remain pending in ROOFTOP_BIRDS.md.

@@ -175,3 +175,7 @@ Follow BATHROOMS_AND_CRAWLING.md with two players: check body/leg alignment on d
 # Spatial sound and stair covering
 
 Follow SOUNDS_AND_STAIRS.md with two players: confirm one fart per accepted burst, nearby vacuum/spider cues, distance attenuation, voice limits and cleanup after resets/disconnections. Inspect all main stair flights in the imported place. Listening and visual runtime acceptance are pending.
+
+# Rooftop bird acceptance
+
+Follow ROOFTOP_BIRDS.md with two clients. Verify birds ignore humans/interior bugs, warn before diving, stop at cover, abandon targets leaving the roof, and clean up pursuit after reset/disconnect. Check shared wing animation, snack loss and respawn. Runtime acceptance remains pending.
